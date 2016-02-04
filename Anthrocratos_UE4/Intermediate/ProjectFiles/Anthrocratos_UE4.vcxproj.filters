@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Anthrocratos_UE4.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D8B68887-00F5-4BAF-B971-25726FA8A25B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Anthrocratos_UE4.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Anthrocratos_UE4Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{A4DC9FD2-7CDB-4A6E-B5E3-FF4ABA47BE6B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Anthrocratos_UE4">
+			<UniqueIdentifier>{3A4A5F77-46B3-471B-8040-FC8E912D7353}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Anthrocratos_UE4\Anthrocratos_UE4.Build.cs">
+			<Filter>Source\Anthrocratos_UE4</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Anthrocratos_UE4\Anthrocratos_UE4.cpp">
+			<Filter>Source\Anthrocratos_UE4</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Anthrocratos_UE4\Anthrocratos_UE4.h">
+			<Filter>Source\Anthrocratos_UE4</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Anthrocratos_UE4\Anthrocratos_UE4GameMode.cpp">
+			<Filter>Source\Anthrocratos_UE4</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Anthrocratos_UE4\Anthrocratos_UE4GameMode.h">
+			<Filter>Source\Anthrocratos_UE4</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
