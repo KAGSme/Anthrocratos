@@ -1,0 +1,7 @@
+﻿  Compiling game modules for hot reload
+  Performing 2 actions (4 in parallel)
+  GameTileSpawner.cpp
+  [2/2] Link UE4Editor-Anthrocratos_UE4-3092.dll
+     Creating library D:\Games Development\IP3 project\Anthrocratos\Anthrocratos_UE4\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Anthrocratos_UE4-3092.lib and object D:\Games Development\IP3 project\Anthrocratos\Anthrocratos_UE4\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Anthrocratos_UE4-3092.exp
+  -------- End Detailed Actions Stats -----------------------------------------------------------
+  Total build time: 2.75 seconds
