@@ -3,7 +3,6 @@
 #include "Anthrocratos_UE4.h"
 #include "GameTileSpawner.h"
 
-
 // Sets default values
 AGameTileSpawner::AGameTileSpawner()
 {
@@ -16,14 +15,12 @@ AGameTileSpawner::AGameTileSpawner()
 void AGameTileSpawner::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void AGameTileSpawner::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
-
 }
 
 void AGameTileSpawner::SpawnTiles()
