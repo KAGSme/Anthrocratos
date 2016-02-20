@@ -1,0 +1,1280 @@
+﻿[2016.02.17-15.07.17:010][  0]Log file open, 02/17/16 15:07:17
+[2016.02.17-15.07.17:010][  0]LogInit:Display: Running engine for game: Anthrocratos_UE4
+[2016.02.17-15.07.17:010][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.17-15.07.17:010][  0]LogInit:Display: RandInit(1423748539) SRandInit(1423748540).
+[2016.02.17-15.07.17:010][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.17-15.07.17:010][  0]LogStats: Stats thread started at 0.069430
+[2016.02.17-15.07.17:010][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.17-15.07.17:010][  0]LogInit: API Version: 2758231
+[2016.02.17-15.07.17:010][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.17-15.07.17:010][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.17-15.07.17:010][  0]LogInit: Build Configuration: Development
+[2016.02.17-15.07.17:010][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.17-15.07.17:010][  0]LogInit: Command line: 
+[2016.02.17-15.07.17:010][  0]LogInit: Base directory: S:/UnrealStuff/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.17-15.07.17:010][  0]LogInit: Rocket: 1
+[2016.02.17-15.07.17:015][  0]LogInit: Using libcurl 7.41.0
+[2016.02.17-15.07.17:015][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.17-15.07.17:015][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.17-15.07.17:015][  0]LogInit:  - other features:
+[2016.02.17-15.07.17:015][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.17-15.07.17:015][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.17-15.07.17:015][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.17-15.07.17:015][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.17-15.07.17:015][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.17-15.07.17:015][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.17-15.07.17:015][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.17-15.07.17:015][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.17-15.07.17:015][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.17-15.07.17:015][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.17-15.07.17:019][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.17-15.07.17:024][  0]LogInit: Object subsystem initialized
+[2016.02.17-15.07.17:025][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.17-15.07.17:025][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.17-15.07.17:031][  0]LogInit: Computer: DAVID
+[2016.02.17-15.07.17:031][  0]LogInit: User: Bigfootone
+[2016.02.17-15.07.17:031][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.17-15.07.17:031][  0]LogInit: High frequency timer resolution =3.320314 MHz
+[2016.02.17-15.07.17:031][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.02.17-15.07.17:031][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.17-15.07.17:031][  0]LogMemory: Process Physical Memory: 56.22 MB used, 56.22 MB peak
+[2016.02.17-15.07.17:031][  0]LogMemory: Process Virtual Memory: 58.82 MB used, 58.82 MB peak
+[2016.02.17-15.07.17:031][  0]LogMemory: Physical Memory: 5660.18 MB used, 16328.01 MB total
+[2016.02.17-15.07.17:031][  0]LogMemory: Virtual Memory: 385.47 MB used, 134217728.00 MB total
+[2016.02.17-15.07.17:060][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.02.17-15.07.17:446][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2016.02.17-15.07.17:446][  0]LogD3D11RHI: Adapter has 4075MB of dedicated video memory, 0MB of dedicated system memory, and 8164MB of shared system memory, 2 output[s]
+[2016.02.17-15.07.17:447][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.17-15.07.17:447][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8164MB of shared system memory, 0 output[s]
+[2016.02.17-15.07.17:447][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.17-15.07.17:453][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.17-15.07.17:453][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.17-15.07.17:461][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.02.17-15.07.17:474][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Anthrocratos/Anthrocratos_UE4/Intermediate/Shaders/WorkingDirectory/32592/).
+[2016.02.17-15.07.17:474][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BIGFOO~1/AppData/Local/Temp/UnrealShaderWorkingDir/443C3D654DB875793CD21184C8A5CE30/'.
+[2016.02.17-15.07.17:474][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.17-15.07.18:177][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.17-15.07.18:180][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.17-15.07.18:184][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.17-15.07.18:187][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.17-15.07.18:190][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.17-15.07.18:193][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.17-15.07.18:195][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.17-15.07.18:197][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.17-15.07.18:199][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.17-15.07.18:202][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.17-15.07.18:205][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.17-15.07.18:210][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.17-15.07.18:210][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.17-15.07.18:211][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.17-15.07.18:226][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.17-15.07.18:228][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.17-15.07.18:231][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.17-15.07.18:233][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.17-15.07.18:234][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.17-15.07.18:292][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.17-15.07.18:331][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Bigfootone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.17-15.07.18:331][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bigfootone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.17-15.07.18:331][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Anthrocratos/Anthrocratos_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.17-15.07.18:331][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.17-15.07.18:331][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Anthrocratos/Anthrocratos_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.17-15.07.18:331][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.17-15.07.18:384][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.17-15.07.18:396][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bigfootone/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.17-15.07.18:580][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.17-15.07.18:583][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.17-15.07.18:674][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.17-15.07.18:674][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.17-15.07.18:867][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.17-15.07.19:684][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.17-15.07.19:785][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.02.17-15.07.19:911][  0]SourceControl: Info Source control is disabled
+[2016.02.17-15.07.19:913][  0]SourceControl: Info Source control is disabled
+[2016.02.17-15.07.19:922][  0]SourceControl: Info Source control is disabled
+[2016.02.17-15.07.19:932][  0]SourceControl: Info Source control is disabled
+[2016.02.17-15.07.20:153][  0]LogObj: 28637 objects as part of root set at end of initial load.
+[2016.02.17-15.07.20:153][  0]LogUObjectAllocator: 6101776 out of 0 bytes used by permanent object pool.
+[2016.02.17-15.07.20:203][  0]LogEngine: Initializing Engine...
+[2016.02.17-15.07.20:206][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.17-15.07.20:210][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.02.17-15.07.20:320][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.17-15.07.20:327][  0]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.07.20:339][  0]LogInit: FAudioDevice initialized.
+[2016.02.17-15.07.20:360][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Bigfootone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.17-15.07.20:363][  0]LogInit: Texture streaming: Enabled
+[2016.02.17-15.07.20:366][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.17-15.07.20:366][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.17-15.07.20:367][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6844960942a56c7664b0f6b1131f1fef|c381b92b33784ccaa7b778c4b0f76233|53524d50-4578-4787-a176-59f20f61b4e2
+[2016.02.17-15.07.20:367][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.17-15.07.20:376][  0]LogInit: Transaction tracking system initialized
+[2016.02.17-15.07.20:394][  0]BlueprintLog: New page: Editor Load
+[2016.02.17-15.07.20:452][  0]LocalizationService: Info Localization service is disabled
+[2016.02.17-15.07.20:514][  0]LogConsoleResponse:Display: 
+[2016.02.17-15.07.20:610][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.17-15.07.20:651][  0]LogFileCache: Scanning file cache for directory 'S:/Anthrocratos/Anthrocratos_UE4/Content/' took 0.01s
+[2016.02.17-15.07.20:651][  0]SourceControl: Info Source control is disabled
+[2016.02.17-15.07.20:651][  0]Cmd: MAP LOAD FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.17-15.07.20:652][  0]LightingResults: New page: Lighting Build
+[2016.02.17-15.07.20:653][  0]MapCheck: New page: Map Check
+[2016.02.17-15.07.20:653][  0]LightingResults: New page: Lighting Build
+[2016.02.17-15.07.20:663][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DB1852160
+[2016.02.17-15.07.20:750][  0]LogBlueprint:Error: [compiler Kieran-Test] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.02.17-15.07.20:758][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.34] Compile of Kieran-Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 13 ms]
+[2016.02.17-15.07.20:758][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.34] Compile of Kieran-Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.02.17-15.07.20:759][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.34] Compile of Kieran-Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.02.17-15.07.20:766][  0]LogBlueprint:Error: [compiler Kieran-Test] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.02.17-15.07.20:774][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.36] Compile of Kieran-Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 13 ms]
+[2016.02.17-15.07.20:774][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.36] Compile of Kieran-Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.02.17-15.07.20:774][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.36] Compile of Kieran-Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.02.17-15.07.20:830][  0]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.17-15.07.20:832][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.17-15.07.20:833][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.17-15.07.20:899][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.467ms to complete.
+[2016.02.17-15.07.20:899][  0]LogFileHelpers: Loading map 'Kieran-Test' took 0.248
+[2016.02.17-15.07.21:016][  0]LogCollectionManager: Loaded 0 collections in 0.001179 seconds
+[2016.02.17-15.07.21:058][  0]LogFileCache: Scanning file cache for directory 'S:/Anthrocratos/Anthrocratos_UE4/Saved/Collections/' took 0.01s
+[2016.02.17-15.07.21:058][  0]LogFileCache: Scanning file cache for directory 'S:/Anthrocratos/Anthrocratos_UE4/Content/Developers/Bigfootone/Collections/' took 0.01s
+[2016.02.17-15.07.21:058][  0]LogFileCache: Scanning file cache for directory 'S:/Anthrocratos/Anthrocratos_UE4/Content/Collections/' took 0.01s
+[2016.02.17-15.07.21:058][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.17-15.07.21:065][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1894 classes and 340 folders.
+[2016.02.17-15.07.21:070][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.02.17-15.07.21:121][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.02.17-15.07.21:124][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2016.02.17-15.07.21:162][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.17-15.07.21:166][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.17-15.07.21:188][  0]LogLoad: Full Startup: 4.77 seconds (BP compile: 0.04 seconds)
+[2016.02.17-15.07.21:196][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.17-15.07.21:199][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.17-15.07.21:260][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.17-15.07.21:378][  0]LogRenderer: Reallocating scene render targets to support 984x572 (Frame:2).
+[2016.02.17-15.07.21:614][  1]LogFileCache: Retrieving MD5 hashes for directory 'S:/Anthrocratos/Anthrocratos_UE4/Content/' took 0.40s
+[2016.02.17-15.07.21:732][  4]LogAssetRegistry: Asset discovery search completed in 1.9581 seconds
+[2016.02.17-15.07.21:732][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.17-15.07.21:732][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.02.17-15.08.04:119][ 81]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.08.04:147][ 81]Cmd: MAP LOAD FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.17-15.08.04:147][ 81]LightingResults: New page: Lighting Build
+[2016.02.17-15.08.04:163][ 81]LoadErrors: New page: Loading map: David-Test.umap
+[2016.02.17-15.08.04:164][ 81]MapCheck: New page: Map Check
+[2016.02.17-15.08.04:164][ 81]LightingResults: New page: Lighting Build
+[2016.02.17-15.08.04:173][ 81]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DA3605080
+[2016.02.17-15.08.04:201][ 81]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.17-15.08.04:219][ 81]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.17-15.08.04:291][ 81]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.125ms to complete.
+[2016.02.17-15.08.04:291][ 81]LogFileHelpers: Loading map 'David-Test' took 0.145
+[2016.02.17-15.08.23:000][341]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-15.08.23:954][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.08.23:954][449]PIE: New page: PIE session: David-Test (17 Feb 2016 15:08:23)
+[2016.02.17-15.08.23:954][449]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.08.23:956][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002110s)
+[2016.02.17-15.08.23:957][449]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.08.23:957][449]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2016.02.17-15.08.23:958][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.003384s)
+[2016.02.17-15.08.23:971][449]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.08.23:979][449]LogInit: FAudioDevice initialized.
+[2016.02.17-15.08.24:053][449]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.08.24:055][449]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.08.24
+[2016.02.17-15.08.24:055][449]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.08.24:055][449]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.08.24:055][449]LogWorld: Bringing up level for play took: 0.001341
+[2016.02.17-15.08.24:056][449]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.652
+[2016.02.17-15.08.25:347][602]LogBlueprintUserMessages: [CameraMovement_58] Top
+[2016.02.17-15.08.26:349][722]LogBlueprintUserMessages: [CameraMovement_58] Top
+[2016.02.17-15.08.26:882][786]LogBlueprintUserMessages: [CameraMovement_58] Bottom
+[2016.02.17-15.08.27:883][906]LogBlueprintUserMessages: [CameraMovement_58] Bottom
+[2016.02.17-15.08.31:519][341]LogBlueprintUserMessages: [CameraMovement_58] Top
+[2016.02.17-15.08.32:527][462]LogBlueprintUserMessages: [CameraMovement_58] Top
+[2016.02.17-15.08.33:086][529]LogBlueprintUserMessages: [CameraMovement_58] X=1102.000 Y=-623.000 Z=-178.000
+[2016.02.17-15.08.33:086][529]LogBlueprintUserMessages: [CameraMovement_58] X=1002.000 Y=-623.000 Z=-178.000
+[2016.02.17-15.08.33:086][529]PIE:Warning: Warning SimpleMove failed for PlayerController_0: movement not allowed
+[2016.02.17-15.08.34:085][649]LogBlueprintUserMessages: [CameraMovement_58] X=1102.000 Y=-623.000 Z=-178.000
+[2016.02.17-15.08.34:085][649]LogBlueprintUserMessages: [CameraMovement_58] X=1002.000 Y=-623.000 Z=-178.000
+[2016.02.17-15.08.34:085][649]PIE:Warning: Warning SimpleMove failed for PlayerController_0: movement not allowed
+[2016.02.17-15.08.35:086][769]LogBlueprintUserMessages: [CameraMovement_58] X=1102.000 Y=-623.000 Z=-178.000
+[2016.02.17-15.08.35:086][769]LogBlueprintUserMessages: [CameraMovement_58] X=1002.000 Y=-623.000 Z=-178.000
+[2016.02.17-15.08.35:086][769]PIE:Warning: Warning SimpleMove failed for PlayerController_0: movement not allowed
+[2016.02.17-15.08.36:303][915]LogBlueprintUserMessages: [CameraMovement_58] Right
+[2016.02.17-15.08.37:303][ 35]LogBlueprintUserMessages: [CameraMovement_58] Right
+[2016.02.17-15.08.38:228][146]LogBlueprintUserMessages: [CameraMovement_58] Bottom
+[2016.02.17-15.08.39:228][266]LogBlueprintUserMessages: [CameraMovement_58] Bottom
+[2016.02.17-15.08.41:524][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DA0B02980
+[2016.02.17-15.08.50:986][627]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.17-15.08.51:318][627]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 107 classes and 0 folders.
+[2016.02.17-15.14.51:489][499]LogEditorTransaction: Undo Delete current selection
+[2016.02.17-15.14.51:880][523]LogEditorTransaction: Undo Delete current selection
+[2016.02.17-15.17.16:820][557]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.17.16:904][557]BlueprintEditorCompileResults: Info [0600.49] Compile of CameraMovement successful! [in 83 ms]
+[2016.02.17-15.17.17:592][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.17.17:592][613]PIE: New page: PIE session: David-Test (17 Feb 2016 15:17:17)
+[2016.02.17-15.17.17:593][613]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.17.17:594][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001807s)
+[2016.02.17-15.17.17:595][613]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.17.17:595][613]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2016.02.17-15.17.17:595][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002653s)
+[2016.02.17-15.17.17:620][613]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.17.17:627][613]LogInit: FAudioDevice initialized.
+[2016.02.17-15.17.17:660][613]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.17.17:662][613]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.17.17
+[2016.02.17-15.17.17:662][613]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.17.17:662][613]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.17.17:662][613]LogWorld: Bringing up level for play took: 0.001453
+[2016.02.17-15.17.17:663][613]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.954
+[2016.02.17-15.17.18:708][721]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.19:709][827]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.20:749][930]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.21:761][ 34]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.22:788][138]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.24:380][232]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.25:929][386]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.26:932][488]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.27:959][587]LogBlueprintUserMessages: [CameraMovement_C_0] Bottom
+[2016.02.17-15.17.28:232][614]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.30:546][852]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.31:585][962]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.32:626][ 72]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.33:672][178]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.17.40:204][862]LogBlueprintUserMessages: [CameraMovement_C_0] Right
+[2016.02.17-15.17.42:762][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DD9E70CC0
+[2016.02.17-15.18.48:338][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/David-Test_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.02.17-15.18.48:361][634]LogSavePackage: Save=12.099458ms
+[2016.02.17-15.18.48:361][634]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-Test_Auto1F3B3F5BB4DF746DF056E44B644E93319.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/David-Test_Auto1.umap'
+[2016.02.17-15.18.48:362][634]LogSavePackage: Total save time: 24.157356ms
+[2016.02.17-15.18.48:362][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/David-Test_Auto1.umap
+[2016.02.17-15.18.48:363][634]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/David-Test' took 0.051
+[2016.02.17-15.18.48:363][634]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.051
+[2016.02.17-15.18.48:368][634]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraMovement] ([1] browsable assets)...
+[2016.02.17-15.18.48:368][634]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraMovement]
+[2016.02.17-15.18.48:420][634]LogSavePackage: Save=45.352337ms
+[2016.02.17-15.18.48:420][634]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/CameraMovement_Auto168E53E8A4765773ED62F1490B5B46D48.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/CameraMovement_Auto1.uasset'
+[2016.02.17-15.18.48:421][634]LogSavePackage: Total save time: 52.932948ms
+[2016.02.17-15.18.48:421][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/CameraMovement_Auto1.uasset
+[2016.02.17-15.18.48:421][634]LogFileHelpers: Auto-saving content packages took 0.057
+[2016.02.17-15.21.26:536][ 79]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.21.26:612][ 79]BlueprintEditorCompileResults: Info [0850.20] Compile of CameraMovement successful! [in 75 ms]
+[2016.02.17-15.21.27:366][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-15.21.27:406][134]LogSavePackage: Save=11.945557ms
+[2016.02.17-15.21.27:406][134]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-Test19A8DF394A41C871A16C96B024388F8B.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap'
+[2016.02.17-15.21.27:407][134]LogSavePackage: Total save time: 19.496951ms
+[2016.02.17-15.21.27:407][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap
+[2016.02.17-15.21.27:425][134]LogFileHelpers: Saving map 'David-Test' took 0.146
+[2016.02.17-15.21.27:430][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraMovement" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset" SILENT=true
+[2016.02.17-15.21.27:486][134]LogSavePackage: Save=48.546013ms
+[2016.02.17-15.21.27:486][134]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/CameraMovementB11192444E3FF6C530737C85BF582DCD.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset'
+[2016.02.17-15.21.27:487][134]LogSavePackage: Total save time: 56.095596ms
+[2016.02.17-15.21.27:487][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset
+[2016.02.17-15.21.29:556][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.21.29:557][335]PIE: New page: PIE session: David-Test (17 Feb 2016 15:21:29)
+[2016.02.17-15.21.29:557][335]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.21.29:558][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001409s)
+[2016.02.17-15.21.29:559][335]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.21.29:559][335]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2016.02.17-15.21.29:559][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002225s)
+[2016.02.17-15.21.29:579][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DD1B476A0
+[2016.02.17-15.21.29:587][335]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.21.29:593][335]LogInit: FAudioDevice initialized.
+[2016.02.17-15.21.29:624][335]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.21.29:625][335]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.21.29
+[2016.02.17-15.21.29:625][335]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.21.29:625][335]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.21.29:625][335]LogWorld: Bringing up level for play took: 0.001523
+[2016.02.17-15.21.29:627][335]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.918
+[2016.02.17-15.21.30:657][458]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.38:392][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E089DD6C0
+[2016.02.17-15.21.42:684][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.21.42:684][647]PIE: New page: PIE session: David-Test (17 Feb 2016 15:21:42)
+[2016.02.17-15.21.42:684][647]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.21.42:686][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001643s)
+[2016.02.17-15.21.42:686][647]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.21.42:686][647]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2016.02.17-15.21.42:687][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002439s)
+[2016.02.17-15.21.42:711][647]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.21.42:718][647]LogInit: FAudioDevice initialized.
+[2016.02.17-15.21.42:750][647]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.21.42:751][647]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.21.42
+[2016.02.17-15.21.42:752][647]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.21.42:752][647]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.21.42:752][647]LogWorld: Bringing up level for play took: 0.001319
+[2016.02.17-15.21.42:753][647]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.044
+[2016.02.17-15.21.43:798][746]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.44:846][851]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.45:892][957]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.46:931][ 61]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.47:974][163]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.48:998][260]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.50:005][357]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.51:043][459]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.52:054][558]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.53:082][657]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.54:117][754]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.55:139][855]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.56:141][953]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.57:163][ 57]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.58:202][158]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.59:308][277]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.21.59:706][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DBB352A20
+[2016.02.17-15.22.00:895][456]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-15.22.29:338][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.22.29:338][677]PIE: New page: PIE session: David-Test (17 Feb 2016 15:22:29)
+[2016.02.17-15.22.29:338][677]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.22.29:339][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001616s)
+[2016.02.17-15.22.29:340][677]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.22.29:340][677]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2016.02.17-15.22.29:340][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002407s)
+[2016.02.17-15.22.29:366][677]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.22.29:373][677]LogInit: FAudioDevice initialized.
+[2016.02.17-15.22.29:409][677]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.22.29:411][677]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.22.29
+[2016.02.17-15.22.29:411][677]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.22.29:411][677]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.22.29:411][677]LogWorld: Bringing up level for play took: 0.001409
+[2016.02.17-15.22.29:412][677]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.703
+[2016.02.17-15.22.30:462][777]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.31:494][882]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.32:528][988]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.33:551][ 92]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.34:591][195]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.35:597][293]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.36:623][398]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.37:649][502]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.38:683][606]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.39:725][712]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.40:760][810]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.41:763][911]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.42:813][ 14]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.43:827][113]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.44:849][217]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.45:885][321]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.46:930][428]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.47:955][533]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.48:984][636]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.50:026][742]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.51:059][846]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.52:108][953]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.53:136][ 58]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.54:165][161]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.55:210][265]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.56:215][365]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.57:215][467]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.58:245][566]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.22.59:293][671]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.00:336][777]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.01:369][881]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.02:413][988]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.03:441][ 92]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.04:480][196]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.05:528][302]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.06:570][407]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.07:607][513]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.08:632][616]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.09:675][723]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.10:698][826]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.11:748][933]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.12:769][ 38]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.13:796][141]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.14:838][248]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.15:866][351]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.16:907][457]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.17:941][563]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.18:967][665]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.19:970][762]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.21:006][865]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.22:011][967]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.23:043][ 72]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.24:082][175]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.25:091][277]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.26:125][380]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.27:132][483]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.28:153][586]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.29:194][689]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.30:207][780]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.31:212][867]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.32:252][966]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.33:301][ 72]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.34:332][175]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.35:340][278]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.36:368][381]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.37:420][487]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.38:456][592]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.39:490][694]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.40:508][797]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.41:542][900]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.42:551][  2]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.43:589][106]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.44:638][212]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.45:672][316]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.46:712][419]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.47:733][521]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.48:781][624]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.49:797][724]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.50:810][825]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.51:813][923]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.52:842][ 26]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.53:892][131]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.54:931][236]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.55:974][342]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.57:007][446]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.58:053][553]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.23.59:079][656]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.00:124][763]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.01:153][868]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.02:175][970]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.03:180][ 72]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.04:218][176]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.05:259][282]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.06:296][387]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.07:334][490]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.08:342][593]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.09:367][694]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.10:378][792]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.11:124][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DEF8687C0
+[2016.02.17-15.24.13:460][ 81]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-15.24.14:523][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.24.14:523][203]PIE: New page: PIE session: David-Test (17 Feb 2016 15:24:14)
+[2016.02.17-15.24.14:523][203]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.24.14:525][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001617s)
+[2016.02.17-15.24.14:525][203]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.24.14:525][203]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2016.02.17-15.24.14:525][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002397s)
+[2016.02.17-15.24.14:551][203]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.24.14:557][203]LogInit: FAudioDevice initialized.
+[2016.02.17-15.24.14:588][203]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.24.14:590][203]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.24.14
+[2016.02.17-15.24.14:590][203]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.24.14:590][203]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.24.14:590][203]LogWorld: Bringing up level for play took: 0.001350
+[2016.02.17-15.24.14:591][203]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.118
+[2016.02.17-15.24.15:621][326]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.24.20:592][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E018D1BC0
+[2016.02.17-15.26.13:946][386]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.17-15.26.13:947][386]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.17-15.26.31:935][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.26.31:935][951]PIE: New page: PIE session: David-Test (17 Feb 2016 15:26:31)
+[2016.02.17-15.26.31:935][951]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.26.31:937][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001663s)
+[2016.02.17-15.26.31:938][951]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.26.31:938][951]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2016.02.17-15.26.31:938][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002642s)
+[2016.02.17-15.26.31:964][951]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.26.31:971][951]LogInit: FAudioDevice initialized.
+[2016.02.17-15.26.32:005][951]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.26.32:007][951]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.26.32
+[2016.02.17-15.26.32:008][951]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.26.32:008][951]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.26.32:008][951]LogWorld: Bringing up level for play took: 0.001606
+[2016.02.17-15.26.32:009][951]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.7
+[2016.02.17-15.26.33:050][ 51]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.34:085][152]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.35:108][252]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.36:139][354]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.37:147][452]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.38:169][555]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.39:211][659]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.40:219][761]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.41:255][862]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.42:281][966]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.43:313][ 71]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.44:351][174]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.45:359][276]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.46:397][379]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.47:404][478]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.48:422][580]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.49:468][680]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.50:510][784]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.51:519][884]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.52:527][986]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.53:559][ 90]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.54:609][196]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.55:641][301]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.56:671][401]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.57:705][502]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.26.59:701][708]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.27.00:740][813]LogBlueprintUserMessages: [CameraMovement_C_0] Top
+[2016.02.17-15.27.01:575][888]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DE8DB3A60
+[2016.02.17-15.27.05:973][296]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.17-15.27.05:973][296]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.17-15.30.41:748][106]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.30.41:830][106]BlueprintEditorCompileResults: Info [1405.41] Compile of CameraMovement successful! [in 81 ms]
+[2016.02.17-15.31.23:955][861]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DesertTile.DesertTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.02.17-15.31.23:959][861]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/FieldTile.FieldTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.02.17-15.33.31:836][976]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.33.31:852][976]LogBlueprint:Error: [compiler CameraMovement] Error The current value (0, 0, 0) of the ' Goal ' pin is invalid: 'Goal' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.02.17-15.33.31:965][976]LogBlueprint:Warning: [compiler CameraMovement] Warning [1575.55] Compile of CameraMovement failed. 1 Fatal Issue(s) 0 Warning(s) [in 129 ms]
+[2016.02.17-15.33.31:965][976]BlueprintEditorCompileResults:Error: Error The current value (0, 0, 0) of the ' Goal ' pin is invalid: 'Goal' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.02.17-15.33.31:965][976]BlueprintEditorCompileResults:Warning: Warning [1575.55] Compile of CameraMovement failed. 1 Fatal Issue(s) 0 Warning(s) [in 129 ms]
+[2016.02.17-15.33.42:830][887]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.33.42:908][887]BlueprintEditorCompileResults: Info [1586.49] Compile of CameraMovement successful! [in 78 ms]
+[2016.02.17-15.33.45:141][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.33.45:141][ 93]PIE: New page: PIE session: David-Test (17 Feb 2016 15:33:45)
+[2016.02.17-15.33.45:141][ 93]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.33.45:143][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001947s)
+[2016.02.17-15.33.45:144][ 93]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.33.45:144][ 93]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2016.02.17-15.33.45:144][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002954s)
+[2016.02.17-15.33.45:171][ 93]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.33.45:178][ 93]LogInit: FAudioDevice initialized.
+[2016.02.17-15.33.45:208][ 93]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.33.45:210][ 93]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.33.45
+[2016.02.17-15.33.45:210][ 93]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.33.45:210][ 93]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.33.45:210][ 93]LogWorld: Bringing up level for play took: 0.001531
+[2016.02.17-15.33.45:211][ 93]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.502
+[2016.02.17-15.33.46:244][216]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.33.50:153][685]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.33.51:204][768]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.33.51:488][797]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.33.52:518][902]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.33.53:549][  7]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.33.54:585][111]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.33.55:626][218]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.33.56:651][321]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.33.57:694][428]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.33.58:721][531]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.01:578][847]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.02:617][960]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.03:628][ 67]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.04:674][179]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.05:694][284]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.06:718][393]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.07:748][507]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.08:792][616]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.09:796][727]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.10:838][840]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.34.11:752][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E263E2020
+[2016.02.17-15.34.45:801][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/David-Test_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.02.17-15.34.45:821][ 97]LogSavePackage: Save=11.890743ms
+[2016.02.17-15.34.45:821][ 97]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-Test_Auto266D0B7BB47439C73F0A2F99CB686CF6B.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/David-Test_Auto2.umap'
+[2016.02.17-15.34.45:822][ 97]LogSavePackage: Total save time: 19.859266ms
+[2016.02.17-15.34.45:822][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/David-Test_Auto2.umap
+[2016.02.17-15.34.45:823][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/David-Test' took 0.049
+[2016.02.17-15.34.45:823][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.049
+[2016.02.17-15.34.45:828][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraMovement] ([1] browsable assets)...
+[2016.02.17-15.34.45:828][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraMovement]
+[2016.02.17-15.34.45:914][ 97]LogSavePackage: Save=65.104385ms
+[2016.02.17-15.34.45:914][ 97]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/CameraMovement_Auto23328FAEF44A1A0229ED1D6966F374DCE.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/CameraMovement_Auto2.uasset'
+[2016.02.17-15.34.45:915][ 97]LogSavePackage: Total save time: 72.967496ms
+[2016.02.17-15.34.45:915][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/CameraMovement_Auto2.uasset
+[2016.02.17-15.34.45:915][ 97]LogFileHelpers: Auto-saving content packages took 0.091
+[2016.02.17-15.36.02:967][165]LogEditorTransaction: Undo Delete current selection
+[2016.02.17-15.36.12:069][978]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.36.12:148][978]BlueprintEditorCompileResults: Info [1735.73] Compile of CameraMovement successful! [in 79 ms]
+[2016.02.17-15.36.17:313][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.36.17:313][488]PIE: New page: PIE session: David-Test (17 Feb 2016 15:36:17)
+[2016.02.17-15.36.17:313][488]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.36.17:315][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001328s)
+[2016.02.17-15.36.17:315][488]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.36.17:315][488]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2016.02.17-15.36.17:315][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002252s)
+[2016.02.17-15.36.17:343][488]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.36.17:349][488]LogInit: FAudioDevice initialized.
+[2016.02.17-15.36.17:384][488]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.36.17:386][488]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.36.17
+[2016.02.17-15.36.17:386][488]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.36.17:386][488]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.36.17:386][488]LogWorld: Bringing up level for play took: 0.001485
+[2016.02.17-15.36.17:387][488]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.678
+[2016.02.17-15.36.18:417][611]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.36.19:525][744]LogBlueprintUserMessages: [CameraMovement_C_2] Right
+[2016.02.17-15.36.20:042][806]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.36.20:909][910]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.36.21:234][949]LogBlueprintUserMessages: [CameraMovement_C_2] Right
+[2016.02.17-15.36.21:972][998]LogBlueprintUserMessages: [CameraMovement_C_2] Bottom
+[2016.02.17-15.36.22:314][999]LogBlueprintUserMessages: [CameraMovement_C_2] Right
+[2016.02.17-15.36.23:478][128]LogBlueprintUserMessages: [CameraMovement_C_2] Right
+[2016.02.17-15.36.24:745][231]LogBlueprintUserMessages: [CameraMovement_C_2] Right
+[2016.02.17-15.36.25:777][317]LogBlueprintUserMessages: [CameraMovement_C_2] Right
+[2016.02.17-15.36.26:573][399]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.36.30:187][757]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.17-15.36.31:384][894]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.36.31:674][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E26A820C0
+[2016.02.17-15.36.31:675][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DEDFD6D40
+[2016.02.17-15.36.46:145][ 60]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.36.46:224][ 60]BlueprintEditorCompileResults: Info [1769.81] Compile of CameraMovement successful! [in 79 ms]
+[2016.02.17-15.36.47:968][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.36.47:969][221]PIE: New page: PIE session: David-Test (17 Feb 2016 15:36:47)
+[2016.02.17-15.36.47:969][221]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.36.47:970][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001504s)
+[2016.02.17-15.36.47:971][221]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.36.47:971][221]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2016.02.17-15.36.47:971][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002271s)
+[2016.02.17-15.36.47:998][221]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.36.48:004][221]LogInit: FAudioDevice initialized.
+[2016.02.17-15.36.48:039][221]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.36.48:040][221]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.36.48
+[2016.02.17-15.36.48:040][221]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.36.48:040][221]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.36.48:041][221]LogWorld: Bringing up level for play took: 0.001347
+[2016.02.17-15.36.48:041][221]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.668
+[2016.02.17-15.36.49:070][344]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.36.51:181][597]LogBlueprintUserMessages: [CameraMovement_C_2] Right
+[2016.02.17-15.36.52:490][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DF1C10360
+[2016.02.17-15.40.27:724][342]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.40.27:805][342]BlueprintEditorCompileResults: Info [1991.39] Compile of CameraMovement successful! [in 80 ms]
+[2016.02.17-15.40.29:754][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.40.29:754][510]PIE: New page: PIE session: David-Test (17 Feb 2016 15:40:29)
+[2016.02.17-15.40.29:754][510]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.40.29:756][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001511s)
+[2016.02.17-15.40.29:756][510]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.40.29:756][510]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2016.02.17-15.40.29:757][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002484s)
+[2016.02.17-15.40.29:783][510]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.40.29:790][510]LogInit: FAudioDevice initialized.
+[2016.02.17-15.40.29:823][510]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.40.29:825][510]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.40.29
+[2016.02.17-15.40.29:825][510]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.29:825][510]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.29:825][510]LogWorld: Bringing up level for play took: 0.001485
+[2016.02.17-15.40.29:825][510]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.883
+[2016.02.17-15.40.30:861][633]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.40.35:473][186]LogBlueprintUserMessages: [CameraMovement_C_2] Right
+[2016.02.17-15.40.36:395][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E26B34900
+[2016.02.17-15.40.37:973][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.40.37:973][468]PIE: New page: PIE session: David-Test (17 Feb 2016 15:40:37)
+[2016.02.17-15.40.37:973][468]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.40.37:975][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001558s)
+[2016.02.17-15.40.37:975][468]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.40.37:975][468]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2016.02.17-15.40.37:975][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002548s)
+[2016.02.17-15.40.38:002][468]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.40.38:008][468]LogInit: FAudioDevice initialized.
+[2016.02.17-15.40.38:044][468]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.40.38:045][468]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.40.38
+[2016.02.17-15.40.38:045][468]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.38:045][468]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.38:046][468]LogWorld: Bringing up level for play took: 0.001456
+[2016.02.17-15.40.38:046][468]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.663
+[2016.02.17-15.40.39:074][591]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.40.40:344][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DE8518B80
+[2016.02.17-15.40.45:033][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.40.45:033][117]PIE: New page: SIE session: David-Test (17 Feb 2016 15:40:45)
+[2016.02.17-15.40.45:033][117]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.40.45:034][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001675s)
+[2016.02.17-15.40.45:035][117]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.40.45:035][117]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2016.02.17-15.40.45:035][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002739s)
+[2016.02.17-15.40.45:058][117]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.40.45:062][117]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.40.45:069][117]LogInit: FAudioDevice initialized.
+[2016.02.17-15.40.45:101][117]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.40.45:103][117]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.40.45
+[2016.02.17-15.40.45:103][117]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.45:103][117]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.45:103][117]LogWorld: Bringing up level for play took: 0.001493
+[2016.02.17-15.40.45:104][117]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.17-15.40.45:104][117]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.396
+[2016.02.17-15.40.45:135][117]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.40.46:818][308]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E312053A0
+[2016.02.17-15.40.47:446][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.40.47:446][381]PIE: New page: SIE session: David-Test (17 Feb 2016 15:40:47)
+[2016.02.17-15.40.47:446][381]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.40.47:448][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001553s)
+[2016.02.17-15.40.47:448][381]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.40.47:448][381]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2016.02.17-15.40.47:449][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002295s)
+[2016.02.17-15.40.47:471][381]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.40.47:475][381]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.40.47:481][381]LogInit: FAudioDevice initialized.
+[2016.02.17-15.40.47:512][381]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.40.47:514][381]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.40.47
+[2016.02.17-15.40.47:514][381]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.47:514][381]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.47:514][381]LogWorld: Bringing up level for play took: 0.001347
+[2016.02.17-15.40.47:515][381]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.17-15.40.47:515][381]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.806
+[2016.02.17-15.40.47:520][381]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.40.48:004][428]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-15.40.48:004][428]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.40.48:548][480]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.40.49:255][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DE8DB0D60
+[2016.02.17-15.40.50:641][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.40.50:641][715]PIE: New page: SIE session: David-Test (17 Feb 2016 15:40:50)
+[2016.02.17-15.40.50:641][715]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.40.50:643][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001647s)
+[2016.02.17-15.40.50:643][715]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.40.50:644][715]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2016.02.17-15.40.50:644][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002641s)
+[2016.02.17-15.40.50:666][715]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.40.50:670][715]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.40.50:676][715]LogInit: FAudioDevice initialized.
+[2016.02.17-15.40.50:705][715]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.40.50:707][715]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.40.50
+[2016.02.17-15.40.50:707][715]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.50:707][715]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.50:708][715]LogWorld: Bringing up level for play took: 0.001425
+[2016.02.17-15.40.50:708][715]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.17-15.40.50:709][715]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0
+[2016.02.17-15.40.50:714][715]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.40.51:044][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.02.17-15.40.51:044][745]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.Cube_3"
+[2016.02.17-15.40.51:754][810]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.40.52:417][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E263E3060
+[2016.02.17-15.40.53:825][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.40.53:825][ 42]PIE: New page: PIE session: David-Test (17 Feb 2016 15:40:53)
+[2016.02.17-15.40.53:825][ 42]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.40.53:827][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001415s)
+[2016.02.17-15.40.53:827][ 42]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.40.53:828][ 42]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2016.02.17-15.40.53:828][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002259s)
+[2016.02.17-15.40.53:854][ 42]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.40.53:860][ 42]LogInit: FAudioDevice initialized.
+[2016.02.17-15.40.53:894][ 42]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.40.53:895][ 42]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.40.53
+[2016.02.17-15.40.53:895][ 42]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.53:895][ 42]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.40.53:895][ 42]LogWorld: Bringing up level for play took: 0.001536
+[2016.02.17-15.40.53:897][ 42]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.812
+[2016.02.17-15.40.55:009][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E263E2480
+[2016.02.17-15.41.01:773][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.41.01:773][767]PIE: New page: SIE session: David-Test (17 Feb 2016 15:41:01)
+[2016.02.17-15.41.01:773][767]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.41.01:775][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001373s)
+[2016.02.17-15.41.01:775][767]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.41.01:775][767]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2016.02.17-15.41.01:775][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002146s)
+[2016.02.17-15.41.01:798][767]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.Cube_3"
+[2016.02.17-15.41.01:802][767]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.41.01:808][767]LogInit: FAudioDevice initialized.
+[2016.02.17-15.41.01:838][767]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.41.01:840][767]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.41.01
+[2016.02.17-15.41.01:840][767]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.41.01:840][767]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.41.01:840][767]LogWorld: Bringing up level for play took: 0.001461
+[2016.02.17-15.41.01:840][767]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.17-15.41.01:841][767]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.868
+[2016.02.17-15.41.01:852][767]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.Cube_3"
+[2016.02.17-15.41.02:889][879]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.02:938][883]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-15.41.02:938][883]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.41.03:902][980]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.04:905][ 60]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.05:920][161]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.06:962][278]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.07:644][342]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-15.41.07:644][342]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.41.07:986][370]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.08:987][457]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.09:495][505]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E018D2A20
+[2016.02.17-15.41.10:210][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.41.10:210][588]PIE: New page: SIE session: David-Test (17 Feb 2016 15:41:10)
+[2016.02.17-15.41.10:210][588]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.41.10:212][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001448s)
+[2016.02.17-15.41.10:212][588]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.41.10:213][588]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2016.02.17-15.41.10:213][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002274s)
+[2016.02.17-15.41.10:235][588]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.41.10:238][588]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.41.10:245][588]LogInit: FAudioDevice initialized.
+[2016.02.17-15.41.10:275][588]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.41.10:277][588]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.41.10
+[2016.02.17-15.41.10:277][588]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.41.10:277][588]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.41.10:277][588]LogWorld: Bringing up level for play took: 0.001382
+[2016.02.17-15.41.10:277][588]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.17-15.41.10:278][588]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.431
+[2016.02.17-15.41.10:283][588]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.41.11:310][693]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.11:567][718]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-15.41.11:567][718]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.SkySphere"
+[2016.02.17-15.41.12:341][798]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.13:476][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E06CE9A80
+[2016.02.17-15.41.15:699][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.41.15:700][173]PIE: New page: PIE session: David-Test (17 Feb 2016 15:41:15)
+[2016.02.17-15.41.15:700][173]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.41.15:701][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001390s)
+[2016.02.17-15.41.15:702][173]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.41.15:702][173]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2016.02.17-15.41.15:702][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002204s)
+[2016.02.17-15.41.15:728][173]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.41.15:735][173]LogInit: FAudioDevice initialized.
+[2016.02.17-15.41.15:770][173]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.41.15:772][173]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.41.15
+[2016.02.17-15.41.15:772][173]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.41.15:772][173]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.41.15:772][173]LogWorld: Bringing up level for play took: 0.001434
+[2016.02.17-15.41.15:773][173]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 1.064
+[2016.02.17-15.41.16:804][296]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.41.19:752][641]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022D805C3BA0
+[2016.02.17-15.45.35:318][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/David-Test_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.02.17-15.45.35:338][824]LogSavePackage: Save=11.894357ms
+[2016.02.17-15.45.35:338][824]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-Test_Auto3219516224A5569A030F3F09CE8283A7A.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/David-Test_Auto3.umap'
+[2016.02.17-15.45.35:339][824]LogSavePackage: Total save time: 20.067077ms
+[2016.02.17-15.45.35:339][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/David-Test_Auto3.umap
+[2016.02.17-15.45.35:340][824]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/David-Test' took 0.049
+[2016.02.17-15.45.35:340][824]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.049
+[2016.02.17-15.45.35:344][824]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraMovement] ([1] browsable assets)...
+[2016.02.17-15.45.35:344][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraMovement]
+[2016.02.17-15.45.35:413][824]LogSavePackage: Save=61.394192ms
+[2016.02.17-15.45.35:413][824]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/CameraMovement_Auto34DBA88954733E3B6D366F498E8FB211C.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/CameraMovement_Auto3.uasset'
+[2016.02.17-15.45.35:414][824]LogSavePackage: Total save time: 69.157016ms
+[2016.02.17-15.45.35:414][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/CameraMovement_Auto3.uasset
+[2016.02.17-15.45.35:414][824]LogFileHelpers: Auto-saving content packages took 0.073
+[2016.02.17-15.55.02:093][ 86]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.55.02:175][ 86]BlueprintEditorCompileResults: Info [2865.76] Compile of CameraMovement successful! [in 82 ms]
+[2016.02.17-15.55.17:669][973]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.55.17:755][973]BlueprintEditorCompileResults: Info [2881.34] Compile of CameraMovement successful! [in 85 ms]
+[2016.02.17-15.57.49:316][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-15.57.49:359][556]LogSavePackage: Save=11.886526ms
+[2016.02.17-15.57.49:359][556]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-Test9B5A4F894B550EB884BB5C9D9609D247.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap'
+[2016.02.17-15.57.49:360][556]LogSavePackage: Total save time: 21.750052ms
+[2016.02.17-15.57.49:360][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap
+[2016.02.17-15.57.49:379][556]LogFileHelpers: Saving map 'David-Test' took 0.153
+[2016.02.17-15.57.49:383][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraMovement" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset" SILENT=true
+[2016.02.17-15.57.49:454][556]LogSavePackage: Save=62.499210ms
+[2016.02.17-15.57.49:454][556]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/CameraMovement7E6CBAA94D48D107D53568B83B67E4A1.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset'
+[2016.02.17-15.57.49:455][556]LogSavePackage: Total save time: 71.064062ms
+[2016.02.17-15.57.49:455][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset
+[2016.02.17-15.57.49:861][592]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.57.49:933][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DD1B44A40
+[2016.02.17-15.57.49:942][592]BlueprintEditorCompileResults: Info [3033.53] Compile of CameraMovement successful! [in 81 ms]
+[2016.02.17-15.57.52:905][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.57.52:905][910]PIE: New page: PIE session: David-Test (17 Feb 2016 15:57:52)
+[2016.02.17-15.57.52:905][910]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.57.52:907][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002079s)
+[2016.02.17-15.57.52:908][910]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.57.52:908][910]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2016.02.17-15.57.52:908][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002936s)
+[2016.02.17-15.57.52:934][910]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.57.52:940][910]LogInit: FAudioDevice initialized.
+[2016.02.17-15.57.52:972][910]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.57.52:974][910]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.57.52
+[2016.02.17-15.57.52:974][910]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.57.52:974][910]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.57.52:974][910]LogWorld: Bringing up level for play took: 0.001523
+[2016.02.17-15.57.52:975][910]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.267
+[2016.02.17-15.57.54:012][ 32]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.57.54:964][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E3DEBAE80
+[2016.02.17-15.57.59:445][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-15.57.59:485][477]LogSavePackage: Save=11.932907ms
+[2016.02.17-15.57.59:485][477]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-TestF1647C3540A36BDE5C1B9D83DA5EBAF8.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap'
+[2016.02.17-15.57.59:486][477]LogSavePackage: Total save time: 19.643623ms
+[2016.02.17-15.57.59:486][477]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap
+[2016.02.17-15.57.59:504][477]LogFileHelpers: Saving map 'David-Test' took 0.144
+[2016.02.17-15.58.52:094][212]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-15.58.52:167][212]BlueprintEditorCompileResults: Info [3095.75] Compile of CameraMovement successful! [in 73 ms]
+[2016.02.17-15.58.54:105][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-15.58.54:105][410]PIE: New page: PIE session: David-Test (17 Feb 2016 15:58:54)
+[2016.02.17-15.58.54:105][410]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-15.58.54:106][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001436s)
+[2016.02.17-15.58.54:107][410]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-15.58.54:107][410]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2016.02.17-15.58.54:107][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002383s)
+[2016.02.17-15.58.54:133][410]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-15.58.54:140][410]LogInit: FAudioDevice initialized.
+[2016.02.17-15.58.54:173][410]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-15.58.54:175][410]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-15.58.54
+[2016.02.17-15.58.54:175][410]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.58.54:175][410]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-15.58.54:176][410]LogWorld: Bringing up level for play took: 0.001609
+[2016.02.17-15.58.54:176][410]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.533
+[2016.02.17-15.58.58:197][891]LogBlueprintUserMessages: [CameraMovement_C_2] Right
+[2016.02.17-15.58.58:464][923]LogBlueprintUserMessages: [CameraMovement_C_2] Top
+[2016.02.17-15.58.59:205][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DA091FE20
+[2016.02.17-15.59.01:063][117]LogEditorTransaction: Undo Create Pin Link
+[2016.02.17-15.59.01:449][143]LogEditorTransaction: Undo Delete current selection
+[2016.02.17-16.00.31:305][177]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2588.EdGraphPin_23961''
+[2016.02.17-16.00.31:305][177]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2589.EdGraphPin_23972''
+[2016.02.17-16.00.31:305][177]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_241.EdGraphPin_26701''
+[2016.02.17-16.00.31:305][177]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2589.EdGraphPin_23970''
+[2016.02.17-16.00.31:306][177]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_103.EdGraphPin_26315''
+[2016.02.17-16.00.31:306][177]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_241.EdGraphPin_26703''
+[2016.02.17-16.00.31:306][177]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3106.EdGraphPin_26426''
+[2016.02.17-16.00.31:306][177]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3106.EdGraphPin_26429''
+[2016.02.17-16.01.36:637][ 28]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3600.EdGraphPin_23961''
+[2016.02.17-16.01.36:638][ 28]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3601.EdGraphPin_23972''
+[2016.02.17-16.01.36:638][ 28]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_297.EdGraphPin_26701''
+[2016.02.17-16.01.36:638][ 28]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3601.EdGraphPin_23970''
+[2016.02.17-16.01.36:638][ 28]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_297.EdGraphPin_26703''
+[2016.02.17-16.01.50:022][119]LogEditorTransaction: Undo Move Node
+[2016.02.17-16.03.01:491][ 14]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3600.EdGraphPin_27039''
+[2016.02.17-16.03.01:491][ 14]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3601.EdGraphPin_27056''
+[2016.02.17-16.03.01:492][ 14]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_297.EdGraphPin_27069''
+[2016.02.17-16.03.01:492][ 14]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3601.EdGraphPin_27054''
+[2016.02.17-16.03.01:492][ 14]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_297.EdGraphPin_27071''
+[2016.02.17-16.03.18:328][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-16.03.18:370][430]LogSavePackage: Save=11.609445ms
+[2016.02.17-16.03.18:370][430]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-TestB4FE3D1D4A454798504B6C92738E2286.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap'
+[2016.02.17-16.03.18:372][430]LogSavePackage: Total save time: 20.804960ms
+[2016.02.17-16.03.18:372][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap
+[2016.02.17-16.03.18:390][430]LogFileHelpers: Saving map 'David-Test' took 0.149
+[2016.02.17-16.03.18:394][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraMovement" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset" SILENT=true
+[2016.02.17-16.03.18:454][430]LogSavePackage: Save=52.656166ms
+[2016.02.17-16.03.18:454][430]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/CameraMovementC38BECFB458BD338A839558FB18D112A.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset'
+[2016.02.17-16.03.18:455][430]LogSavePackage: Total save time: 61.123136ms
+[2016.02.17-16.03.18:455][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset
+[2016.02.17-16.03.19:140][482]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-16.03.19:226][482]BlueprintEditorCompileResults: Info [3362.81] Compile of CameraMovement successful! [in 85 ms]
+[2016.02.17-16.04.59:924][  1]LogEditorTransaction: Undo Move Node
+[2016.02.17-16.05.00:666][ 54]LogEditorTransaction: Undo Delete current selection
+[2016.02.17-16.06.02:575][501]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3600.EdGraphPin_27164''
+[2016.02.17-16.06.02:576][501]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3601.EdGraphPin_27181''
+[2016.02.17-16.06.02:576][501]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3601.EdGraphPin_27180''
+[2016.02.17-16.06.02:576][501]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_345.EdGraphPin_27295''
+[2016.02.17-16.06.02:576][501]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_345.EdGraphPin_27297''
+[2016.02.17-16.06.04:410][672]LogEditorTransaction: Undo Paste clipboard contents
+[2016.02.17-16.06.05:623][774]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CameraMovement.CameraMovement:EventGraph.K2Node_CallFunction_3599 or K2Node_CallFunction /Game/Blueprints/CameraMovement.CameraMovement:EventGraph.K2Node_CallFunction_3599
+[2016.02.17-16.06.05:623][774]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CameraMovement.CameraMovement:EventGraph.K2Node_CallFunction_3600 or K2Node_CallFunction /Game/Blueprints/CameraMovement.CameraMovement:EventGraph.K2Node_CallFunction_3600
+[2016.02.17-16.06.05:623][774]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/CameraMovement.CameraMovement:EventGraph.K2Node_CallFunction_3601 or K2Node_CallFunction /Game/Blueprints/CameraMovement.CameraMovement:EventGraph.K2Node_CallFunction_3601
+[2016.02.17-16.06.05:623][774]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/CameraMovement.CameraMovement:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_345 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/CameraMovement.CameraMovement:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_345
+[2016.02.17-16.06.16:303][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-16.06.16:344][785]LogSavePackage: Save=12.192521ms
+[2016.02.17-16.06.16:344][785]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-Test2AD47691431408B8EFA90186000E921A.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap'
+[2016.02.17-16.06.16:346][785]LogSavePackage: Total save time: 20.232420ms
+[2016.02.17-16.06.16:346][785]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap
+[2016.02.17-16.06.16:363][785]LogFileHelpers: Saving map 'David-Test' took 0.148
+[2016.02.17-16.06.16:367][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraMovement" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset" SILENT=true
+[2016.02.17-16.06.16:431][785]LogSavePackage: Save=56.468754ms
+[2016.02.17-16.06.16:431][785]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/CameraMovementC0825F6B4F7B06A22B7B17AA112DDA09.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset'
+[2016.02.17-16.06.16:433][785]LogSavePackage: Total save time: 64.724300ms
+[2016.02.17-16.06.16:433][785]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset
+[2016.02.17-16.06.31:814][207]LogEditorTransaction: Undo Move Node
+[2016.02.17-16.06.46:024][471]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-16.06.46:112][471]BlueprintEditorCompileResults: Info [3569.70] Compile of CameraMovement successful! [in 87 ms]
+[2016.02.17-16.06.48:341][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-16.06.48:341][671]PIE: New page: PIE session: David-Test (17 Feb 2016 16:06:48)
+[2016.02.17-16.06.48:341][671]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-16.06.48:342][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001473s)
+[2016.02.17-16.06.48:343][671]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-16.06.48:343][671]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2016.02.17-16.06.48:343][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002300s)
+[2016.02.17-16.06.48:369][671]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-16.06.48:376][671]LogInit: FAudioDevice initialized.
+[2016.02.17-16.06.48:410][671]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-16.06.48:412][671]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-16.06.48
+[2016.02.17-16.06.48:412][671]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.06.48:412][671]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.06.48:412][671]LogWorld: Bringing up level for play took: 0.001328
+[2016.02.17-16.06.48:413][671]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.296
+[2016.02.17-16.06.57:343][712]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DEDFD5580
+[2016.02.17-16.08.04:026][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-16.08.04:027][115]PIE: New page: PIE session: David-Test (17 Feb 2016 16:08:04)
+[2016.02.17-16.08.04:027][115]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-16.08.04:028][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001422s)
+[2016.02.17-16.08.04:029][115]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-16.08.04:029][115]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2016.02.17-16.08.04:029][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002163s)
+[2016.02.17-16.08.04:054][115]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-16.08.04:061][115]LogInit: FAudioDevice initialized.
+[2016.02.17-16.08.04:097][115]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-16.08.04:099][115]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-16.08.04
+[2016.02.17-16.08.04:099][115]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.08.04:099][115]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.08.04:100][115]LogWorld: Bringing up level for play took: 0.001479
+[2016.02.17-16.08.04:100][115]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.609
+[2016.02.17-16.08.08:182][444]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DF845AAC0
+[2016.02.17-16.08.38:523][ 44]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-16.08.38:605][ 44]BlueprintEditorCompileResults: Info [3682.19] Compile of CameraMovement successful! [in 82 ms]
+[2016.02.17-16.08.40:551][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-16.08.40:551][248]PIE: New page: PIE session: David-Test (17 Feb 2016 16:08:40)
+[2016.02.17-16.08.40:551][248]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-16.08.40:553][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001767s)
+[2016.02.17-16.08.40:553][248]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-16.08.40:554][248]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2016.02.17-16.08.40:554][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002841s)
+[2016.02.17-16.08.40:581][248]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-16.08.40:588][248]LogInit: FAudioDevice initialized.
+[2016.02.17-16.08.40:623][248]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-16.08.40:625][248]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-16.08.40
+[2016.02.17-16.08.40:625][248]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.08.40:625][248]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.08.40:626][248]LogWorld: Bringing up level for play took: 0.001569
+[2016.02.17-16.08.40:626][248]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.082
+[2016.02.17-16.08.44:416][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E26B909A0
+[2016.02.17-16.08.54:835][658]LogEditorTransaction: Undo Move Node
+[2016.02.17-16.09.10:494][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-16.09.10:536][118]LogSavePackage: Save=12.300041ms
+[2016.02.17-16.09.10:536][118]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-Test6DE2C66847EFD42B34C13CB491884979.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap'
+[2016.02.17-16.09.10:538][118]LogSavePackage: Total save time: 22.019003ms
+[2016.02.17-16.09.10:538][118]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap
+[2016.02.17-16.09.10:555][118]LogFileHelpers: Saving map 'David-Test' took 0.149
+[2016.02.17-16.09.10:560][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraMovement" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset" SILENT=true
+[2016.02.17-16.09.10:658][118]LogSavePackage: Save=89.883064ms
+[2016.02.17-16.09.10:658][118]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/CameraMovement23850F134C8946190ACA78B9CF9B8B59.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset'
+[2016.02.17-16.09.10:659][118]LogSavePackage: Total save time: 99.053882ms
+[2016.02.17-16.09.10:659][118]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset
+[2016.02.17-16.09.13:805][412]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-16.09.13:888][412]BlueprintEditorCompileResults: Info [3717.47] Compile of CameraMovement successful! [in 82 ms]
+[2016.02.17-16.09.15:880][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-16.09.15:880][615]PIE: New page: PIE session: David-Test (17 Feb 2016 16:09:15)
+[2016.02.17-16.09.15:880][615]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-16.09.15:882][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001387s)
+[2016.02.17-16.09.15:882][615]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-16.09.15:882][615]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2016.02.17-16.09.15:882][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002219s)
+[2016.02.17-16.09.15:910][615]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-16.09.15:917][615]LogInit: FAudioDevice initialized.
+[2016.02.17-16.09.15:948][615]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-16.09.15:949][615]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-16.09.15
+[2016.02.17-16.09.15:949][615]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.09.15:950][615]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.09.15:950][615]LogWorld: Bringing up level for play took: 0.001498
+[2016.02.17-16.09.15:951][615]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.759
+[2016.02.17-16.09.19:102][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E6A44D9E0
+[2016.02.17-16.17.21:619][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-16.17.21:663][942]LogSavePackage: Save=11.954593ms
+[2016.02.17-16.17.21:663][942]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-Test68051C584D3BE1CBF207AD9F7E6BB111.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap'
+[2016.02.17-16.17.21:664][942]LogSavePackage: Total save time: 21.633796ms
+[2016.02.17-16.17.21:664][942]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap
+[2016.02.17-16.17.22:731][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-16.17.22:731][ 65]PIE: New page: PIE session: David-Test (17 Feb 2016 16:17:22)
+[2016.02.17-16.17.22:731][ 65]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-16.17.22:733][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001741s)
+[2016.02.17-16.17.22:734][ 65]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-16.17.22:734][ 65]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2016.02.17-16.17.22:734][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002811s)
+[2016.02.17-16.17.22:760][ 65]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-16.17.22:767][ 65]LogInit: FAudioDevice initialized.
+[2016.02.17-16.17.22:800][ 65]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-16.17.22:802][ 65]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-16.17.22
+[2016.02.17-16.17.22:802][ 65]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.17.22:802][ 65]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.17.22:802][ 65]LogWorld: Bringing up level for play took: 0.001422
+[2016.02.17-16.17.22:803][ 65]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.094
+[2016.02.17-16.17.24:751][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E3EE702C0
+[2016.02.17-16.17.34:103][433]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-16.18.00:665][420]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-16.18.00:749][420]BlueprintEditorCompileResults: Info [4244.33] Compile of CameraMovement successful! [in 83 ms]
+[2016.02.17-16.18.02:498][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-16.18.02:498][596]PIE: New page: PIE session: David-Test (17 Feb 2016 16:18:02)
+[2016.02.17-16.18.02:498][596]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.17-16.18.02:500][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001597s)
+[2016.02.17-16.18.02:500][596]LogAIModule: Creating AISystem for world David-Test
+[2016.02.17-16.18.02:500][596]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2016.02.17-16.18.02:501][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.002430s)
+[2016.02.17-16.18.02:527][596]LogInit: XAudio2 using 'Speakers (SteelSeries Siberia Elite)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-16.18.02:534][596]LogInit: FAudioDevice initialized.
+[2016.02.17-16.18.02:565][596]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.17-16.18.02:567][596]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.17-16.18.02
+[2016.02.17-16.18.02:567][596]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.18.02:567][596]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-16.18.02:567][596]LogWorld: Bringing up level for play took: 0.001359
+[2016.02.17-16.18.02:568][596]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.141
+[2016.02.17-16.18.18:904][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E310B89A0
+[2016.02.17-16.19.03:983][742]BlueprintLog: New page: Compile CameraMovement
+[2016.02.17-16.19.04:063][742]BlueprintEditorCompileResults: Info [4307.65] Compile of CameraMovement successful! [in 79 ms]
+[2016.02.17-16.19.20:655][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/David-Test" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-16.19.20:697][105]LogSavePackage: Save=12.118432ms
+[2016.02.17-16.19.20:697][105]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/David-Test5BE6A06E473CE21C1062459541BE9F2A.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap'
+[2016.02.17-16.19.20:698][105]LogSavePackage: Total save time: 20.381205ms
+[2016.02.17-16.19.20:698][105]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap
+[2016.02.17-16.19.20:717][105]LogFileHelpers: Saving map 'David-Test' took 0.149
+[2016.02.17-16.19.20:721][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraMovement" FILE="../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset" SILENT=true
+[2016.02.17-16.19.20:794][105]LogSavePackage: Save=64.656837ms
+[2016.02.17-16.19.20:794][105]LogSavePackage: Moving '../../../../../../Anthrocratos/Anthrocratos_UE4/Saved/CameraMovementBABD806E4C4FF404ED390B9BCE47E4C0.tmp' to '../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset'
+[2016.02.17-16.19.20:796][105]LogSavePackage: Total save time: 74.089378ms
+[2016.02.17-16.19.20:796][105]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthrocratos/Anthrocratos_UE4/Content/Blueprints/CameraMovement.uasset
+[2016.02.17-16.19.23:773][376]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DF22127A0
+[2016.02.17-16.19.23:775][376]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.17-16.19.24:000][377]Cmd: QUIT_EDITOR
+[2016.02.17-16.19.24:154][377]LogExit: Preparing to exit.
+[2016.02.17-16.19.25:093][377]LogExit: Editor shut down
+[2016.02.17-16.19.25:094][377]LogExit: Transaction tracking system shut down
+[2016.02.17-16.19.25:096][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DB14B7880
+[2016.02.17-16.19.25:096][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DBB78BF60
+[2016.02.17-16.19.25:096][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DC4012F20
+[2016.02.17-16.19.25:099][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022DB201CEA0
+[2016.02.17-16.19.25:102][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022E29D86F20
+[2016.02.17-16.19.25:332][377]LogExit: Object subsystem successfully closed.
+[2016.02.17-16.19.25:357][377]LogD3D11RHI: Shutdown
+[2016.02.17-16.19.25:357][377]LogD3D11RHI: CleanupD3DDevice
+[2016.02.17-16.19.25:461][377]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.17-16.19.25:481][377]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.02.17-16.19.25:481][377]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.02.17-16.19.25:481][377]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.02.17-16.19.25:481][377]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.02.17-16.19.25:481][377]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.02.17-16.19.25:481][377]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.02.17-16.19.25:481][377]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.02.17-16.19.25:486][377]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.02.17-16.19.25:486][377]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.02.17-16.19.25:486][377]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.02.17-16.19.25:487][377]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.02.17-16.19.25:962][377]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.02.17-16.19.25:963][377]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.02.17-16.19.25:964][377]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.02.17-16.19.25:967][377]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.02.17-16.19.25:967][377]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.02.17-16.19.25:967][377]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.02.17-16.19.25:967][377]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.02.17-16.19.25:967][377]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.02.17-16.19.25:967][377]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.02.17-16.19.25:967][377]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.02.17-16.19.25:967][377]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.02.17-16.19.26:046][377]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.02.17-16.19.26:046][377]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.17-16.19.26:046][377]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.17-16.19.26:046][377]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.17-16.19.26:046][377]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.17-16.19.26:046][377]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.17-16.19.26:046][377]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.17-16.19.26:046][377]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.17-16.19.26:065][377]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.02.17-16.19.26:066][377]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.02.17-16.19.26:069][377]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.02.17-16.19.26:071][377]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.02.17-16.19.26:141][377]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.02.17-16.19.26:143][377]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.02.17-16.19.26:143][377]LogModuleManager: Shutting down and abandoning module Anthrocratos_UE4 (87)
+[2016.02.17-16.19.26:143][377]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.17-16.19.26:243][377]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.17-16.19.26:243][377]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.17-16.19.26:243][377]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.17-16.19.26:246][377]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.17-16.19.26:246][377]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.17-16.19.26:247][377]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.17-16.19.26:249][377]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.17-16.19.26:249][377]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.17-16.19.26:249][377]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.17-16.19.26:250][377]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.17-16.19.26:250][377]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.17-16.19.26:250][377]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.17-16.19.26:250][377]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.17-16.19.26:250][377]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.17-16.19.26:250][377]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.17-16.19.26:250][377]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.17-16.19.26:272][377]LogDerivedDataCache: Shutdown
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.17-16.19.26:272][377]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.17-16.19.26:273][377]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.17-16.19.28:276][377]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.17-16.19.28:276][377]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.17-16.19.28:276][377]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.17-16.19.28:276][377]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.17-16.19.28:276][377]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.17-16.19.28:276][377]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.17-16.19.28:276][377]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.17-16.19.28:286][377]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.17-16.19.28:287][377]LogExit: Exiting.
+[2016.02.17-16.19.28:300][377]Log file closed, 02/17/16 16:19:28

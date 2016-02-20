@@ -8,3 +8,6 @@
 #ifndef ANTHROCRATOS_UE4_Anthrocratos_UE4GameMode_generated_h
 	#include "Anthrocratos_UE4GameMode.h"
 #endif
+#ifndef ANTHROCRATOS_UE4_GameTileSpawner_generated_h
+	#include "GameTileSpawner.h"
+#endif

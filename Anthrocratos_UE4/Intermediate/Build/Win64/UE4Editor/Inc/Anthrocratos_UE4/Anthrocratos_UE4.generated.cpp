@@ -13,12 +13,19 @@ void EmptyLinkFunctionForGeneratedCodeAnthrocratos_UE4() {}
 	{
 	}
 	IMPLEMENT_CLASS(AAnthrocratos_UE4GameMode, 2516329309);
+	void AGameTileSpawner::StaticRegisterNativesAGameTileSpawner()
+	{
+	}
+	IMPLEMENT_CLASS(AGameTileSpawner, 3072470631);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 
 	ANTHROCRATOS_UE4_API class UClass* Z_Construct_UClass_AAnthrocratos_UE4GameMode_NoRegister();
 	ANTHROCRATOS_UE4_API class UClass* Z_Construct_UClass_AAnthrocratos_UE4GameMode();
+	ANTHROCRATOS_UE4_API class UClass* Z_Construct_UClass_AGameTileSpawner_NoRegister();
+	ANTHROCRATOS_UE4_API class UClass* Z_Construct_UClass_AGameTileSpawner();
 	ANTHROCRATOS_UE4_API class UPackage* Z_Construct_UPackage_Anthrocratos_UE4();
 	UClass* Z_Construct_UClass_AAnthrocratos_UE4GameMode_NoRegister()
 	{
@@ -54,6 +61,48 @@ void EmptyLinkFunctionForGeneratedCodeAnthrocratos_UE4() {}
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAnthrocratos_UE4GameMode(Z_Construct_UClass_AAnthrocratos_UE4GameMode, TEXT("AAnthrocratos_UE4GameMode"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAnthrocratos_UE4GameMode);
+	UClass* Z_Construct_UClass_AGameTileSpawner_NoRegister()
+	{
+		return AGameTileSpawner::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AGameTileSpawner()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_Anthrocratos_UE4();
+			OuterClass = AGameTileSpawner::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_MaxSandBiomes = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MaxSandBiomes"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(MaxSandBiomes, AGameTileSpawner), 0x0000000000000001);
+				UProperty* NewProp_MaxColumns = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MaxColumns"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(MaxColumns, AGameTileSpawner), 0x0000000000000001);
+				UProperty* NewProp_MaxRows = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MaxRows"), RF_Public|RF_Transient|RF_Native) UIntProperty(CPP_PROPERTY_BASE(MaxRows, AGameTileSpawner), 0x0000000000000001);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("GameTileSpawner.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("GameTileSpawner.h"));
+				MetaData->SetValue(NewProp_MaxSandBiomes, TEXT("Category"), TEXT("GameTileSpawner"));
+				MetaData->SetValue(NewProp_MaxSandBiomes, TEXT("ModuleRelativePath"), TEXT("GameTileSpawner.h"));
+				MetaData->SetValue(NewProp_MaxColumns, TEXT("Category"), TEXT("GameTileSpawner"));
+				MetaData->SetValue(NewProp_MaxColumns, TEXT("ModuleRelativePath"), TEXT("GameTileSpawner.h"));
+				MetaData->SetValue(NewProp_MaxRows, TEXT("Category"), TEXT("GameTileSpawner"));
+				MetaData->SetValue(NewProp_MaxRows, TEXT("ModuleRelativePath"), TEXT("GameTileSpawner.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AGameTileSpawner(Z_Construct_UClass_AGameTileSpawner, TEXT("AGameTileSpawner"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AGameTileSpawner);
 	UPackage* Z_Construct_UPackage_Anthrocratos_UE4()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -62,8 +111,8 @@ void EmptyLinkFunctionForGeneratedCodeAnthrocratos_UE4() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Anthrocratos_UE4")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xDF554626;
-			Guid.B = 0x19D1D812;
+			Guid.A = 0x756070A6;
+			Guid.B = 0x12CEE534;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
