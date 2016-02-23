@@ -1,0 +1,465 @@
+﻿[2016.02.16-10.56.38:709][  0]Log file open, 02/16/16 10:56:38
+[2016.02.16-10.56.38:709][  0]LogInit:Display: Running engine for game: Anthrocratos_UE4
+[2016.02.16-10.56.38:709][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.16-10.56.38:709][  0]LogInit:Display: RandInit(-361848236) SRandInit(-361848236).
+[2016.02.16-10.56.38:709][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.16-10.56.38:709][  0]LogStats: Stats thread started at 0.075993
+[2016.02.16-10.56.38:709][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.16-10.56.38:709][  0]LogInit: API Version: 2758231
+[2016.02.16-10.56.38:709][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.16-10.56.38:709][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.16-10.56.38:709][  0]LogInit: Build Configuration: Development
+[2016.02.16-10.56.38:709][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.16-10.56.38:709][  0]LogInit: Command line:  
+[2016.02.16-10.56.38:709][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.16-10.56.38:709][  0]LogInit: Rocket: 1
+[2016.02.16-10.56.38:716][  0]LogInit: Using libcurl 7.41.0
+[2016.02.16-10.56.38:716][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.16-10.56.38:716][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.16-10.56.38:716][  0]LogInit:  - other features:
+[2016.02.16-10.56.38:716][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.16-10.56.38:716][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.16-10.56.38:716][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.16-10.56.38:716][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.16-10.56.38:716][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.16-10.56.38:716][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.16-10.56.38:716][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.16-10.56.38:716][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.16-10.56.38:716][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.16-10.56.38:716][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.16-10.56.38:722][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.16-10.56.38:728][  0]LogInit: Object subsystem initialized
+[2016.02.16-10.56.38:729][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.16-10.56.38:729][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.16-10.56.38:748][  0]LogInit: Computer: CUBE-11959
+[2016.02.16-10.56.38:748][  0]LogInit: User: user
+[2016.02.16-10.56.38:748][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.16-10.56.38:748][  0]LogInit: High frequency timer resolution =2.435780 MHz
+[2016.02.16-10.56.38:749][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.16-10.56.38:749][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.16-10.56.38:749][  0]LogMemory: Process Physical Memory: 56.23 MB used, 56.23 MB peak
+[2016.02.16-10.56.38:749][  0]LogMemory: Process Virtual Memory: 58.77 MB used, 58.77 MB peak
+[2016.02.16-10.56.38:749][  0]LogMemory: Physical Memory: 4748.74 MB used, 8076.43 MB total
+[2016.02.16-10.56.38:749][  0]LogMemory: Virtual Memory: 380.79 MB used, 134217728.00 MB total
+[2016.02.16-10.56.38:780][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.02.16-10.56.39:219][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 850M  (Feature Level 11_0)
+[2016.02.16-10.56.39:219][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 1 output[s]
+[2016.02.16-10.56.39:227][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.02.16-10.56.39:227][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 0 output[s]
+[2016.02.16-10.56.39:228][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.16-10.56.39:228][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 0 output[s]
+[2016.02.16-10.56.39:228][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.16-10.56.39:233][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.16-10.56.39:233][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.16-10.56.39:247][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.16-10.56.39:262][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Intermediate/Shaders/WorkingDirectory/8972/).
+[2016.02.16-10.56.39:262][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/A7BB65F94F7F363695C924B250430CFF/'.
+[2016.02.16-10.56.39:262][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.16-10.56.39:966][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.16-10.56.39:970][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.16-10.56.39:974][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.16-10.56.39:978][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.16-10.56.39:982][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.16-10.56.39:985][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.16-10.56.39:988][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.16-10.56.39:991][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.16-10.56.39:994][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.16-10.56.39:997][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.16-10.56.40:000][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.16-10.56.40:006][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.16-10.56.40:006][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.16-10.56.40:007][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.16-10.56.40:024][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.16-10.56.40:027][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.16-10.56.40:030][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.16-10.56.40:033][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.16-10.56.40:033][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.16-10.56.40:114][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.16-10.56.40:168][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.16-10.56.40:168][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.16-10.56.40:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.16-10.56.40:168][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.16-10.56.40:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.16-10.56.40:168][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.16-10.56.40:220][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.16-10.56.40:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.16-10.56.40:388][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.16-10.56.40:391][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.16-10.56.40:487][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.16-10.56.40:487][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.16-10.56.40:687][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.16-10.56.41:340][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.16-10.56.41:470][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.02.16-10.56.41:618][  0]SourceControl: Info Source control is disabled
+[2016.02.16-10.56.41:646][  0]SourceControl: Info Source control is disabled
+[2016.02.16-10.56.41:654][  0]SourceControl: Info Source control is disabled
+[2016.02.16-10.56.41:664][  0]SourceControl: Info Source control is disabled
+[2016.02.16-10.56.41:862][  0]LogObj: 28637 objects as part of root set at end of initial load.
+[2016.02.16-10.56.41:862][  0]LogUObjectAllocator: 6101776 out of 0 bytes used by permanent object pool.
+[2016.02.16-10.56.41:913][  0]LogEngine: Initializing Engine...
+[2016.02.16-10.56.41:915][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.16-10.56.41:915][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.16-10.56.42:016][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.16-10.56.42:020][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio(Win 10))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.16-10.56.42:198][  0]LogInit: FAudioDevice initialized.
+[2016.02.16-10.56.42:228][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.16-10.56.42:235][  0]LogInit: Texture streaming: Enabled
+[2016.02.16-10.56.42:241][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.16-10.56.42:241][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.16-10.56.42:241][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2066524940ef926c0d39eaab01bb3fef|ab08d7ce0f414bdba0971ea2fb4514a5|983d4c96-a536-4e9e-82d9-7415bf2a8174
+[2016.02.16-10.56.42:241][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.16-10.56.42:249][  0]LogInit: Transaction tracking system initialized
+[2016.02.16-10.56.42:277][  0]BlueprintLog: New page: Editor Load
+[2016.02.16-10.56.42:361][  0]LocalizationService: Info Localization service is disabled
+[2016.02.16-10.56.42:432][  0]LogConsoleResponse:Display: 
+[2016.02.16-10.56.42:550][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.16-10.56.42:639][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/' took 0.02s
+[2016.02.16-10.56.42:639][  0]SourceControl: Info Source control is disabled
+[2016.02.16-10.56.42:639][  0]Cmd: MAP LOAD FILE="../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.16-10.56.42:640][  0]LightingResults: New page: Lighting Build
+[2016.02.16-10.56.42:643][  0]MapCheck: New page: Map Check
+[2016.02.16-10.56.42:643][  0]LightingResults: New page: Lighting Build
+[2016.02.16-10.56.42:652][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A551B8FB00
+[2016.02.16-10.56.42:822][  0]LogBlueprint:Error: [compiler Kieran-Test] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.02.16-10.56.42:851][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.82] Compile of Kieran-Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 64 ms]
+[2016.02.16-10.56.42:851][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.84] Compile of Kieran-Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.02.16-10.56.42:851][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.84] Compile of Kieran-Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.02.16-10.56.42:877][  0]LogBlueprint:Error: [compiler Kieran-Test] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.02.16-10.56.42:889][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.87] Compile of Kieran-Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 21 ms]
+[2016.02.16-10.56.42:889][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.87] Compile of Kieran-Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.02.16-10.56.42:889][  0]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0004.87] Compile of Kieran-Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.02.16-10.56.42:970][  0]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.16-10.56.42:973][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.16-10.56.42:974][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.16-10.56.43:007][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.404ms to complete.
+[2016.02.16-10.56.43:007][  0]LogFileHelpers: Loading map 'Kieran-Test' took 0.368
+[2016.02.16-10.56.43:102][  0]LogCollectionManager: Loaded 0 collections in 0.001850 seconds
+[2016.02.16-10.56.43:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Collections/' took 0.01s
+[2016.02.16-10.56.43:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Developers/user/Collections/' took 0.01s
+[2016.02.16-10.56.43:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Collections/' took 0.01s
+[2016.02.16-10.56.43:141][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.02.16-10.56.43:148][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1894 classes and 340 folders.
+[2016.02.16-10.56.43:155][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.02.16-10.56.43:191][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.02.16-10.56.43:222][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2016.02.16-10.56.43:269][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.16-10.56.43:275][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.16-10.56.43:298][  0]LogLoad: Full Startup: 5.28 seconds (BP compile: 0.12 seconds)
+[2016.02.16-10.56.43:309][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.16-10.56.43:388][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.16-10.56.43:818][  0]LogRenderer: Reallocating scene render targets to support 900x880 (Frame:2).
+[2016.02.16-10.56.43:844][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/' took 0.52s
+[2016.02.16-10.57.04:843][837]LogAssetRegistry: Asset discovery search completed in 23.3833 seconds
+[2016.02.16-10.57.04:843][837]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2016.02.16-10.57.04:843][837]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2016.02.16-10.57.07:263][ 37]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.57.07:263][ 37]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.16-10.57.07:263][ 37]LogPlayLevel: [PlayLevel] Compiling Kieran-Test before play...
+[2016.02.16-10.57.07:300][ 37]LogBlueprint:Error: [compiler Kieran-Test] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.02.16-10.57.07:567][ 37]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0029.55] Compile of Kieran-Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 295 ms]
+[2016.02.16-10.57.07:669][ 37]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0029.65] Compile of Kieran-Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.02.16-10.57.07:669][ 37]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0029.65] Compile of Kieran-Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.02.16-10.57.07:669][ 37]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0029.65] Compile of Kieran-Test failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.02.16-10.57.07:669][ 37]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0029.65] Compile of Kieran-Test failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.02.16-10.57.07:669][ 37]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0029.65] Compile of Kieran-Test failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.02.16-10.57.07:671][ 37]LogPlayLevel: PlayLevel: Blueprint regeneration took 408 ms (1 blueprints)
+[2016.02.16-10.57.07:689][ 37]BlueprintLog: Info Blueprint Kieran-Test failed to compile
+[2016.02.16-10.57.14:151][133]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DesertTile.DesertTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.02.16-10.57.14:159][133]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/FieldTile.FieldTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.02.16-10.57.14:557][133]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.16-10.57.15:776][133]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 107 classes and 0 folders.
+[2016.02.16-10.57.28:811][667]BlueprintLog: New page: Compile GameTileSpawner
+[2016.02.16-10.57.29:021][667]BlueprintEditorCompileResults: Info [0051.00] Compile of GameTileSpawner successful! [in 201 ms]
+[2016.02.16-10.57.29:760][698]BlueprintLog: New page: Compile GameTileSpawner
+[2016.02.16-10.57.29:856][698]BlueprintEditorCompileResults: Info [0051.84] Compile of GameTileSpawner successful! [in 95 ms]
+[2016.02.16-10.57.42:932][401]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.57.42:932][401]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.16-10.57.42:933][401]LogPlayLevel: [PlayLevel] Compiling Kieran-Test before play...
+[2016.02.16-10.57.42:949][401]LogBlueprint:Error: [compiler Kieran-Test] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.02.16-10.57.43:017][401]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0065.00] Compile of Kieran-Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 77 ms]
+[2016.02.16-10.57.43:018][401]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0065.00] Compile of Kieran-Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.02.16-10.57.43:018][401]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0065.00] Compile of Kieran-Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.02.16-10.57.43:018][401]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0065.00] Compile of Kieran-Test failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.02.16-10.57.43:019][401]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0065.00] Compile of Kieran-Test failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.02.16-10.57.43:019][401]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0065.00] Compile of Kieran-Test failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.02.16-10.57.43:020][401]LogPlayLevel: PlayLevel: Blueprint regeneration took 88 ms (1 blueprints)
+[2016.02.16-10.57.43:041][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5076F7E20
+[2016.02.16-10.57.43:046][401]BlueprintLog: Info Blueprint Kieran-Test failed to compile
+[2016.02.16-10.58.05:170][932]LogEditorViewport: Clicking Background
+[2016.02.16-10.58.06:456][ 42]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.58.06:456][ 42]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.16-10.58.06:458][ 42]LogPlayLevel: [PlayLevel] Compiling Kieran-Test before play...
+[2016.02.16-10.58.06:474][ 42]LogBlueprint:Error: [compiler Kieran-Test] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.02.16-10.58.06:542][ 42]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0088.53] Compile of Kieran-Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 76 ms]
+[2016.02.16-10.58.06:543][ 42]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0088.53] Compile of Kieran-Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.02.16-10.58.06:543][ 42]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0088.53] Compile of Kieran-Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.02.16-10.58.06:543][ 42]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0088.53] Compile of Kieran-Test failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.02.16-10.58.06:544][ 42]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0088.53] Compile of Kieran-Test failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.02.16-10.58.06:544][ 42]LogBlueprint:Warning: [compiler Kieran-Test] Warning [0088.53] Compile of Kieran-Test failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.02.16-10.58.06:545][ 42]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
+[2016.02.16-10.58.06:576][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A50C975440
+[2016.02.16-10.58.06:580][ 42]BlueprintLog: Info Blueprint Kieran-Test failed to compile
+[2016.02.16-10.58.25:647][989]BlueprintLog: New page: Compile Kieran-Test
+[2016.02.16-10.58.25:734][989]BlueprintEditorCompileResults: Info [0107.72] Compile of Kieran-Test successful! [in 87 ms]
+[2016.02.16-10.58.29:082][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.58.29:083][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-10.58.29:154][258]PIE: New page: PIE session: Kieran-Test (16 Feb 2016 10:58:29)
+[2016.02.16-10.58.29:198][258]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.16-10.58.29:405][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.207096s)
+[2016.02.16-10.58.29:420][258]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.16-10.58.29:421][258]LogPlayLevel: PIE: World Init took: (0.001937s)
+[2016.02.16-10.58.29:425][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.253013s)
+[2016.02.16-10.58.29:526][258]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A50C977E20
+[2016.02.16-10.58.29:526][258]LogInit: XAudio2 using 'Speakers (VIA HD Audio(Win 10))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.16-10.58.29:563][258]LogInit: FAudioDevice initialized.
+[2016.02.16-10.58.29:808][258]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.16-10.58.29:879][258]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.16-10.58.29
+[2016.02.16-10.58.29:879][258]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-10.58.29:888][258]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-10.58.29:900][258]LogWorld: Bringing up level for play took: 0.023468
+[2016.02.16-10.58.30:197][258]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 1.592
+[2016.02.16-10.58.30:197][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.58.34:268][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.58.34:470][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.58.34:498][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A50C8C65C0
+[2016.02.16-10.58.44:957][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.58.44:957][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.16-10.58.44:957][319]PIE: New page: PIE session: Kieran-Test (16 Feb 2016 10:58:44)
+[2016.02.16-10.58.44:957][319]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.16-10.58.44:959][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002022s)
+[2016.02.16-10.58.44:960][319]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.16-10.58.44:960][319]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2016.02.16-10.58.44:960][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.003519s)
+[2016.02.16-10.58.44:996][319]LogInit: XAudio2 using 'Speakers (VIA HD Audio(Win 10))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.16-10.58.45:003][319]LogInit: FAudioDevice initialized.
+[2016.02.16-10.58.45:036][319]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.16-10.58.45:039][319]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.16-10.58.45
+[2016.02.16-10.58.45:039][319]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-10.58.45:039][319]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.16-10.58.45:039][319]LogWorld: Bringing up level for play took: 0.001492
+[2016.02.16-10.58.45:106][319]LogBlueprintUserMessages: [GameTileSpawner_196] TilesGenerated
+[2016.02.16-10.58.45:114][319]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.51
+[2016.02.16-10.58.45:115][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.58.46:248][406]LogSelection:Warning: PIE object was selected: "FieldTile_C /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.FieldTile_C_5"
+[2016.02.16-10.58.53:478][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.58.53:513][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.16-10.58.53:535][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A50B745300
+[2016.02.16-10.58.56:892][179]LogSavePackage: Save=127.918365ms
+[2016.02.16-10.58.56:892][179]LogSavePackage: Moving '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Kieran-Test3ECCF49D4A59A219760D6DA835AD706F.tmp' to '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap'
+[2016.02.16-10.58.56:894][179]LogSavePackage: Total save time: 223.124422ms
+[2016.02.16-10.58.56:894][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap
+[2016.02.16-10.59.00:719][453]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.16-10.59.00:984][454]Cmd: QUIT_EDITOR
+[2016.02.16-10.59.01:211][454]LogExit: Preparing to exit.
+[2016.02.16-10.59.01:508][454]LogExit: Editor shut down
+[2016.02.16-10.59.01:508][454]LogExit: Transaction tracking system shut down
+[2016.02.16-10.59.01:511][454]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A54610E700
+[2016.02.16-10.59.01:512][454]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A560FAF380
+[2016.02.16-10.59.01:513][454]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5631F3BA0
+[2016.02.16-10.59.01:513][454]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A568BC6A20
+[2016.02.16-10.59.01:704][454]LogExit: Object subsystem successfully closed.
+[2016.02.16-10.59.01:797][454]LogD3D11RHI: Shutdown
+[2016.02.16-10.59.01:797][454]LogD3D11RHI: CleanupD3DDevice
+[2016.02.16-10.59.01:900][454]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.16-10.59.01:913][454]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.02.16-10.59.01:913][454]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.02.16-10.59.01:913][454]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.02.16-10.59.01:913][454]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.02.16-10.59.01:913][454]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.02.16-10.59.01:913][454]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.02.16-10.59.01:913][454]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.02.16-10.59.01:914][454]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.02.16-10.59.01:914][454]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.02.16-10.59.01:914][454]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.02.16-10.59.01:914][454]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.02.16-10.59.01:914][454]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.02.16-10.59.01:915][454]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.02.16-10.59.02:443][454]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.02.16-10.59.02:444][454]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.02.16-10.59.02:444][454]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.02.16-10.59.02:444][454]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.02.16-10.59.02:444][454]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.02.16-10.59.02:444][454]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.02.16-10.59.02:444][454]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.02.16-10.59.02:444][454]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.02.16-10.59.02:444][454]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.02.16-10.59.02:444][454]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.02.16-10.59.02:445][454]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.02.16-10.59.02:445][454]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.02.16-10.59.02:445][454]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.02.16-10.59.02:445][454]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.02.16-10.59.02:445][454]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.02.16-10.59.02:445][454]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.02.16-10.59.02:445][454]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.02.16-10.59.02:446][454]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.02.16-10.59.02:446][454]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.02.16-10.59.02:446][454]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.02.16-10.59.02:446][454]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.02.16-10.59.02:446][454]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.02.16-10.59.02:446][454]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.02.16-10.59.02:446][454]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.02.16-10.59.02:446][454]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.02.16-10.59.02:446][454]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.02.16-10.59.02:447][454]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.02.16-10.59.02:511][454]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.02.16-10.59.02:511][454]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.16-10.59.02:511][454]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.16-10.59.02:511][454]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.16-10.59.02:511][454]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.16-10.59.02:511][454]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.16-10.59.02:511][454]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.16-10.59.02:511][454]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.02.16-10.59.02:539][454]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.02.16-10.59.02:540][454]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.02.16-10.59.02:541][454]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.02.16-10.59.02:586][454]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.02.16-10.59.02:587][454]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.02.16-10.59.02:587][454]LogModuleManager: Shutting down and abandoning module Anthrocratos_UE4 (87)
+[2016.02.16-10.59.02:587][454]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.16-10.59.02:687][454]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.16-10.59.02:687][454]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.16-10.59.02:687][454]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.16-10.59.02:691][454]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.16-10.59.02:692][454]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.16-10.59.02:692][454]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.16-10.59.02:694][454]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.16-10.59.02:694][454]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.16-10.59.02:695][454]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.16-10.59.02:695][454]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.16-10.59.02:695][454]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.16-10.59.02:695][454]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.16-10.59.02:695][454]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.16-10.59.02:695][454]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.16-10.59.02:695][454]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.16-10.59.02:695][454]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.16-10.59.02:769][454]LogDerivedDataCache: Shutdown
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.16-10.59.02:769][454]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.16-10.59.02:770][454]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.16-10.59.02:770][454]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.16-10.59.02:770][454]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.16-10.59.02:770][454]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.16-10.59.02:770][454]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.16-10.59.02:770][454]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.16-10.59.02:770][454]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.16-10.59.03:771][454]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.16-10.59.03:771][454]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.16-10.59.03:771][454]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.16-10.59.03:771][454]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.16-10.59.03:771][454]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.16-10.59.03:771][454]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.16-10.59.03:771][454]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.16-10.59.03:772][454]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.16-10.59.03:774][454]LogExit: Exiting.
+[2016.02.16-10.59.03:787][454]Log file closed, 02/16/16 10:59:03
