@@ -17,6 +17,22 @@ void EmptyLinkFunctionForGeneratedCodeAnthrocratos_UE4() {}
 	{
 	}
 	IMPLEMENT_CLASS(AGameTileSpawner, 3072470631);
+static class UEnum* EPlayerNo_StaticEnum()
+{
+	static class UEnum* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern ANTHROCRATOS_UE4_API class UEnum* Z_Construct_UEnum_Anthrocratos_UE4_EPlayerNo();
+		extern ANTHROCRATOS_UE4_API class UPackage* Z_Construct_UPackage_Anthrocratos_UE4();
+		Singleton = GetStaticEnum(Z_Construct_UEnum_Anthrocratos_UE4_EPlayerNo, Z_Construct_UPackage_Anthrocratos_UE4(), TEXT("EPlayerNo"));
+	}
+	return Singleton;
+}
+static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EPlayerNo(EPlayerNo_StaticEnum, TEXT("/Script/Anthrocratos_UE4"));
+	void APlayerStats::StaticRegisterNativesAPlayerStats()
+	{
+	}
+	IMPLEMENT_CLASS(APlayerStats, 4055681201);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
@@ -26,6 +42,9 @@ void EmptyLinkFunctionForGeneratedCodeAnthrocratos_UE4() {}
 	ANTHROCRATOS_UE4_API class UClass* Z_Construct_UClass_AAnthrocratos_UE4GameMode();
 	ANTHROCRATOS_UE4_API class UClass* Z_Construct_UClass_AGameTileSpawner_NoRegister();
 	ANTHROCRATOS_UE4_API class UClass* Z_Construct_UClass_AGameTileSpawner();
+	ANTHROCRATOS_UE4_API class UEnum* Z_Construct_UEnum_Anthrocratos_UE4_EPlayerNo();
+	ANTHROCRATOS_UE4_API class UClass* Z_Construct_UClass_APlayerStats_NoRegister();
+	ANTHROCRATOS_UE4_API class UClass* Z_Construct_UClass_APlayerStats();
 	ANTHROCRATOS_UE4_API class UPackage* Z_Construct_UPackage_Anthrocratos_UE4();
 	UClass* Z_Construct_UClass_AAnthrocratos_UE4GameMode_NoRegister()
 	{
@@ -103,6 +122,65 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGameTileSpawner(Z_Construct_UClass_AGameTileSpawner, TEXT("AGameTileSpawner"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGameTileSpawner);
+	UEnum* Z_Construct_UEnum_Anthrocratos_UE4_EPlayerNo()
+	{
+		UPackage* Outer=Z_Construct_UPackage_Anthrocratos_UE4();
+		extern uint32 Get_Z_Construct_UEnum_Anthrocratos_UE4_EPlayerNo_CRC();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReload(Outer, TEXT("EPlayerNo"), 0, Get_Z_Construct_UEnum_Anthrocratos_UE4_EPlayerNo_CRC());
+		if (!ReturnEnum)
+		{
+			ReturnEnum = new(EC_InternalUseOnlyConstructor, Outer, TEXT("EPlayerNo"), RF_Public|RF_Transient|RF_Native) UEnum(FObjectInitializer());
+			TArray<TPair<FName, uint8>> EnumNames;
+			EnumNames.Add(TPairInitializer<FName, uint8>(FName(TEXT("EPlayerNo::PN_0")), 0));
+			EnumNames.Add(TPairInitializer<FName, uint8>(FName(TEXT("EPlayerNo::PN_1")), 1));
+			EnumNames.Add(TPairInitializer<FName, uint8>(FName(TEXT("EPlayerNo::PN_2")), 2));
+			EnumNames.Add(TPairInitializer<FName, uint8>(FName(TEXT("EPlayerNo::PN_3")), 3));
+			EnumNames.Add(TPairInitializer<FName, uint8>(FName(TEXT("EPlayerNo::PN_MAX")), 4));
+			ReturnEnum->SetEnums(EnumNames, UEnum::ECppForm::EnumClass);
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnEnum->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnEnum, TEXT("BlueprintType"), TEXT("true"));
+			MetaData->SetValue(ReturnEnum, TEXT("ModuleRelativePath"), TEXT("PlayerStats.h"));
+			MetaData->SetValue(ReturnEnum, TEXT("PN_0.DisplayName"), TEXT("Player 1"));
+			MetaData->SetValue(ReturnEnum, TEXT("PN_1.DisplayName"), TEXT("Player 2"));
+			MetaData->SetValue(ReturnEnum, TEXT("PN_2.DisplayName"), TEXT("Player 3"));
+			MetaData->SetValue(ReturnEnum, TEXT("PN_3.DisplayName"), TEXT("Player 4"));
+#endif
+		}
+		return ReturnEnum;
+	}
+	uint32 Get_Z_Construct_UEnum_Anthrocratos_UE4_EPlayerNo_CRC() { return 3873356507U; }
+	UClass* Z_Construct_UClass_APlayerStats_NoRegister()
+	{
+		return APlayerStats::StaticClass();
+	}
+	UClass* Z_Construct_UClass_APlayerStats()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_Anthrocratos_UE4();
+			OuterClass = APlayerStats::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PlayerStats.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PlayerStats.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerStats(Z_Construct_UClass_APlayerStats, TEXT("APlayerStats"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerStats);
 	UPackage* Z_Construct_UPackage_Anthrocratos_UE4()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -111,8 +189,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Anthrocratos_UE4")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x756070A6;
-			Guid.B = 0x12CEE534;
+			Guid.A = 0xFB66E9C0;
+			Guid.B = 0x9E5CDE45;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

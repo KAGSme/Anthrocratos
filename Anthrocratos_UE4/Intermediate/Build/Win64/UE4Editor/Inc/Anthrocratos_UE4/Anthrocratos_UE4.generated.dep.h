@@ -11,3 +11,6 @@
 #ifndef ANTHROCRATOS_UE4_GameTileSpawner_generated_h
 	#include "GameTileSpawner.h"
 #endif
+#ifndef ANTHROCRATOS_UE4_PlayerStats_generated_h
+	#include "PlayerStats.h"
+#endif

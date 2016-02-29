@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Anthrocratos_UE4.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{A326BA80-B153-47B6-9A0C-B831AAE71B1A}</UniqueIdentifier>
+			<UniqueIdentifier>{8322E315-DC6C-4D9B-8B05-08676BBF47B2}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Anthrocratos_UE4.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{6DE1D9F6-54B9-4903-B5E3-942CA6C1099D}</UniqueIdentifier>
+			<UniqueIdentifier>{EC60711B-9C51-4476-B23A-6351BE243E81}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -24,8 +24,11 @@
 		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
 		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
 		<Filter Include="Source\Anthrocratos_UE4">
-			<UniqueIdentifier>{F74177BA-E686-434E-9B0F-47053C119D51}</UniqueIdentifier>
+			<UniqueIdentifier>{A51F636A-649F-4C52-9383-32AA9C2130B3}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Anthrocratos_UE4\Anthrocratos_UE4.Build.cs">
 			<Filter>Source\Anthrocratos_UE4</Filter>
@@ -46,6 +49,12 @@
 			<Filter>Source\Anthrocratos_UE4</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\Anthrocratos_UE4\GameTileSpawner.h">
+			<Filter>Source\Anthrocratos_UE4</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Anthrocratos_UE4\PlayerStats.cpp">
+			<Filter>Source\Anthrocratos_UE4</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Anthrocratos_UE4\PlayerStats.h">
 			<Filter>Source\Anthrocratos_UE4</Filter>
 		</ClInclude >
 	</ItemGroup>
