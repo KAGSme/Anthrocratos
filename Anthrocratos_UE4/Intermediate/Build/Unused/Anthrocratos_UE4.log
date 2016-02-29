@@ -1,7 +1,12 @@
-﻿  Compiling game modules for hot reload
-  Performing 2 actions (4 in parallel)
-  GameTileSpawner.cpp
-  [2/2] Link UE4Editor-Anthrocratos_UE4-3092.dll
-     Creating library D:\Games Development\IP3 project\Anthrocratos\Anthrocratos_UE4\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Anthrocratos_UE4-3092.lib and object D:\Games Development\IP3 project\Anthrocratos\Anthrocratos_UE4\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Anthrocratos_UE4-3092.exp
+﻿  Creating makefile for hot reloading Anthrocratos_UE4Editor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Parsing headers for Anthrocratos_UE4Editor
+    Running UnrealHeaderTool "D:\GamesDevelopment\IP3 project\Anthrocratos\Anthrocratos_UE4\Anthrocratos_UE4.uproject" "D:\GamesDevelopment\IP3 project\Anthrocratos\Anthrocratos_UE4\Intermediate\Build\Win64\Anthrocratos_UE4Editor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+  Reflection code generated for Anthrocratos_UE4Editor in 5.4173393 seconds
+  Performing 3 actions (4 in parallel)
+  PlayerStats.cpp
+  Anthrocratos_UE4.generated.cpp
+  [3/3] Link UE4Editor-Anthrocratos_UE4-2321.dll
+     Creating library D:\GamesDevelopment\IP3 project\Anthrocratos\Anthrocratos_UE4\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Anthrocratos_UE4-2321.lib and object D:\GamesDevelopment\IP3 project\Anthrocratos\Anthrocratos_UE4\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Anthrocratos_UE4-2321.exp
   -------- End Detailed Actions Stats -----------------------------------------------------------
-  Total build time: 2.75 seconds
+  Total build time: 11.81 seconds

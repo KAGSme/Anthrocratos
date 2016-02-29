@@ -1,0 +1,11 @@
+Name,Player,MoneyCost,FoodCost,EnergyCost,MoneyUpkeep,FoodUpkeep,EnergyUpkeep,MoneyGenerated,FoodGenerated,EnergyGenerated,HappinessGenerated
+Organic Farm,1,10,0,20,10,10,10,0,30,0,20
+Free-Range Livestock,1,20,0,20,10,10,10,0,20,0,40
+Windmills,1,20,20,0,10,10,10,0,0,30,20
+Solar Panels,1,10,40,0,10,10,10,0,0,20,40
+Recycling Centre,1,0,20,40,0,10,10,30,0,0,40
+Intensive Farming ,2,10,0,20,10,10,10,0,40,0,20
+Battery Caged Livestock,2,20,0,20,10,10,10,0,40,0,20
+Fossil Based Energy,2,20,20,0,10,10,10,0,0,60,10
+Nuclear Power,2,10,40,0,10,10,10,0,0,40,20
+Incinerator,2,0,20,40,0,10,10,60,0,0,20

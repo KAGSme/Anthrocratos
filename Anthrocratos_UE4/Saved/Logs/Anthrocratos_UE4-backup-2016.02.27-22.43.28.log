@@ -1,0 +1,1269 @@
+﻿[2016.02.27-21.05.41:265][  0]Log file open, 02/27/16 21:05:41
+[2016.02.27-21.05.41:265][  0]LogInit:Display: Running engine for game: Anthrocratos_UE4
+[2016.02.27-21.05.41:265][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.27-21.05.41:265][  0]LogInit:Display: RandInit(779944081) SRandInit(779944084).
+[2016.02.27-21.05.41:265][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.27-21.05.41:265][  0]LogStats: Stats thread started at 0.135103
+[2016.02.27-21.05.41:265][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.27-21.05.41:265][  0]LogInit: API Version: 2758231
+[2016.02.27-21.05.41:266][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.27-21.05.41:266][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.27-21.05.41:266][  0]LogInit: Build Configuration: Development
+[2016.02.27-21.05.41:266][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.27-21.05.41:266][  0]LogInit: Command line:  
+[2016.02.27-21.05.41:266][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.27-21.05.41:266][  0]LogInit: Rocket: 1
+[2016.02.27-21.05.41:280][  0]LogInit: Using libcurl 7.41.0
+[2016.02.27-21.05.41:280][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.27-21.05.41:280][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.27-21.05.41:280][  0]LogInit:  - other features:
+[2016.02.27-21.05.41:280][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.27-21.05.41:280][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.27-21.05.41:280][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.27-21.05.41:280][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.27-21.05.41:280][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.27-21.05.41:280][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.27-21.05.41:280][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.27-21.05.41:280][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.27-21.05.41:280][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.27-21.05.41:280][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.27-21.05.41:296][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.27-21.05.41:307][  0]LogInit: Object subsystem initialized
+[2016.02.27-21.05.41:309][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.27-21.05.41:309][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.27-21.05.41:330][  0]LogInit: Computer: CUBE-11959
+[2016.02.27-21.05.41:330][  0]LogInit: User: user
+[2016.02.27-21.05.41:330][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.27-21.05.41:330][  0]LogInit: High frequency timer resolution =2.435778 MHz
+[2016.02.27-21.05.41:331][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.27-21.05.41:331][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.27-21.05.41:331][  0]LogMemory: Process Physical Memory: 56.34 MB used, 56.34 MB peak
+[2016.02.27-21.05.41:331][  0]LogMemory: Process Virtual Memory: 58.78 MB used, 58.78 MB peak
+[2016.02.27-21.05.41:331][  0]LogMemory: Physical Memory: 4043.55 MB used, 8076.43 MB total
+[2016.02.27-21.05.41:331][  0]LogMemory: Virtual Memory: 380.89 MB used, 134217728.00 MB total
+[2016.02.27-21.05.41:388][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.02.27-21.05.42:362][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 850M  (Feature Level 11_0)
+[2016.02.27-21.05.42:362][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 1 output[s]
+[2016.02.27-21.05.42:374][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.02.27-21.05.42:374][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 0 output[s]
+[2016.02.27-21.05.42:376][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.27-21.05.42:376][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 0 output[s]
+[2016.02.27-21.05.42:376][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.27-21.05.42:385][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.27-21.05.42:386][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.27-21.05.42:410][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.27-21.05.42:428][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Intermediate/Shaders/WorkingDirectory/4596/).
+[2016.02.27-21.05.42:429][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/81D4078A4D5A4D2B349B78A1FD6B6693/'.
+[2016.02.27-21.05.42:429][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.27-21.05.44:055][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.27-21.05.44:065][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.27-21.05.44:075][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.27-21.05.44:084][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.27-21.05.44:096][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.27-21.05.44:102][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.27-21.05.44:109][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.27-21.05.44:116][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.27-21.05.44:122][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.27-21.05.44:128][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.27-21.05.44:133][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.27-21.05.44:146][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.27-21.05.44:146][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.27-21.05.44:148][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.27-21.05.44:172][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.27-21.05.44:179][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.27-21.05.44:184][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.27-21.05.44:189][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.27-21.05.44:190][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.27-21.05.44:357][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.27-21.05.44:455][  0]LogDerivedDataCache: Loaded boot cache 0.10s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.27-21.05.44:455][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.27-21.05.44:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.27-21.05.44:455][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.27-21.05.44:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.27-21.05.44:455][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.27-21.05.44:576][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.27-21.05.44:589][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.27-21.05.44:947][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.27-21.05.44:953][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.27-21.05.45:181][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.27-21.05.45:181][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.27-21.05.45:635][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.27-21.05.57:635][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.27-21.05.57:948][  0]LogAssetRegistry: FAssetRegistry took 0.0118 seconds to start up
+[2016.02.27-21.05.58:512][  0]SourceControl: Info Source control is disabled
+[2016.02.27-21.05.59:026][  0]SourceControl: Info Source control is disabled
+[2016.02.27-21.05.59:049][  0]SourceControl: Info Source control is disabled
+[2016.02.27-21.05.59:072][  0]SourceControl: Info Source control is disabled
+[2016.02.27-21.06.00:116][  0]LogObj: 28637 objects as part of root set at end of initial load.
+[2016.02.27-21.06.00:116][  0]LogUObjectAllocator: 6101784 out of 0 bytes used by permanent object pool.
+[2016.02.27-21.06.00:260][  0]LogEngine: Initializing Engine...
+[2016.02.27-21.06.00:264][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.27-21.06.00:299][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.27-21.06.00:729][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.27-21.06.00:739][  0]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.06.00:753][  0]LogInit: FAudioDevice initialized.
+[2016.02.27-21.06.00:800][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.27-21.06.00:811][  0]LogInit: Texture streaming: Enabled
+[2016.02.27-21.06.00:822][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.27-21.06.00:822][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.27-21.06.00:822][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2066524940ef926c0d39eaab01bb3fef|ab08d7ce0f414bdba0971ea2fb4514a5|983d4c96-a536-4e9e-82d9-7415bf2a8174
+[2016.02.27-21.06.00:822][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.27-21.06.00:904][  0]LogInit: Transaction tracking system initialized
+[2016.02.27-21.06.00:965][  0]BlueprintLog: New page: Editor Load
+[2016.02.27-21.06.01:299][  0]LocalizationService: Info Localization service is disabled
+[2016.02.27-21.06.01:770][  0]LogConsoleResponse:Display: 
+[2016.02.27-21.06.04:110][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.27-21.06.04:624][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/' took 0.02s
+[2016.02.27-21.06.04:625][  0]SourceControl: Info Source control is disabled
+[2016.02.27-21.06.04:625][  0]Cmd: MAP LOAD FILE="../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.27-21.06.04:626][  0]LightingResults: New page: Lighting Build
+[2016.02.27-21.06.04:634][  0]MapCheck: New page: Map Check
+[2016.02.27-21.06.04:634][  0]LightingResults: New page: Lighting Build
+[2016.02.27-21.06.04:661][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000475B5EBB00
+[2016.02.27-21.06.05:883][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/FieldTile.FieldTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.02.27-21.06.06:234][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/ForestTile.ForestTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.02.27-21.06.06:716][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/MountainTile.MountainTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.02.27-21.06.06:856][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/CityCentre.CityCentre_C:UserConstructionScript; removing parent information, but keeping function
+[2016.02.27-21.06.08:325][  0]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.06.08:387][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.27-21.06.08:389][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.27-21.06.08:488][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.415ms to complete.
+[2016.02.27-21.06.08:488][  0]LogFileHelpers: Loading map 'Kieran-Test' took 3.863
+[2016.02.27-21.06.08:705][  0]LogCollectionManager: Loaded 0 collections in 0.006211 seconds
+[2016.02.27-21.06.08:757][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Collections/' took 0.01s
+[2016.02.27-21.06.08:757][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Developers/user/Collections/' took 0.01s
+[2016.02.27-21.06.08:757][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Collections/' took 0.01s
+[2016.02.27-21.06.08:757][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.02.27-21.06.08:775][  0]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 1894 classes and 340 folders.
+[2016.02.27-21.06.08:795][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2016.02.27-21.06.12:895][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2016.02.27-21.06.13:167][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2016.02.27-21.06.13:798][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.27-21.06.13:811][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.27-21.06.13:837][  0]LogLoad: Full Startup: 34.02 seconds (BP compile: 0.19 seconds)
+[2016.02.27-21.06.13:851][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.27-21.06.14:232][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.27-21.06.14:535][  0]LogRenderer: Reallocating scene render targets to support 908x620 (Frame:2).
+[2016.02.27-21.06.14:642][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/' took 0.78s
+[2016.02.27-21.06.44:207][678]LogAssetRegistry: Asset discovery search completed in 46.2700 seconds
+[2016.02.27-21.06.44:207][678]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.27-21.06.44:207][678]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2016.02.27-21.06.44:423][679]AssetReimport: New page: Outstanding source content changes 21:06:44
+[2016.02.27-21.08.12:660][915]Cmd: MAP LOAD FILE="../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.27-21.08.12:713][915]LightingResults: New page: Lighting Build
+[2016.02.27-21.08.12:748][915]LoadErrors: New page: Loading map: David-Test.umap
+[2016.02.27-21.08.12:749][915]MapCheck: New page: Map Check
+[2016.02.27-21.08.12:749][915]LightingResults: New page: Lighting Build
+[2016.02.27-21.08.12:771][915]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000474A8DB060
+[2016.02.27-21.08.13:323][915]LogMaterial: Missing cached shader map for material ItemHighlight, compiling. 
+[2016.02.27-21.08.13:799][915]LogAIModule: Creating AISystem for world David-Test
+[2016.02.27-21.08.14:074][915]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.27-21.08.14:185][915]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.27-21.08.14:317][915]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.267ms to complete.
+[2016.02.27-21.08.14:317][915]LogFileHelpers: Loading map 'David-Test' took 1.662
+[2016.02.27-21.08.16:776][  1]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.08.16:777][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.08.16:777][  1]PIE: New page: PIE session: David-Test (27 Feb 2016 21:08:16)
+[2016.02.27-21.08.16:778][  1]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.27-21.08.16:821][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043560s)
+[2016.02.27-21.08.16:823][  1]LogAIModule: Creating AISystem for world David-Test
+[2016.02.27-21.08.16:823][  1]LogPlayLevel: PIE: World Init took: (0.001523s)
+[2016.02.27-21.08.16:823][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.045703s)
+[2016.02.27-21.08.16:883][  1]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.08.16:896][  1]LogInit: FAudioDevice initialized.
+[2016.02.27-21.08.16:969][  1]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.08.16:976][  1]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.27-21.08.16
+[2016.02.27-21.08.16:976][  1]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.08.16:977][  1]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.08.16:978][  1]LogWorld: Bringing up level for play took: 0.005744
+[2016.02.27-21.08.17:003][  1]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.02.27-21.08.17:045][  1]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.192
+[2016.02.27-21.08.17:046][  1]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.08.26:939][364]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.08.27:020][364]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.08.27:052][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047659EE980
+[2016.02.27-21.08.51:601][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.08.51:601][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.08.51:601][524]PIE: New page: PIE session: David-Test (27 Feb 2016 21:08:51)
+[2016.02.27-21.08.51:602][524]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.27-21.08.51:613][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011316s)
+[2016.02.27-21.08.51:615][524]LogAIModule: Creating AISystem for world David-Test
+[2016.02.27-21.08.51:616][524]LogPlayLevel: PIE: World Init took: (0.002291s)
+[2016.02.27-21.08.51:616][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.014223s)
+[2016.02.27-21.08.51:728][524]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.08.51:737][524]LogInit: FAudioDevice initialized.
+[2016.02.27-21.08.51:779][524]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.08.51:783][524]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.27-21.08.51
+[2016.02.27-21.08.51:783][524]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.08.51:783][524]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.08.51:783][524]LogWorld: Bringing up level for play took: 0.002944
+[2016.02.27-21.08.51:787][524]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.02.27-21.08.51:822][524]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.585
+[2016.02.27-21.08.51:823][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.08.58:224][782]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.08.58:280][782]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.08.58:311][782]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004709D053A0
+[2016.02.27-21.10.05:713][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.10.05:714][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.10.05:714][ 51]PIE: New page: PIE session: David-Test (27 Feb 2016 21:10:05)
+[2016.02.27-21.10.05:714][ 51]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.27-21.10.05:724][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009963s)
+[2016.02.27-21.10.05:726][ 51]LogAIModule: Creating AISystem for world David-Test
+[2016.02.27-21.10.05:726][ 51]LogPlayLevel: PIE: World Init took: (0.001901s)
+[2016.02.27-21.10.05:727][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.012318s)
+[2016.02.27-21.10.05:791][ 51]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.10.05:801][ 51]LogInit: FAudioDevice initialized.
+[2016.02.27-21.10.05:855][ 51]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.10.05:860][ 51]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.27-21.10.05
+[2016.02.27-21.10.05:860][ 51]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.10.05:860][ 51]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.10.05:860][ 51]LogWorld: Bringing up level for play took: 0.003122
+[2016.02.27-21.10.05:863][ 51]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.02.27-21.10.05:904][ 51]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.666
+[2016.02.27-21.10.05:904][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.10.40:019][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.10.40:070][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.10.40:105][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000474BA75580
+[2016.02.27-21.10.51:916][  3]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.10.51:916][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.10.51:916][  3]PIE: New page: PIE session: David-Test (27 Feb 2016 21:10:51)
+[2016.02.27-21.10.51:916][  3]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.02.27-21.10.51:923][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007061s)
+[2016.02.27-21.10.51:925][  3]LogAIModule: Creating AISystem for world David-Test
+[2016.02.27-21.10.51:925][  3]LogPlayLevel: PIE: World Init took: (0.001818s)
+[2016.02.27-21.10.51:926][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.009400s)
+[2016.02.27-21.10.51:964][  3]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.10.51:979][  3]LogInit: FAudioDevice initialized.
+[2016.02.27-21.10.52:027][  3]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.10.52:033][  3]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 0) at 2016.02.27-21.10.52
+[2016.02.27-21.10.52:033][  3]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.10.52:033][  3]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.10.52:033][  3]LogWorld: Bringing up level for play took: 0.004058
+[2016.02.27-21.10.52:036][  3]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.02.27-21.10.52:043][  3]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.02.27-21.10.52:047][  3]LogBlueprintUserMessages: [GameTileSpawner_58] out of bounds
+[2016.02.27-21.10.52:047][  3]LogBlueprintUserMessages: [GameTileSpawner_58] out of bounds
+[2016.02.27-21.10.52:049][  3]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.02.27-21.10.52:050][  3]LogBlueprintUserMessages: [GameTileSpawner_58] out of bounds
+[2016.02.27-21.10.52:050][  3]LogBlueprintUserMessages: [GameTileSpawner_58] out of bounds
+[2016.02.27-21.10.52:050][  3]LogBlueprintUserMessages: [GameTileSpawner_58] out of bounds
+[2016.02.27-21.10.52:050][  3]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.02.27-21.10.52:075][  3]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.838
+[2016.02.27-21.10.52:076][  3]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.11.38:452][  9]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.11.38:504][  9]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.02.27-21.11.38:600][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000474BDA4AE0
+[2016.02.27-21.12.06:025][201]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.27-21.12.06:942][201]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 107 classes and 0 folders.
+[2016.02.27-21.12.07:732][201]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.12.10:264][259]LogActor:Warning: GameNetworkManager /Engine/Transient.World_4:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.13.36:557][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047494C0AE0
+[2016.02.27-21.13.36:560][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004718AE63E0
+[2016.02.27-21.13.36:564][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000474BFF6B60
+[2016.02.27-21.13.36:565][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004715339580
+[2016.02.27-21.13.38:337][ 21]Cmd: MAP LOAD FILE="../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.27-21.13.38:395][ 21]LightingResults: New page: Lighting Build
+[2016.02.27-21.13.38:429][ 21]LoadErrors: New page: Loading map: Kieran-Test.umap
+[2016.02.27-21.13.38:459][ 21]MapCheck: New page: Map Check
+[2016.02.27-21.13.38:459][ 21]LightingResults: New page: Lighting Build
+[2016.02.27-21.13.38:507][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004709BAA2A0
+[2016.02.27-21.13.38:547][ 21]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.13.38:649][ 21]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.27-21.13.38:739][ 21]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.27-21.13.38:856][ 21]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 117.3ms to complete.
+[2016.02.27-21.13.38:857][ 21]LogFileHelpers: Loading map 'Kieran-Test' took 0.522
+[2016.02.27-21.14.13:518][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.13:519][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.14.13:519][670]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:14:13)
+[2016.02.27-21.14.13:519][670]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.14.13:524][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004847s)
+[2016.02.27-21.14.13:525][670]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.14.13:526][670]LogPlayLevel: PIE: World Init took: (0.001976s)
+[2016.02.27-21.14.13:526][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.007361s)
+[2016.02.27-21.14.13:587][670]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.14.13:601][670]LogInit: FAudioDevice initialized.
+[2016.02.27-21.14.13:649][670]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.27-21.14.13:654][670]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.14.13
+[2016.02.27-21.14.13:654][670]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.14.13:654][670]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.14.13:655][670]LogWorld: Bringing up level for play took: 0.003936
+[2016.02.27-21.14.13:659][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.14.13:665][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:675][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:676][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.14.13:676][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:676][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:678][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:680][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:681][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:681][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:683][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:683][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:684][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:684][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:684][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:685][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:686][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:686][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:686][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:687][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:688][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:688][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:688][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.14.13:689][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:689][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:689][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:689][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:689][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:689][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:689][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:690][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:690][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.13:690][670]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.14.13:700][670]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.462
+[2016.02.27-21.14.13:700][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.15:649][757]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.15:727][757]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.15:778][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004717637E20
+[2016.02.27-21.14.39:992][842]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.39:992][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.14.39:992][842]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:14:39)
+[2016.02.27-21.14.39:992][842]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.14.39:998][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006288s)
+[2016.02.27-21.14.40:000][842]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.14.40:000][842]LogPlayLevel: PIE: World Init took: (0.001591s)
+[2016.02.27-21.14.40:001][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.008442s)
+[2016.02.27-21.14.40:108][842]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.14.40:117][842]LogInit: FAudioDevice initialized.
+[2016.02.27-21.14.40:173][842]LogWorld: Game class is 'Anthrocratos_UE4GameMode'
+[2016.02.27-21.14.40:176][842]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.14.40
+[2016.02.27-21.14.40:177][842]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.14.40:177][842]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.14.40:177][842]LogWorld: Bringing up level for play took: 0.003018
+[2016.02.27-21.14.40:180][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.14.40:186][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:186][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:186][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:186][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:187][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:190][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:190][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:190][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:190][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:191][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:193][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.14.40:197][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:198][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:200][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:200][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:200][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:203][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:204][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:205][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:206][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:206][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:206][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:206][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:206][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:207][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:208][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:211][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:213][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.14.40:214][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:215][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.40:216][842]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.14.40:231][842]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.993
+[2016.02.27-21.14.40:231][842]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.41:740][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.41:797][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.41:846][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004715203D80
+[2016.02.27-21.14.49:639][249]Cmd: UpdateLandscapeSetup
+[2016.02.27-21.14.53:843][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.53:843][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.14.53:843][436]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:14:53)
+[2016.02.27-21.14.53:844][436]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.14.53:848][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004762s)
+[2016.02.27-21.14.53:850][436]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.14.53:850][436]LogPlayLevel: PIE: World Init took: (0.001869s)
+[2016.02.27-21.14.53:851][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.007342s)
+[2016.02.27-21.14.53:946][436]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.14.53:956][436]LogInit: FAudioDevice initialized.
+[2016.02.27-21.14.54:009][436]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.14.54:013][436]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.14.54
+[2016.02.27-21.14.54:013][436]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.14.54:013][436]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.14.54:014][436]LogWorld: Bringing up level for play took: 0.003142
+[2016.02.27-21.14.54:016][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.14.54:023][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:023][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:023][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:027][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:027][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:028][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:031][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.14.54:032][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:032][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:032][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:035][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:035][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:039][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:039][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:039][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:040][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:040][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:041][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:041][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:042][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:042][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:042][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:042][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:043][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:043][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:044][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:045][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:047][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:048][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:048][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:048][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:048][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:048][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:048][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:048][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:048][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:048][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:049][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:053][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:053][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.14.54:053][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:054][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:055][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:055][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:055][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:055][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:055][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:055][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:055][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.14.54:055][436]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.14.54:060][436]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.823
+[2016.02.27-21.14.54:060][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.59:266][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.59:332][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.14.59:423][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004714D4E7A0
+[2016.02.27-21.15.04:624][860]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.02.27-21.15.31:034][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.15.31:034][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.15.31:034][144]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:15:31)
+[2016.02.27-21.15.31:034][144]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.15.31:039][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004873s)
+[2016.02.27-21.15.31:040][144]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.15.31:041][144]LogPlayLevel: PIE: World Init took: (0.001788s)
+[2016.02.27-21.15.31:041][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.007127s)
+[2016.02.27-21.15.31:110][144]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.15.31:120][144]LogInit: FAudioDevice initialized.
+[2016.02.27-21.15.31:160][144]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.15.31:165][144]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.15.31
+[2016.02.27-21.15.31:165][144]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.15.31:165][144]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.15.31:166][144]LogWorld: Bringing up level for play took: 0.004083
+[2016.02.27-21.15.31:169][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.15.31:172][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:176][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:179][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:180][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:180][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:181][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.15.31:182][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:185][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:188][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:188][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:188][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:188][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:190][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:190][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:191][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:191][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:193][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:194][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:196][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:197][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:197][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:197][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:197][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:199][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:199][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:199][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:199][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:200][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:201][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:201][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:201][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:202][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:202][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:202][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:202][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:202][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.15.31:203][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:203][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:203][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:203][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.31:203][144]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.15.31:210][144]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test -0.028
+[2016.02.27-21.15.31:210][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.15.33:403][243]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.15.33:487][243]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.15.33:600][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047151C0D60
+[2016.02.27-21.15.46:407][842]LogEditorViewport: Clicking on Actor (LMB): GameTileSpawner_C (GameTileSpawner)
+[2016.02.27-21.15.54:753][226]LogEditorViewport: Clicking Background
+[2016.02.27-21.15.55:754][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.15.55:754][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.15.55:755][283]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:15:55)
+[2016.02.27-21.15.55:755][283]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.15.55:761][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006130s)
+[2016.02.27-21.15.55:763][283]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.15.55:763][283]LogPlayLevel: PIE: World Init took: (0.001746s)
+[2016.02.27-21.15.55:763][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.008462s)
+[2016.02.27-21.15.55:825][283]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.15.55:836][283]LogInit: FAudioDevice initialized.
+[2016.02.27-21.15.55:878][283]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.15.55:883][283]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.15.55
+[2016.02.27-21.15.55:883][283]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.15.55:883][283]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.15.55:883][283]LogWorld: Bringing up level for play took: 0.003072
+[2016.02.27-21.15.55:886][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.15.55:890][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:893][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:897][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:897][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.15.55:900][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:900][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:902][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:905][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:905][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:906][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:907][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:908][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:909][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:910][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:910][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:910][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:911][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.15.55:911][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:911][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:911][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:911][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:912][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:912][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:912][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:915][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:915][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:916][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:916][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:917][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.15.55:917][283]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.15.55:928][283]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.691
+[2016.02.27-21.15.55:928][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.15.59:369][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.15.59:414][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.15.59:479][436]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004767598400
+[2016.02.27-21.16.06:050][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.16.06:050][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.16.06:050][805]PIE: New page: SIE session: Kieran-Test (27 Feb 2016 21:16:06)
+[2016.02.27-21.16.06:050][805]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.16.06:055][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005032s)
+[2016.02.27-21.16.06:057][805]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.16.06:057][805]LogPlayLevel: PIE: World Init took: (0.001530s)
+[2016.02.27-21.16.06:057][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.007129s)
+[2016.02.27-21.16.06:114][805]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.16.06:127][805]LogInit: FAudioDevice initialized.
+[2016.02.27-21.16.06:164][805]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.16.06:168][805]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.16.06
+[2016.02.27-21.16.06:169][805]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.16.06:169][805]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.16.06:169][805]LogWorld: Bringing up level for play took: 0.003245
+[2016.02.27-21.16.06:170][805]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.27-21.16.06:172][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.16.06:186][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:186][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:186][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:187][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:187][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.16.06:187][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:187][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:187][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:187][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:188][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:188][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:188][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:188][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:190][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:193][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:194][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:194][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:194][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:194][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:194][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:195][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:195][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:196][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:196][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:197][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:197][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:197][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:197][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:198][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:201][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:201][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:203][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:204][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:204][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.16.06:205][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:206][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:207][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:207][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:208][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.06:208][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.16.06:214][805]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.975
+[2016.02.27-21.16.06:267][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.16.12:751][ 37]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2016.02.27-21.16.12:981][ 42]Cmd: SELECT NONE
+[2016.02.27-21.16.22:655][273]Cmd: SELECT NONE
+[2016.02.27-21.16.24:193][332]LogEditorViewport: Clicking Background
+[2016.02.27-21.16.24:347][338]Cmd: SELECT NONE
+[2016.02.27-21.16.25:041][366]Cmd: SELECT NONE
+[2016.02.27-21.16.25:359][379]Cmd: SELECT NONE
+[2016.02.27-21.16.33:535][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.16.33:637][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.16.33:729][491]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000471765C0E0
+[2016.02.27-21.16.39:159][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.16.39:159][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.16.39:160][805]PIE: New page: SIE session: Kieran-Test (27 Feb 2016 21:16:39)
+[2016.02.27-21.16.39:160][805]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.16.39:168][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007870s)
+[2016.02.27-21.16.39:170][805]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.16.39:172][805]LogPlayLevel: PIE: World Init took: (0.003654s)
+[2016.02.27-21.16.39:173][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.012780s)
+[2016.02.27-21.16.39:237][805]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.16.39:249][805]LogInit: FAudioDevice initialized.
+[2016.02.27-21.16.39:294][805]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.16.39:299][805]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.16.39
+[2016.02.27-21.16.39:300][805]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.16.39:300][805]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.16.39:300][805]LogWorld: Bringing up level for play took: 0.003631
+[2016.02.27-21.16.39:301][805]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.02.27-21.16.39:303][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.16.39:304][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:304][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:304][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:309][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:309][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:315][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:316][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:317][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:318][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:318][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:319][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.16.39:322][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:322][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:323][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:323][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:323][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:323][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:325][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:330][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:332][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:334][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:336][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:336][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:337][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:337][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:337][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:337][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.16.39:338][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:340][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.16.39:341][805]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.16.39:353][805]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.115
+[2016.02.27-21.16.39:357][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.16.40:490][837]LogEditorViewport: Clicking on Actor (LMB): ForestTile_C (ForestTile265)
+[2016.02.27-21.16.40:490][837]LogSelection:Warning: PIE object was selected: "ForestTile_C /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.ForestTile_C_265"
+[2016.02.27-21.16.41:910][882]LogEditorViewport: Clicking Background
+[2016.02.27-21.16.42:756][909]LogEditorViewport: Clicking on Actor (LMB): FieldTile_C (FieldTile488)
+[2016.02.27-21.16.42:756][909]LogSelection:Warning: PIE object was selected: "FieldTile_C /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.FieldTile_C_488"
+[2016.02.27-21.16.45:137][979]LogEditorViewport: Clicking Background
+[2016.02.27-21.16.46:203][ 14]Cmd: SELECT NONE
+[2016.02.27-21.16.49:135][ 78]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.16.49:178][ 78]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.16.49:264][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004767671A80
+[2016.02.27-21.17.02:702][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.17.02:702][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.17.02:702][897]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:17:02)
+[2016.02.27-21.17.02:702][897]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.17.02:709][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006659s)
+[2016.02.27-21.17.02:710][897]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.17.02:711][897]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2016.02.27-21.17.02:711][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.008730s)
+[2016.02.27-21.17.02:767][897]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.17.02:777][897]LogInit: FAudioDevice initialized.
+[2016.02.27-21.17.02:824][897]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.17.02:829][897]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.17.02
+[2016.02.27-21.17.02:829][897]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.17.02:829][897]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.17.02:829][897]LogWorld: Bringing up level for play took: 0.003187
+[2016.02.27-21.17.02:832][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.17.02:842][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:844][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:844][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:844][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:844][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:845][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.17.02:846][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:846][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:846][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:846][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:846][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:851][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:853][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:853][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:853][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:853][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:853][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:854][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:858][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:858][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:859][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:859][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:859][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:859][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:861][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:861][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:861][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:861][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:861][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:861][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:861][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:862][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:862][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:862][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:862][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.17.02:862][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:863][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:863][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:863][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.02:863][897]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.17.02:872][897]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test -0.365
+[2016.02.27-21.17.02:873][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.17.15:585][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.17.15:655][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.17.15:751][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004715197B00
+[2016.02.27-21.17.18:561][593]LogSavePackage: Save=133.777374ms
+[2016.02.27-21.17.18:561][593]LogSavePackage: Moving '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/UEDPCKieran-Test1D0032B04727DA1403BD57AB3E22EEBB.tmp' to '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/UEDPCKieran-Test.umap'
+[2016.02.27-21.17.18:563][593]LogSavePackage: Total save time: 206.918281ms
+[2016.02.27-21.17.18:563][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/UEDPCKieran-Test.umap
+[2016.02.27-21.17.56:641][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.17.56:641][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.17.56:641][277]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:17:56)
+[2016.02.27-21.17.56:642][277]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.17.56:646][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004704s)
+[2016.02.27-21.17.56:648][277]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.17.56:649][277]LogPlayLevel: PIE: World Init took: (0.002075s)
+[2016.02.27-21.17.56:649][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.007203s)
+[2016.02.27-21.17.56:713][277]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.17.56:726][277]LogInit: FAudioDevice initialized.
+[2016.02.27-21.17.56:775][277]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.17.56:779][277]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.17.56
+[2016.02.27-21.17.56:779][277]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.17.56:780][277]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.17.56:780][277]LogWorld: Bringing up level for play took: 0.003362
+[2016.02.27-21.17.56:783][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.17.56:793][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:793][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:793][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:798][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.17.56:803][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:807][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:810][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:810][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:810][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:810][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:810][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:810][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:812][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:814][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:814][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:814][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:814][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:817][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:818][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:818][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:818][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:818][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:819][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:819][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:820][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:821][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:821][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.17.56:823][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:823][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.17.56:823][277]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.17.56:831][277]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test -0.406
+[2016.02.27-21.17.56:832][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.17.58:575][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.17.58:655][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.17.58:713][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004717616C00
+[2016.02.27-21.18.25:227][469]LogSavePackage: Save=130.408432ms
+[2016.02.27-21.18.25:227][469]LogSavePackage: Moving '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Kieran-Test6052A1C54C2D3A0CEC8F47868A0F0481.tmp' to '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap'
+[2016.02.27-21.18.25:238][469]LogSavePackage: Total save time: 195.363451ms
+[2016.02.27-21.18.25:239][469]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap
+[2016.02.27-21.18.25:343][469]LogFileHelpers: Saving map 'Kieran-Test' took 0.491
+[2016.02.27-21.18.25:359][469]Cmd: MAP LOAD FILE="../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.27-21.18.25:398][469]LightingResults: New page: Lighting Build
+[2016.02.27-21.18.25:442][469]LoadErrors: New page: Loading map: David-Test.umap
+[2016.02.27-21.18.25:443][469]MapCheck: New page: Map Check
+[2016.02.27-21.18.25:443][469]LightingResults: New page: Lighting Build
+[2016.02.27-21.18.25:490][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047098E42C0
+[2016.02.27-21.18.25:540][469]LogAIModule: Creating AISystem for world David-Test
+[2016.02.27-21.18.25:651][469]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.27-21.18.25:724][469]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.27-21.18.25:816][469]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.802ms to complete.
+[2016.02.27-21.18.25:817][469]LogFileHelpers: Loading map 'David-Test' took 0.466
+[2016.02.27-21.18.42:552][224]Cmd: MAP LOAD FILE="../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.27-21.18.42:600][224]LightingResults: New page: Lighting Build
+[2016.02.27-21.18.42:639][224]LoadErrors: New page: Loading map: Kieran-Test.umap
+[2016.02.27-21.18.42:641][224]MapCheck: New page: Map Check
+[2016.02.27-21.18.42:641][224]LightingResults: New page: Lighting Build
+[2016.02.27-21.18.42:687][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047176085E0
+[2016.02.27-21.18.42:711][224]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.18.42:836][224]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.27-21.18.42:917][224]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.27-21.18.43:020][224]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.326ms to complete.
+[2016.02.27-21.18.43:020][224]LogFileHelpers: Loading map 'Kieran-Test' took 0.471
+[2016.02.27-21.19.13:002][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.13:002][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.19.13:002][549]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:19:13)
+[2016.02.27-21.19.13:002][549]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.19.13:008][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005655s)
+[2016.02.27-21.19.13:010][549]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.19.13:011][549]LogPlayLevel: PIE: World Init took: (0.002671s)
+[2016.02.27-21.19.13:012][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.009525s)
+[2016.02.27-21.19.13:082][549]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.19.13:095][549]LogInit: FAudioDevice initialized.
+[2016.02.27-21.19.13:140][549]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.19.13:146][549]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.19.13
+[2016.02.27-21.19.13:146][549]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.19.13:146][549]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.19.13:147][549]LogWorld: Bringing up level for play took: 0.004558
+[2016.02.27-21.19.13:149][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.19.13:159][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:159][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:163][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.19.13:165][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:166][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:166][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:167][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:168][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:168][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:169][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:169][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:170][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:170][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:170][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:172][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:172][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:172][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:172][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:173][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:173][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:177][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:177][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:177][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:177][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:177][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:177][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:179][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:179][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:179][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:180][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:180][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:180][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:180][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:181][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:181][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.13:181][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.19.13:183][549]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.19.13:191][549]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test -0.046
+[2016.02.27-21.19.13:192][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.20:275][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.20:368][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.20:419][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000471768A7A0
+[2016.02.27-21.19.30:213][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.30:213][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.19.30:213][255]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:19:30)
+[2016.02.27-21.19.30:213][255]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.19.30:219][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005317s)
+[2016.02.27-21.19.30:220][255]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.19.30:220][255]LogPlayLevel: PIE: World Init took: (0.001576s)
+[2016.02.27-21.19.30:221][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.007340s)
+[2016.02.27-21.19.30:315][255]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.19.30:329][255]LogInit: FAudioDevice initialized.
+[2016.02.27-21.19.30:390][255]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.19.30:394][255]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.19.30
+[2016.02.27-21.19.30:395][255]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.19.30:395][255]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.19.30:395][255]LogWorld: Bringing up level for play took: 0.003059
+[2016.02.27-21.19.30:398][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.19.30:400][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:400][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:400][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:407][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:412][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:413][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:413][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:413][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.19.30:413][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:413][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:413][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:417][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:417][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:418][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:419][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:421][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:421][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:422][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:422][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:422][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:422][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:423][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:423][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:423][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:426][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:426][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:426][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:430][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:430][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:430][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:430][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:431][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:431][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:431][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:431][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:431][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:432][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:432][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:433][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:433][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.30:433][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.19.30:433][255]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.19.30:440][255]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 1.202
+[2016.02.27-21.19.30:440][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.32:721][349]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.32:775][349]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.32:830][349]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047259119E0
+[2016.02.27-21.19.38:015][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.38:015][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.19.38:015][561]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:19:38)
+[2016.02.27-21.19.38:015][561]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.19.38:021][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005878s)
+[2016.02.27-21.19.38:022][561]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.19.38:023][561]LogPlayLevel: PIE: World Init took: (0.001585s)
+[2016.02.27-21.19.38:023][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.007926s)
+[2016.02.27-21.19.38:111][561]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.19.38:121][561]LogInit: FAudioDevice initialized.
+[2016.02.27-21.19.38:167][561]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.19.38:171][561]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.19.38
+[2016.02.27-21.19.38:171][561]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.19.38:172][561]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.19.38:173][561]LogWorld: Bringing up level for play took: 0.003454
+[2016.02.27-21.19.38:177][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.19.38:178][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:182][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:182][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:182][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:182][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:184][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:185][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:190][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.19.38:194][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:195][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:195][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:195][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:195][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:196][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:199][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:200][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:200][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:200][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:201][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:202][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:203][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:203][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:203][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:204][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:204][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:204][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:205][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.19.38:206][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.19.38:206][561]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.19.38:217][561]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.98
+[2016.02.27-21.19.38:217][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.41:193][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.41:252][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.19.41:315][691]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004714D0E660
+[2016.02.27-21.20.17:602][246]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.20.17:602][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.27-21.20.17:602][246]PIE: New page: PIE session: Kieran-Test (27 Feb 2016 21:20:17)
+[2016.02.27-21.20.17:603][246]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.02.27-21.20.17:613][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009923s)
+[2016.02.27-21.20.17:615][246]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.02.27-21.20.17:615][246]LogPlayLevel: PIE: World Init took: (0.002049s)
+[2016.02.27-21.20.17:615][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.012541s)
+[2016.02.27-21.20.17:679][246]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.27-21.20.17:692][246]LogInit: FAudioDevice initialized.
+[2016.02.27-21.20.17:734][246]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.02.27-21.20.17:738][246]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.02.27-21.20.17
+[2016.02.27-21.20.17:738][246]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.20.17:739][246]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.27-21.20.17:739][246]LogWorld: Bringing up level for play took: 0.002859
+[2016.02.27-21.20.17:742][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] TilesGenerated
+[2016.02.27-21.20.17:752][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:754][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:754][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:754][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:755][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:755][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.20.17:763][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.20.17:763][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:763][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:764][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:764][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:765][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] out of bounds
+[2016.02.27-21.20.17:766][246]LogBlueprintUserMessages: [GameTileSpawner_C_0] spawned biome
+[2016.02.27-21.20.17:780][246]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.543
+[2016.02.27-21.20.17:780][246]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.20.24:316][520]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.20.24:374][520]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.02.27-21.20.24:423][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004709BA9260
+[2016.02.27-21.29.18:060][271]LogSavePackage: Save=132.889786ms
+[2016.02.27-21.29.18:060][271]LogSavePackage: Moving '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Kieran-Test_Auto16D6E673748567066D3AFF8BF2250E3E4.tmp' to '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/Kieran-Test_Auto1.umap'
+[2016.02.27-21.29.18:063][271]LogSavePackage: Total save time: 206.134550ms
+[2016.02.27-21.29.18:063][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Levels/Kieran-Test_Auto1.umap
+[2016.02.27-21.29.18:066][271]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Kieran-Test' took 0.287
+[2016.02.27-21.29.18:066][271]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.287
+[2016.02.27-22.01.56:218][881]LogSavePackage: Save=182.727661ms
+[2016.02.27-22.01.56:218][881]LogSavePackage: Moving '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Kieran-Test3730110D45B6D7F72594ACB39E026155.tmp' to '../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap'
+[2016.02.27-22.01.56:228][881]LogSavePackage: Total save time: 340.066295ms
+[2016.02.27-22.01.56:228][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap
+[2016.02.27-22.01.58:148][896]Cmd: QUIT_EDITOR
+[2016.02.27-22.01.59:214][896]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.27-22.01.59:480][896]LogExit: Preparing to exit.
+[2016.02.27-22.02.01:665][896]LogExit: Editor shut down
+[2016.02.27-22.02.01:668][896]LogExit: Transaction tracking system shut down
+[2016.02.27-22.02.01:675][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047683AC0E0
+[2016.02.27-22.02.01:679][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047586AECA0
+[2016.02.27-22.02.01:679][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000470A19CF40
+[2016.02.27-22.02.01:685][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004717FFCA40
+[2016.02.27-22.02.03:352][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047175BBF60
+[2016.02.27-22.02.03:352][896]LogExit: Object subsystem successfully closed.
+[2016.02.27-22.02.03:578][896]LogD3D11RHI: Shutdown
+[2016.02.27-22.02.03:578][896]LogD3D11RHI: CleanupD3DDevice
+[2016.02.27-22.02.03:852][896]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.27-22.02.04:413][896]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.02.27-22.02.04:413][896]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.02.27-22.02.04:413][896]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.02.27-22.02.04:414][896]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.02.27-22.02.04:414][896]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.02.27-22.02.04:414][896]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.02.27-22.02.04:422][896]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.02.27-22.02.04:444][896]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.02.27-22.02.04:444][896]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.02.27-22.02.04:453][896]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.02.27-22.02.04:464][896]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.02.27-22.02.04:475][896]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.02.27-22.02.04:492][896]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.02.27-22.02.04:513][896]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.02.27-22.02.04:523][896]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.02.27-22.02.04:547][896]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.02.27-22.02.04:547][896]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.02.27-22.02.04:555][896]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.02.27-22.02.04:555][896]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.02.27-22.02.05:242][896]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.02.27-22.02.05:242][896]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.02.27-22.02.05:242][896]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.02.27-22.02.05:242][896]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.02.27-22.02.05:250][896]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.02.27-22.02.05:250][896]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.02.27-22.02.05:262][896]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.02.27-22.02.05:268][896]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.02.27-22.02.05:281][896]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.02.27-22.02.05:291][896]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.02.27-22.02.05:302][896]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.02.27-22.02.05:318][896]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.02.27-22.02.05:327][896]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.02.27-22.02.05:332][896]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.02.27-22.02.05:332][896]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.02.27-22.02.05:343][896]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.02.27-22.02.05:343][896]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.02.27-22.02.05:352][896]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.02.27-22.02.05:353][896]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.02.27-22.02.05:368][896]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.02.27-22.02.05:368][896]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.02.27-22.02.05:381][896]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.02.27-22.02.05:398][896]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.02.27-22.02.05:412][896]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.02.27-22.02.05:416][896]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.02.27-22.02.05:427][896]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.02.27-22.02.05:432][896]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.02.27-22.02.05:438][896]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.02.27-22.02.05:448][896]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.02.27-22.02.05:469][896]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.02.27-22.02.05:469][896]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.02.27-22.02.05:469][896]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.02.27-22.02.05:469][896]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.02.27-22.02.05:503][896]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.02.27-22.02.05:503][896]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.02.27-22.02.05:503][896]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.02.27-22.02.05:508][896]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.02.27-22.02.05:508][896]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.02.27-22.02.05:519][896]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.02.27-22.02.05:529][896]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.02.27-22.02.05:529][896]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.02.27-22.02.05:540][896]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.02.27-22.02.05:544][896]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.02.27-22.02.05:545][896]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.02.27-22.02.05:545][896]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.02.27-22.02.05:545][896]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.02.27-22.02.05:545][896]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.02.27-22.02.05:556][896]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.02.27-22.02.05:566][896]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.02.27-22.02.05:566][896]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.02.27-22.02.05:636][896]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.02.27-22.02.05:644][896]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.27-22.02.05:644][896]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.27-22.02.05:644][896]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.27-22.02.05:644][896]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.27-22.02.05:644][896]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.27-22.02.05:644][896]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.27-22.02.05:644][896]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.27-22.02.05:707][896]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.27-22.02.05:707][896]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.27-22.02.05:712][896]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.27-22.02.05:712][896]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.27-22.02.05:731][896]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.27-22.02.05:738][896]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.27-22.02.05:738][896]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.27-22.02.05:739][896]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.27-22.02.05:747][896]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.27-22.02.05:753][896]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.02.27-22.02.05:759][896]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.02.27-22.02.05:770][896]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.02.27-22.02.05:771][896]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.02.27-22.02.05:778][896]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.02.27-22.02.05:785][896]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.02.27-22.02.05:794][896]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.02.27-22.02.05:805][896]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.02.27-22.02.05:805][896]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.02.27-22.02.05:817][896]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.02.27-22.02.05:817][896]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.02.27-22.02.05:817][896]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.02.27-22.02.05:832][896]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.02.27-22.02.05:838][896]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.02.27-22.02.05:838][896]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.02.27-22.02.05:869][896]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.02.27-22.02.05:887][896]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.02.27-22.02.06:179][896]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.02.27-22.02.06:181][896]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.02.27-22.02.06:226][896]LogModuleManager: Shutting down and abandoning module Anthrocratos_UE4 (87)
+[2016.02.27-22.02.06:226][896]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.27-22.02.06:326][896]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.27-22.02.06:326][896]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.27-22.02.06:335][896]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.27-22.02.06:351][896]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.27-22.02.06:351][896]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.27-22.02.06:355][896]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.27-22.02.06:355][896]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.27-22.02.06:355][896]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.27-22.02.06:356][896]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.27-22.02.06:376][896]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.27-22.02.06:376][896]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.27-22.02.06:385][896]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.27-22.02.06:386][896]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.27-22.02.06:386][896]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.27-22.02.06:437][896]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.27-22.02.06:456][896]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.27-22.02.06:477][896]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.27-22.02.06:490][896]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.27-22.02.06:490][896]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.27-22.02.06:496][896]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.27-22.02.06:496][896]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.27-22.02.06:496][896]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.27-22.02.06:496][896]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.27-22.02.06:496][896]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.27-22.02.06:496][896]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.27-22.02.06:496][896]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.27-22.02.06:496][896]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.27-22.02.06:496][896]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.27-22.02.06:516][896]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.27-22.02.06:566][896]LogDerivedDataCache: Shutdown
+[2016.02.27-22.02.06:566][896]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.27-22.02.06:571][896]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.27-22.02.06:580][896]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.27-22.02.06:594][896]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.27-22.02.06:594][896]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.27-22.02.06:599][896]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.27-22.02.06:609][896]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.27-22.02.06:618][896]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.27-22.02.06:619][896]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.27-22.02.06:619][896]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.27-22.02.06:619][896]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.27-22.02.06:625][896]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.27-22.02.06:635][896]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.27-22.02.06:639][896]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.27-22.02.06:640][896]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.27-22.02.06:648][896]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.27-22.02.06:659][896]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.27-22.02.06:660][896]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.27-22.02.06:670][896]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.27-22.02.06:680][896]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.27-22.02.06:689][896]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.27-22.02.06:689][896]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.27-22.02.06:689][896]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.27-22.02.06:689][896]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.27-22.02.06:689][896]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.27-22.02.06:689][896]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.27-22.02.08:695][896]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.27-22.02.08:717][896]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.27-22.02.08:731][896]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.27-22.02.08:732][896]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.27-22.02.08:743][896]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.27-22.02.08:743][896]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.27-22.02.08:743][896]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.27-22.02.08:794][896]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.27-22.02.08:801][896]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.27-22.02.08:802][896]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.27-22.02.08:802][896]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.27-22.02.08:802][896]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.27-22.02.08:802][896]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.27-22.02.08:802][896]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.27-22.02.08:821][896]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.27-22.02.08:830][896]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.27-22.02.08:836][896]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.27-22.02.08:852][896]LogExit: Exiting.
+[2016.02.27-22.02.08:903][896]Log file closed, 02/27/16 22:02:08
