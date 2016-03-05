@@ -1,0 +1,47 @@
+﻿[2016.03.05-22.59.33:015][  0]Log file open, 03/05/16 22:59:33
+[2016.03.05-22.59.33:015][  0]LogInit:Display: Running engine for game: Anthrocratos_UE4
+[2016.03.05-22.59.33:015][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.05-22.59.33:015][  0]LogInit:Display: RandInit(-1046593455) SRandInit(-1046593453).
+[2016.03.05-22.59.33:015][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.05-22.59.33:015][  0]LogStats: Stats thread started at 0.074551
+[2016.03.05-22.59.33:015][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.05-22.59.33:015][  0]LogInit: API Version: 2758231
+[2016.03.05-22.59.33:015][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.05-22.59.33:015][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.05-22.59.33:015][  0]LogInit: Build Configuration: Development
+[2016.03.05-22.59.33:015][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.05-22.59.33:015][  0]LogInit: Command line:  /Temp/Autosaves/Game/Levels/UEDPCPlayTesting -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.03.05-22.59.33:015][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.05-22.59.33:015][  0]LogInit: Rocket: 1
+[2016.03.05-22.59.33:022][  0]LogInit: Using libcurl 7.41.0
+[2016.03.05-22.59.33:022][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.05-22.59.33:022][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.05-22.59.33:022][  0]LogInit:  - other features:
+[2016.03.05-22.59.33:022][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.05-22.59.33:022][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.05-22.59.33:022][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.05-22.59.33:022][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.05-22.59.33:022][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.05-22.59.33:022][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.05-22.59.33:022][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.05-22.59.33:022][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.05-22.59.33:022][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.05-22.59.33:022][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.05-22.59.33:027][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.05-22.59.33:033][  0]LogInit: Object subsystem initialized
+[2016.03.05-22.59.33:034][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.05-22.59.33:034][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.05-22.59.33:038][  0]LogInit: Computer: DESKTOP-V9NOFHJ
+[2016.03.05-22.59.33:038][  0]LogInit: User: kags1
+[2016.03.05-22.59.33:038][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.05-22.59.33:038][  0]LogInit: High frequency timer resolution =3.421878 MHz
+[2016.03.05-22.59.33:038][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.05-22.59.33:038][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.05-22.59.33:038][  0]LogMemory: Process Physical Memory: 55.93 MB used, 55.93 MB peak
+[2016.03.05-22.59.33:038][  0]LogMemory: Process Virtual Memory: 56.82 MB used, 56.82 MB peak
+[2016.03.05-22.59.33:038][  0]LogMemory: Physical Memory: 5014.36 MB used, 16311.54 MB total
+[2016.03.05-22.59.33:038][  0]LogMemory: Virtual Memory: 383.48 MB used, 134217728.00 MB total
+[2016.03.05-22.59.33:068][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.03.05-22.59.33:425][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.05-22.59.33:425][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 1 output[s]
+[2016.03.05-22.59.33:426][  0]LogD3D11RHI: Found D3D11 adapter 1: Micro
