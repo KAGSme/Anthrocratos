@@ -1,0 +1,192 @@
+﻿[2016.03.10-17.21.49:208][  0]Log file open, 03/10/16 17:21:49
+[2016.03.10-17.21.49:208][  0]LogInit:Display: Running engine for game: Anthrocratos_UE4
+[2016.03.10-17.21.49:208][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.10-17.21.49:208][  0]LogInit:Display: RandInit(-121949942) SRandInit(-121949940).
+[2016.03.10-17.21.49:208][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.10-17.21.49:208][  0]LogStats: Stats thread started at 0.082570
+[2016.03.10-17.21.49:208][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.10-17.21.49:208][  0]LogInit: API Version: 2758231
+[2016.03.10-17.21.49:208][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.10-17.21.49:208][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.10-17.21.49:208][  0]LogInit: Build Configuration: Development
+[2016.03.10-17.21.49:208][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.10-17.21.49:208][  0]LogInit: Command line:  
+[2016.03.10-17.21.49:208][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.10-17.21.49:208][  0]LogInit: Rocket: 1
+[2016.03.10-17.21.49:222][  0]LogInit: Using libcurl 7.41.0
+[2016.03.10-17.21.49:222][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.10-17.21.49:222][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.10-17.21.49:222][  0]LogInit:  - other features:
+[2016.03.10-17.21.49:222][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.10-17.21.49:222][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.10-17.21.49:222][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.10-17.21.49:222][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.10-17.21.49:222][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.10-17.21.49:222][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.10-17.21.49:222][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.10-17.21.49:222][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.10-17.21.49:222][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.10-17.21.49:222][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.10-17.21.49:229][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.10-17.21.49:237][  0]LogInit: Object subsystem initialized
+[2016.03.10-17.21.49:238][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.10-17.21.49:238][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.10-17.21.49:247][  0]LogInit: Computer: CUBE-11959
+[2016.03.10-17.21.49:247][  0]LogInit: User: user
+[2016.03.10-17.21.49:247][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.10-17.21.49:247][  0]LogInit: High frequency timer resolution =2.435780 MHz
+[2016.03.10-17.21.49:247][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.10-17.21.49:247][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.10-17.21.49:247][  0]LogMemory: Process Physical Memory: 56.52 MB used, 56.52 MB peak
+[2016.03.10-17.21.49:247][  0]LogMemory: Process Virtual Memory: 56.93 MB used, 56.93 MB peak
+[2016.03.10-17.21.49:247][  0]LogMemory: Physical Memory: 4683.23 MB used, 8076.43 MB total
+[2016.03.10-17.21.49:247][  0]LogMemory: Virtual Memory: 379.95 MB used, 134217728.00 MB total
+[2016.03.10-17.21.49:292][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.03.10-17.21.49:792][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 850M  (Feature Level 11_0)
+[2016.03.10-17.21.49:792][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 1 output[s]
+[2016.03.10-17.21.49:797][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.03.10-17.21.49:797][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 0 output[s]
+[2016.03.10-17.21.49:798][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.10-17.21.49:798][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 0 output[s]
+[2016.03.10-17.21.49:798][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.10-17.21.49:807][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.10-17.21.49:807][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.10-17.21.49:827][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.10-17.21.49:839][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Intermediate/Shaders/WorkingDirectory/7736/).
+[2016.03.10-17.21.49:839][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/C7ADD6A34288A0998B4DFDB4BFD86A83/'.
+[2016.03.10-17.21.49:839][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.10-17.21.50:634][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.10-17.21.50:640][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.10-17.21.50:645][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.10-17.21.50:651][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.10-17.21.50:656][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.10-17.21.50:659][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.10-17.21.50:661][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.10-17.21.50:664][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.10-17.21.50:669][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.10-17.21.50:672][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.10-17.21.50:675][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.10-17.21.50:680][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.10-17.21.50:680][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.10-17.21.50:682][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.10-17.21.50:702][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.10-17.21.50:706][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.10-17.21.50:709][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.10-17.21.50:712][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.10-17.21.50:712][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.10-17.21.50:803][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.10-17.21.50:880][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.10-17.21.50:880][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.10-17.21.50:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.10-17.21.50:880][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.10-17.21.50:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.10-17.21.50:880][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.10-17.21.50:939][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.10-17.21.50:952][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.10-17.21.51:158][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.10-17.21.51:161][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.10-17.21.51:296][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.10-17.21.51:296][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.10-17.21.51:596][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.10-17.21.52:605][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.10-17.21.52:722][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.03.10-17.21.52:941][  0]SourceControl: Info Source control is disabled
+[2016.03.10-17.21.53:005][  0]SourceControl: Info Source control is disabled
+[2016.03.10-17.21.53:019][  0]SourceControl: Info Source control is disabled
+[2016.03.10-17.21.53:035][  0]SourceControl: Info Source control is disabled
+[2016.03.10-17.21.53:309][  0]LogObj: 28645 objects as part of root set at end of initial load.
+[2016.03.10-17.21.53:309][  0]LogUObjectAllocator: 6105096 out of 0 bytes used by permanent object pool.
+[2016.03.10-17.21.53:392][  0]LogEngine: Initializing Engine...
+[2016.03.10-17.21.53:395][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.10-17.21.53:395][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.10-17.21.53:549][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.10-17.21.53:556][  0]LogInit: XAudio2 using 'Speakers (Jabra REVO v4.0.0)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.10-17.21.53:565][  0]LogInit: FAudioDevice initialized.
+[2016.03.10-17.21.53:625][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/user/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.10-17.21.53:638][  0]LogInit: Texture streaming: Enabled
+[2016.03.10-17.21.53:645][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.10-17.21.53:645][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.10-17.21.53:645][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2066524940ef926c0d39eaab01bb3fef|ab08d7ce0f414bdba0971ea2fb4514a5|983d4c96-a536-4e9e-82d9-7415bf2a8174
+[2016.03.10-17.21.53:645][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.10-17.21.53:657][  0]LogInit: Transaction tracking system initialized
+[2016.03.10-17.21.53:691][  0]BlueprintLog: New page: Editor Load
+[2016.03.10-17.21.53:788][  0]LocalizationService: Info Localization service is disabled
+[2016.03.10-17.21.53:871][  0]LogConsoleResponse:Display: 
+[2016.03.10-17.21.53:995][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.10-17.21.54:074][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/' took 0.02s
+[2016.03.10-17.21.54:075][  0]SourceControl: Info Source control is disabled
+[2016.03.10-17.21.54:075][  0]Cmd: MAP LOAD FILE="../../../../../../Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.10-17.21.54:075][  0]LightingResults: New page: Lighting Build
+[2016.03.10-17.21.54:079][  0]MapCheck: New page: Map Check
+[2016.03.10-17.21.54:079][  0]LightingResults: New page: Lighting Build
+[2016.03.10-17.21.54:095][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002AB455B240
+[2016.03.10-17.21.54:402][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'TileMesh' for 'BuildingMesh' in BlueprintGeneratedClass 'REINST_Building_C_23' (it may have been removed)
+[2016.03.10-17.21.54:708][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/BatteryCagedLivestock.BatteryCagedLivestock_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:719][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/FossilBasedEnergy.FossilBasedEnergy_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:727][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Free-RangeLivestock.Free-RangeLivestock_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:740][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Incinerator.Incinerator_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:749][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/IntensiveFarming.IntensiveFarming_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:760][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/NuclearPower.NuclearPower_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:770][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/OrganicFarm.OrganicFarm_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:778][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/RecyclingCentre.RecyclingCentre_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:789][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/SolarPanels.SolarPanels_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:797][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Windmills.Windmills_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:861][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/DesertTile.DesertTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:867][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/FieldTile.FieldTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:881][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/ForestTile.ForestTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:895][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/MountainTile.MountainTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:900][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/CityCentre.CityCentre_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.10-17.21.54:993][  0]LogBlueprint:Error: Broken Node: K2Node_CallArrayFunction /Game/Blueprints/Tiles/GameTileSpawner.GameTileSpawner:SetTileIsFilled.K2Node_CallArrayFunction_44 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/Tiles/GameTileSpawner.GameTileSpawner:SetTileIsFilled.K2Node_CallArrayFunction_44.EdGraphPin_44770. Try refresh all nodes.
+[2016.03.10-17.21.55:042][  0]LogBlueprint:Error: Broken Node: K2Node_CallArrayFunction /Game/Blueprints/Tiles/GameTileSpawner.GameTileSpawner:SetTileIsFilled.K2Node_CallArrayFunction_44 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/Tiles/GameTileSpawner.GameTileSpawner:SetTileIsFilled.K2Node_CallArrayFunction_44.EdGraphPin_44770. Try refresh all nodes.
+[2016.03.10-17.21.55:399][  0]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.03.10-17.21.55:408][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.10-17.21.55:409][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.10-17.21.55:466][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.364ms to complete.
+[2016.03.10-17.21.55:466][  0]LogFileHelpers: Loading map 'Kieran-Test' took 1.392
+[2016.03.10-17.21.55:649][  0]LogCollectionManager: Loaded 0 collections in 0.002942 seconds
+[2016.03.10-17.21.55:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Saved/Collections/' took 0.01s
+[2016.03.10-17.21.55:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Developers/user/Collections/' took 0.01s
+[2016.03.10-17.21.55:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Collections/' took 0.01s
+[2016.03.10-17.21.55:689][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.10-17.21.55:697][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 1896 classes and 340 folders.
+[2016.03.10-17.21.55:707][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.03.10-17.21.55:752][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2016.03.10-17.21.55:760][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.03.10-17.21.55:829][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.10-17.21.55:837][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.10-17.21.55:861][  0]LogLoad: Full Startup: 7.47 seconds (BP compile: 0.43 seconds)
+[2016.03.10-17.21.55:873][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.10-17.21.55:991][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.10-17.21.56:204][  0]LogRenderer: Reallocating scene render targets to support 952x400 (Frame:2).
+[2016.03.10-17.21.56:362][  1]LogEditorViewport: Clicking Background
+[2016.03.10-17.21.56:389][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/' took 0.50s
+[2016.03.10-17.21.56:862][  9]LogAssetRegistry: Asset discovery search completed in 4.1497 seconds
+[2016.03.10-17.21.56:862][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.03.10-17.21.56:862][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2016.03.10-17.21.59:116][ 55]AssetReimport: New page: Outstanding source content changes 17:21:59
+[2016.03.10-17.21.59:119][ 55]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Art/Models/Buildings/Nuclear Reactor/nuclear reactor_final.fbx)
+[2016.03.10-17.21.59:162][ 55]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.03.10-17.21.59:162][ 55]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.03.10-17.21.59:162][ 55]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.03.10-17.21.59:162][ 55]LogFbx: ItemName: Geometry, ItemCount : 10
+[2016.03.10-17.21.59:163][ 55]LogFbx: ItemName: Material, ItemCount : 1
+[2016.03.10-17.21.59:163][ 55]LogFbx: ItemName: Texture, ItemCount : 1
+[2016.03.10-17.21.59:163][ 55]LogFbx: ItemName: Model, ItemCount : 10
+[2016.03.10-17.21.59:163][ 55]LogFbx: ItemName: Video, ItemCount : 1
+[2016.03.10-17.21.59:246][ 55]LogFbx: Loading FBX Scene from C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Art/Models/Buildings/Nuclear Reactor/nuclear reactor_final.fbx
+[2016.03.10-17.21.59:352][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.10-17.22.08:121][ 55]LogFbx: Loading FBX Scene from C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Art/Models/Buildings/Nuclear Reactor/nuclear reactor_final.fbx
+[2016.03.10-17.22.08:226][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.10-17.22.09:493][ 55]LogMaterial: Missing cached shader map for material nuclear_diffuse, compiling. 
+[2016.03.10-17.22.09:525][ 55]LogStaticMesh: Building static mesh nuclear_reactor_final...
+[2016.03.10-17.22.09:539][ 55]LogStaticMesh: Built static mesh [0.014881.2s] /Game/Art/Models/Buildings/Nuclear_Reactor/nuclear_reactor_final.nuclear_reactor_final
+[2016.03.10-17.22.09:593][ 56]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/user/Game Development/Anthrocratos/Anthrocratos_UE4/Content/Art/Models/Buildings/Nuclear Reactor/nuclear_diffuse.png)
+[2016.03.10-17.22.38:401][ 56]LogCrashTracker: 
+
+
+[2016.03.10-17.22.38:401][ 56]LogCrashTracker: 
+
+
+[2016.03.10-17.22.38:462][ 56]LogExit: Executing StaticShutdownAfterError
+[2016.03.10-17.22.38:468][ 56]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.03.10-17.22.38:468][ 56]Log file closed, 03/10/16 17:22:38
