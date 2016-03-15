@@ -1,0 +1,47 @@
+﻿[2016.03.08-12.31.25:388][  0]Log file open, 03/08/16 12:31:25
+[2016.03.08-12.31.25:388][  0]LogInit:Display: Running engine for game: Anthrocratos_UE4
+[2016.03.08-12.31.25:388][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.08-12.31.25:388][  0]LogInit:Display: RandInit(-143123641) SRandInit(-143123638).
+[2016.03.08-12.31.25:388][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.03.08-12.31.25:388][  0]LogStats: Stats thread started at 0.161764
+[2016.03.08-12.31.25:388][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.03.08-12.31.25:388][  0]LogInit: API Version: 2758231
+[2016.03.08-12.31.25:388][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.03.08-12.31.25:388][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.08-12.31.25:388][  0]LogInit: Build Configuration: Development
+[2016.03.08-12.31.25:388][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.08-12.31.25:388][  0]LogInit: Command line:  /Temp/Autosaves/Game/Levels/UEDPCDavid-Test -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.03.08-12.31.25:388][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.08-12.31.25:388][  0]LogInit: Rocket: 1
+[2016.03.08-12.31.25:440][  0]LogInit: Using libcurl 7.41.0
+[2016.03.08-12.31.25:440][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.08-12.31.25:440][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.08-12.31.25:440][  0]LogInit:  - other features:
+[2016.03.08-12.31.25:440][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.08-12.31.25:440][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.08-12.31.25:440][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.08-12.31.25:440][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.08-12.31.25:440][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.08-12.31.25:440][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.08-12.31.25:440][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.08-12.31.25:440][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.08-12.31.25:440][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.08-12.31.25:440][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.08-12.31.25:472][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.08-12.31.25:495][  0]LogInit: Object subsystem initialized
+[2016.03.08-12.31.25:498][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.08-12.31.25:498][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.08-12.31.25:511][  0]LogInit: Computer: LAPTOP-TCEGHJTQ
+[2016.03.08-12.31.25:511][  0]LogInit: User: David
+[2016.03.08-12.31.25:511][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.03.08-12.31.25:511][  0]LogInit: High frequency timer resolution =2.338336 MHz
+[2016.03.08-12.31.25:511][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.08-12.31.25:512][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.08-12.31.25:512][  0]LogMemory: Process Physical Memory: 55.75 MB used, 55.75 MB peak
+[2016.03.08-12.31.25:512][  0]LogMemory: Process Virtual Memory: 55.77 MB used, 55.77 MB peak
+[2016.03.08-12.31.25:512][  0]LogMemory: Physical Memory: 5382.36 MB used, 16297.84 MB total
+[2016.03.08-12.31.25:512][  0]LogMemory: Virtual Memory: 376.86 MB used, 134217728.00 MB total
+[2016.03.08-12.31.25:617][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.03.08-12.31.26:890][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 5500 (Feature Level 11_0)
+[2016.03.08-12.31.26:890][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8148MB of shared system memory, 1 output[s]
+[2016.03.08-12.31.27:463][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Ra
