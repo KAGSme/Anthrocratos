@@ -1,0 +1,1355 @@
+﻿[2016.03.15-22.35.32:453][  0]Log file open, 03/15/16 22:35:32
+[2016.03.15-22.35.32:453][  0]LogInit:Display: Running engine for game: Anthrocratos_UE4
+[2016.03.15-22.35.32:453][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.15-22.35.32:453][  0]LogInit:Display: RandInit(123794897) SRandInit(123794900).
+[2016.03.15-22.35.32:453][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.03.15-22.35.32:453][  0]LogStats: Stats thread started at 0.074381
+[2016.03.15-22.35.32:453][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.03.15-22.35.32:453][  0]LogInit: API Version: 2758231
+[2016.03.15-22.35.32:453][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.03.15-22.35.32:453][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.15-22.35.32:453][  0]LogInit: Build Configuration: Development
+[2016.03.15-22.35.32:453][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.15-22.35.32:453][  0]LogInit: Command line:  
+[2016.03.15-22.35.32:453][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.15-22.35.32:453][  0]LogInit: Rocket: 1
+[2016.03.15-22.35.32:466][  0]LogInit: Using libcurl 7.41.0
+[2016.03.15-22.35.32:466][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.15-22.35.32:466][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.15-22.35.32:466][  0]LogInit:  - other features:
+[2016.03.15-22.35.32:466][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.15-22.35.32:466][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.15-22.35.32:466][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.15-22.35.32:466][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.15-22.35.32:466][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.15-22.35.32:466][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.15-22.35.32:466][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.15-22.35.32:466][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.15-22.35.32:466][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.15-22.35.32:466][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.15-22.35.32:476][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.15-22.35.32:485][  0]LogInit: Object subsystem initialized
+[2016.03.15-22.35.32:487][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.15-22.35.32:487][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.15-22.35.32:495][  0]LogInit: Computer: LAPTOP-TCEGHJTQ
+[2016.03.15-22.35.32:495][  0]LogInit: User: David
+[2016.03.15-22.35.32:495][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.03.15-22.35.32:495][  0]LogInit: High frequency timer resolution =2.338336 MHz
+[2016.03.15-22.35.32:496][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.15-22.35.32:496][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.15-22.35.32:496][  0]LogMemory: Process Physical Memory: 56.32 MB used, 56.32 MB peak
+[2016.03.15-22.35.32:496][  0]LogMemory: Process Virtual Memory: 55.74 MB used, 55.74 MB peak
+[2016.03.15-22.35.32:496][  0]LogMemory: Physical Memory: 4258.77 MB used, 16297.84 MB total
+[2016.03.15-22.35.32:496][  0]LogMemory: Virtual Memory: 376.86 MB used, 134217728.00 MB total
+[2016.03.15-22.35.32:540][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.03.15-22.35.33:023][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 5500 (Feature Level 11_0)
+[2016.03.15-22.35.33:023][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8148MB of shared system memory, 1 output[s]
+[2016.03.15-22.35.33:569][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon(TM) R9 M375 (Feature Level 11_0)
+[2016.03.15-22.35.33:569][  0]LogD3D11RHI: Adapter has 4074MB of dedicated video memory, 0MB of dedicated system memory, and 8148MB of shared system memory, 0 output[s]
+[2016.03.15-22.35.33:572][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.15-22.35.33:572][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8148MB of shared system memory, 0 output[s]
+[2016.03.15-22.35.33:572][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.15-22.35.33:580][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.15-22.35.33:580][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.15-22.35.33:585][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.15-22.35.33:589][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Intermediate/Shaders/WorkingDirectory/9728/).
+[2016.03.15-22.35.33:589][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/6F4CE81E466C058724DB0BA05CD43986/'.
+[2016.03.15-22.35.33:589][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.15-22.35.34:656][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.15-22.35.34:662][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.15-22.35.34:669][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.15-22.35.34:675][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.15-22.35.34:681][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.15-22.35.34:685][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.15-22.35.34:688][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.15-22.35.34:692][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.15-22.35.34:696][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.15-22.35.34:700][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.15-22.35.34:704][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.15-22.35.34:713][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.15-22.35.34:713][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.15-22.35.34:714][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.15-22.35.34:733][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.15-22.35.34:737][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.15-22.35.34:741][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.15-22.35.34:744][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.15-22.35.34:744][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.15-22.35.34:867][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.15-22.35.34:920][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/David/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.15-22.35.34:920][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.15-22.35.34:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.15-22.35.34:920][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.15-22.35.34:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.15-22.35.34:920][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.15-22.35.34:989][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.15-22.35.35:001][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.15-22.35.35:215][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.15-22.35.35:218][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.15-22.35.35:335][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.15-22.35.35:335][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.15-22.35.35:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.15-22.35.36:627][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.15-22.35.36:754][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2016.03.15-22.35.36:970][  0]SourceControl: Info Source control is disabled
+[2016.03.15-22.35.36:972][  0]SourceControl: Info Source control is disabled
+[2016.03.15-22.35.36:991][  0]SourceControl: Info Source control is disabled
+[2016.03.15-22.35.37:007][  0]SourceControl: Info Source control is disabled
+[2016.03.15-22.35.37:337][  0]LogObj: 28645 objects as part of root set at end of initial load.
+[2016.03.15-22.35.37:337][  0]LogUObjectAllocator: 6105088 out of 0 bytes used by permanent object pool.
+[2016.03.15-22.35.37:397][  0]LogEngine: Initializing Engine...
+[2016.03.15-22.35.37:403][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.15-22.35.37:404][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.15-22.35.37:530][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.15-22.35.37:534][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-22.35.37:561][  0]LogInit: FAudioDevice initialized.
+[2016.03.15-22.35.37:589][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/David/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.15-22.35.37:592][  0]LogInit: Texture streaming: Enabled
+[2016.03.15-22.35.37:599][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.15-22.35.37:599][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.03.15-22.35.37:599][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 51bad3324626f8b32aeb23b5d6210868|c381b92b33784ccaa7b778c4b0f76233|7a75b928-ee2d-4f84-b046-c4f65b0113e6
+[2016.03.15-22.35.37:599][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.15-22.35.37:609][  0]LogInit: Transaction tracking system initialized
+[2016.03.15-22.35.37:644][  0]BlueprintLog: New page: Editor Load
+[2016.03.15-22.35.37:753][  0]LocalizationService: Info Localization service is disabled
+[2016.03.15-22.35.37:987][  0]LogConsoleResponse:Display: 
+[2016.03.15-22.35.38:136][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.15-22.35.38:240][  0]LogFileCache: Scanning file cache for directory 'C:/Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/' took 0.02s
+[2016.03.15-22.35.38:240][  0]SourceControl: Info Source control is disabled
+[2016.03.15-22.36.04:417][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.15-22.36.04:424][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.15-22.36.07:065][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.15-22.36.07:074][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.15-22.36.07:075][  0]Cmd: MAP LOAD FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.15-22.36.07:075][  0]LightingResults: New page: Lighting Build
+[2016.03.15-22.36.07:087][  0]MapCheck: New page: Map Check
+[2016.03.15-22.36.07:087][  0]LightingResults: New page: Lighting Build
+[2016.03.15-22.36.07:116][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000704D477240
+[2016.03.15-22.36.07:443][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'TileMesh' for 'BuildingMesh' in BlueprintGeneratedClass 'REINST_Building_C_22' (it may have been removed)
+[2016.03.15-22.36.07:443][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'TileMesh' for 'Sphere' in BlueprintGeneratedClass 'REINST_Building_C_22' (it may have been removed)
+[2016.03.15-22.36.07:528][  0]LogBlueprint:Error: [compiler MainController] Error Spawn node  Create Widget  must have a class specified.
+[2016.03.15-22.36.07:528][  0]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.36.07:529][  0]LogBlueprint:Error: [compiler MainController] Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.36.07:529][  0]LogBlueprint:Error: [compiler MainController] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.36.07:536][  0]LogBlueprint:Warning: [compiler MainController] Warning [0036.06] Compile of MainController failed. 4 Fatal Issue(s) 0 Warning(s) [in 13 ms]
+[2016.03.15-22.36.07:537][  0]LogBlueprint:Warning: [compiler MainController] Warning [0036.06] Compile of MainController failed. 4 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.15-22.36.07:537][  0]LogBlueprint:Warning: [compiler MainController] Warning [0036.06] Compile of MainController failed. 4 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.15-22.36.07:762][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/FossilBasedEnergy.FossilBasedEnergy_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:774][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/NuclearPower.NuclearPower_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:790][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/SolarPanels.SolarPanels_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:799][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Windmills.Windmills_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:803][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Biomass.Biomass_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:813][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/BatteryCagedLivestock.BatteryCagedLivestock_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:823][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Free-RangeLivestock.Free-RangeLivestock_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:844][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/IntensiveFarming.IntensiveFarming_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:867][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/OrganicFarm.OrganicFarm_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:884][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Incinerator.Incinerator_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:893][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/RecyclingCentre.RecyclingCentre_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:913][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/DesertTile.DesertTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:921][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/FieldTile.FieldTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:930][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Biomes/ForestTile.ForestTile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.07:945][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/CityCentre.CityCentre_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.15-22.36.08:035][  0]LogBlueprint:Error: Broken Node: K2Node_CallArrayFunction /Game/Blueprints/Tiles/GameTileSpawner.GameTileSpawner:SetTileIsFilled.K2Node_CallArrayFunction_44 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/Tiles/GameTileSpawner.GameTileSpawner:SetTileIsFilled.K2Node_CallArrayFunction_44.EdGraphPin_44770. Try refresh all nodes.
+[2016.03.15-22.36.08:077][  0]LogBlueprint:Error: Broken Node: K2Node_CallArrayFunction /Game/Blueprints/Tiles/GameTileSpawner.GameTileSpawner:SetTileIsFilled.K2Node_CallArrayFunction_44 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/Tiles/GameTileSpawner.GameTileSpawner:SetTileIsFilled.K2Node_CallArrayFunction_44.EdGraphPin_44770. Try refresh all nodes.
+[2016.03.15-22.36.08:467][  0]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.03.15-22.36.08:474][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.15-22.36.08:475][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.15-22.36.08:573][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.838ms to complete.
+[2016.03.15-22.36.08:573][  0]LogFileHelpers: Loading map 'Kieran-Test' took 1.498
+[2016.03.15-22.36.08:578][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.15-22.36.08:634][  0]LogCollectionManager: Loaded 0 collections in 0.002758 seconds
+[2016.03.15-22.36.08:676][  0]LogFileCache: Scanning file cache for directory 'C:/Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/Collections/' took 0.01s
+[2016.03.15-22.36.08:676][  0]LogFileCache: Scanning file cache for directory 'C:/Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Developers/David/Collections/' took 0.01s
+[2016.03.15-22.36.08:676][  0]LogFileCache: Scanning file cache for directory 'C:/Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Collections/' took 0.01s
+[2016.03.15-22.36.08:676][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.15-22.36.08:684][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 1896 classes and 340 folders.
+[2016.03.15-22.36.08:692][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2016.03.15-22.36.08:752][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2016.03.15-22.36.08:758][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.03.15-22.36.08:779][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.15-22.36.08:784][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.15-22.36.08:806][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_20e4_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_d30_0///####STATCAT_Advanced####
+[2016.03.15-22.36.08:806][  0]LogLoad: Full Startup: 37.33 seconds (BP compile: 0.38 seconds)
+[2016.03.15-22.36.08:828][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.15-22.36.08:941][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.03.15-22.36.09:089][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.03.15-22.36.09:266][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/' took 0.43s
+[2016.03.15-22.36.09:671][ 10]LogAssetRegistry: Asset discovery search completed in 32.9283 seconds
+[2016.03.15-22.36.09:671][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.03.15-22.36.09:671][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.03.15-22.36.11:885][115]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.15-22.36.12:451][115]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 107 classes and 0 folders.
+[2016.03.15-22.36.20:274][381]LogAIModule: Creating AISystem for world David-Test
+[2016.03.15-22.36.20:368][381]Cmd: MAP LOAD FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Levels/David-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.15-22.36.20:368][381]LightingResults: New page: Lighting Build
+[2016.03.15-22.36.20:392][381]LoadErrors: New page: Loading map: David-Test.umap
+[2016.03.15-22.36.20:393][381]MapCheck: New page: Map Check
+[2016.03.15-22.36.20:393][381]LightingResults: New page: Lighting Build
+[2016.03.15-22.36.20:428][381]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000705B8BF240
+[2016.03.15-22.36.20:435][381]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.15-22.36.20:466][381]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.15-22.36.20:565][381]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.518ms to complete.
+[2016.03.15-22.36.20:566][381]LogFileHelpers: Loading map 'David-Test' took 0.199
+[2016.03.15-22.38.39:891][854]BlueprintLog: New page: Compile MainController
+[2016.03.15-22.38.39:934][854]LogBlueprint:Warning: [compiler MainController] Warning 'ReturnValue' is already a 'Notification UI', you don't need  Cast To NotificationUI .
+[2016.03.15-22.38.39:935][854]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.38.39:935][854]LogBlueprint:Error: [compiler MainController] Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.38.39:936][854]LogBlueprint:Error: [compiler MainController] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.38.40:274][854]LogBlueprint:Warning: [compiler MainController] Warning [0188.80] Compile of MainController failed. 3 Fatal Issue(s) 1 Warning(s) [in 381 ms]
+[2016.03.15-22.38.40:274][854]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Notification UI', you don't need  Cast To NotificationUI .
+[2016.03.15-22.38.40:274][854]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.38.40:274][854]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.38.40:274][854]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.38.40:274][854]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.03.15-22.38.40:274][854]BlueprintEditorCompileResults:Warning: Warning [0188.80] Compile of MainController failed. 3 Fatal Issue(s) 1 Warning(s) [in 381 ms]
+[2016.03.15-22.39.03:662][497]LogEditorTransaction: Undo Move Node
+[2016.03.15-22.40.45:657][217]LogEditorTransaction: Undo Edit Specified Color
+[2016.03.15-22.40.46:589][248]LogEditorTransaction: Undo Add Widget
+[2016.03.15-22.41.23:932][221]LogEditorTransaction: Undo Create Binding
+[2016.03.15-22.42.04:439][370]LogEditorTransaction: Undo Wrap Widgets
+[2016.03.15-22.42.04:933][385]LogEditorTransaction: Undo Add Widget
+[2016.03.15-22.43.20:845][746]BlueprintLog: New page: Compile SingleNotification
+[2016.03.15-22.43.20:991][746]BlueprintEditorCompileResults: Info [0469.52] Compile of SingleNotification successful! [in 146 ms]
+[2016.03.15-22.43.31:961][ 10]BlueprintLog: New page: Compile NotificationUI
+[2016.03.15-22.43.31:980][ 10]LogBlueprint:Warning: [MainController] CreatePinForVariable: 'Button_0' variable not found. Base class was probably changed.
+[2016.03.15-22.43.31:980][ 10]LogBlueprint:Warning: [MainController] CreatePinForVariable: 'TextBlock_330' variable not found. Base class was probably changed.
+[2016.03.15-22.43.32:012][ 10]LogBlueprint:Warning: [compiler MainController] Warning Could not find a variable named "Button_0" in 'NotificationUI_C'.
+Make sure 'NotificationUI_C' has been compiled for  Get Button_0 
+[2016.03.15-22.43.32:012][ 10]LogBlueprint:Warning: [compiler MainController] Warning Could not find a variable named "TextBlock_330" in 'NotificationUI_C'.
+Make sure 'NotificationUI_C' has been compiled for  Get TextBlock_330 
+[2016.03.15-22.43.32:013][ 10]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.43.32:013][ 10]LogBlueprint:Error: [compiler MainController] Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.43.32:014][ 10]LogBlueprint:Error: [compiler MainController] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.43.32:014][ 10]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a NotificationUI_C, therefore ' Target ' must have a connection.
+[2016.03.15-22.43.32:014][ 10]LogBlueprint:Error: [compiler MainController] Error Variable node  Set Notification  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.03.15-22.43.32:015][ 10]LogBlueprint:Error: [compiler MainController] Error The property associated with  Button 0  could not be found
+[2016.03.15-22.43.32:015][ 10]LogBlueprint:Error: [compiler MainController] Error The property associated with  Text Block 330  could not be found
+[2016.03.15-22.43.32:434][ 10]BlueprintEditorCompileResults: Info [0480.96] Compile of NotificationUI successful! [in 472 ms]
+[2016.03.15-22.43.33:573][ 41]BlueprintLog: New page: Compile SingleNotification
+[2016.03.15-22.43.33:735][ 41]BlueprintEditorCompileResults: Info [0482.26] Compile of SingleNotification successful! [in 161 ms]
+[2016.03.15-22.43.40:384][247]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.15-22.46.20:571][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/David-Test' took 0.052
+[2016.03.15-22.46.20:577][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/SingleNotification] ([1] browsable assets)...
+[2016.03.15-22.46.20:577][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SingleNotification]
+[2016.03.15-22.46.20:598][774]LogSavePackage: Save=14.110461ms
+[2016.03.15-22.46.20:598][774]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/SingleNotification_Auto1D7446E954E70454D677B90A4D3D4D619.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/UI/SingleNotification_Auto1.uasset'
+[2016.03.15-22.46.20:599][774]LogSavePackage: Total save time: 21.115016ms
+[2016.03.15-22.46.20:599][774]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/UI/SingleNotification_Auto1.uasset
+[2016.03.15-22.46.20:604][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Gameplay/MainController] ([1] browsable assets)...
+[2016.03.15-22.46.20:604][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Gameplay/MainController]
+[2016.03.15-22.46.20:749][774]LogSavePackage: Save=55.632725ms
+[2016.03.15-22.46.20:749][774]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/MainController_Auto18BD4DA4247AF7A4C7B7852A906F6DEB1.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/Gameplay/MainController_Auto1.uasset'
+[2016.03.15-22.46.20:750][774]LogSavePackage: Total save time: 145.890068ms
+[2016.03.15-22.46.20:751][774]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/Gameplay/MainController_Auto1.uasset
+[2016.03.15-22.46.20:755][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/NotificationUI] ([1] browsable assets)...
+[2016.03.15-22.46.20:755][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/NotificationUI]
+[2016.03.15-22.46.20:855][774]LogSavePackage: Save=15.295492ms
+[2016.03.15-22.46.20:855][774]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/NotificationUI_Auto185D706D44F68C85D90BDDEBE465FAF04.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/UI/NotificationUI_Auto1.uasset'
+[2016.03.15-22.46.20:857][774]LogSavePackage: Total save time: 100.845214ms
+[2016.03.15-22.46.20:857][774]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/UI/NotificationUI_Auto1.uasset
+[2016.03.15-22.46.20:857][774]LogFileHelpers: Auto-saving content packages took 0.285
+[2016.03.15-22.47.27:332][432]BlueprintLog: New page: Compile SingleNotification
+[2016.03.15-22.47.27:394][432]LogBlueprint:Warning: [compiler MainController] Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.47.27:394][432]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.47.27:394][432]LogBlueprint:Error: [compiler MainController] Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.47.27:395][432]LogBlueprint:Error: [compiler MainController] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.47.27:395][432]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a TextBlock, therefore ' Target ' must have a connection.
+[2016.03.15-22.47.27:807][432]BlueprintEditorCompileResults: Info [0716.33] Compile of SingleNotification successful! [in 474 ms]
+[2016.03.15-22.48.29:275][602]BlueprintLog: New page: Compile MainController
+[2016.03.15-22.48.29:312][602]LogBlueprint:Warning: [compiler MainController] Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.48.29:313][602]LogBlueprint:Warning: [compiler MainController] Warning Could not find a variable named "TestText" in 'SingleNotification_C'.
+Make sure 'SingleNotification_C' has been compiled for  Get TestText 
+[2016.03.15-22.48.29:313][602]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.48.29:313][602]LogBlueprint:Error: [compiler MainController] Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.48.29:314][602]LogBlueprint:Error: [compiler MainController] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.48.29:314][602]LogBlueprint:Error: [compiler MainController] Error The property associated with  Test Text  could not be found
+[2016.03.15-22.48.29:620][602]LogBlueprint:Warning: [compiler MainController] Warning [0778.15] Compile of MainController failed. 4 Fatal Issue(s) 2 Warning(s) [in 345 ms]
+[2016.03.15-22.48.29:621][602]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.48.29:621][602]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "TestText" in 'SingleNotification_C'.
+Make sure 'SingleNotification_C' has been compiled for  Get TestText 
+[2016.03.15-22.48.29:621][602]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.48.29:621][602]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.48.29:621][602]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.48.29:621][602]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.03.15-22.48.29:621][602]BlueprintEditorCompileResults:Error: Error The property associated with  Test Text  could not be found
+[2016.03.15-22.48.29:621][602]BlueprintEditorCompileResults:Warning: Warning [0778.15] Compile of MainController failed. 4 Fatal Issue(s) 2 Warning(s) [in 345 ms]
+[2016.03.15-22.48.46:058][ 28]BlueprintLog: New page: Compile SingleNotification
+[2016.03.15-22.48.46:118][ 28]LogBlueprint:Warning: [compiler MainController] Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.48.46:119][ 28]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.48.46:119][ 28]LogBlueprint:Error: [compiler MainController] Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.48.46:119][ 28]LogBlueprint:Error: [compiler MainController] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.48.46:518][ 28]BlueprintEditorCompileResults: Info [0795.04] Compile of SingleNotification successful! [in 460 ms]
+[2016.03.15-22.48.47:928][ 65]BlueprintLog: New page: Compile NotificationUI
+[2016.03.15-22.48.48:067][ 65]BlueprintEditorCompileResults: Info [0796.59] Compile of NotificationUI successful! [in 138 ms]
+[2016.03.15-22.49.09:573][632]BlueprintLog: New page: Compile MainController
+[2016.03.15-22.49.09:616][632]LogBlueprint:Warning: [compiler MainController] Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.49.09:617][632]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.49.09:617][632]LogBlueprint:Error: [compiler MainController] Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.49.09:617][632]LogBlueprint:Error: [compiler MainController] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.49.09:924][632]LogBlueprint:Warning: [compiler MainController] Warning [0818.45] Compile of MainController failed. 3 Fatal Issue(s) 1 Warning(s) [in 350 ms]
+[2016.03.15-22.49.09:924][632]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.49.09:924][632]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.49.09:924][632]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To Widget  to imply a specific type.
+[2016.03.15-22.49.09:924][632]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.03.15-22.49.09:924][632]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.03.15-22.49.09:924][632]BlueprintEditorCompileResults:Warning: Warning [0818.45] Compile of MainController failed. 3 Fatal Issue(s) 1 Warning(s) [in 350 ms]
+[2016.03.15-22.50.25:460][340]BlueprintLog: New page: Compile NotificationUI
+[2016.03.15-22.50.25:519][340]LogBlueprint:Warning: [compiler MainController] Warning 'CreatedNotification' is already a 'Button' (which inherits from 'Widget'), so you don't need  Cast To Widget .
+[2016.03.15-22.50.25:520][340]LogBlueprint:Warning: [compiler MainController] Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.50.25:521][340]LogBlueprint:Error: [compiler MainController] Error This blueprint (self) is not a PanelWidget, therefore ' Target ' must have a connection.
+[2016.03.15-22.50.25:959][340]BlueprintEditorCompileResults: Info [0894.49] Compile of NotificationUI successful! [in 499 ms]
+[2016.03.15-22.50.38:309][761]BlueprintLog: New page: Compile MainController
+[2016.03.15-22.50.38:363][761]LogBlueprint:Warning: [compiler MainController] Warning 'CreatedNotification' is already a 'Button' (which inherits from 'Widget'), so you don't need  Cast To Widget .
+[2016.03.15-22.50.38:365][761]LogBlueprint:Warning: [compiler MainController] Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.50.38:632][761]LogBlueprint:Warning: [compiler MainController] Warning [0907.16] Compile of MainController successful, but with 2 Warning(s) [in 322 ms]
+[2016.03.15-22.50.38:632][761]BlueprintEditorCompileResults:Warning: Warning 'CreatedNotification' is already a 'Button' (which inherits from 'Widget'), so you don't need  Cast To Widget .
+[2016.03.15-22.50.38:632][761]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.50.38:632][761]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.03.15-22.50.38:632][761]BlueprintEditorCompileResults:Warning: Warning [0907.16] Compile of MainController successful, but with 2 Warning(s) [in 322 ms]
+[2016.03.15-22.50.49:794][ 64]BlueprintLog: New page: Compile MainController
+[2016.03.15-22.50.49:838][ 64]LogBlueprint:Warning: [compiler MainController] Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.50.50:098][ 64]LogBlueprint:Warning: [compiler MainController] Warning [0918.62] Compile of MainController successful, but with 1 Warning(s) [in 303 ms]
+[2016.03.15-22.50.50:098][ 64]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.50.50:098][ 64]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.03.15-22.50.50:098][ 64]BlueprintEditorCompileResults:Warning: Warning [0918.62] Compile of MainController successful, but with 1 Warning(s) [in 303 ms]
+[2016.03.15-22.50.57:388][276]BlueprintLog: New page: Compile MainController
+[2016.03.15-22.50.57:432][276]LogBlueprint:Warning: [compiler MainController] Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.50.57:687][276]LogBlueprint:Warning: [compiler MainController] Warning [0926.21] Compile of MainController successful, but with 1 Warning(s) [in 298 ms]
+[2016.03.15-22.50.57:687][276]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Single Notification', you don't need  Cast To SingleNotification .
+[2016.03.15-22.50.57:687][276]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.03.15-22.50.57:687][276]BlueprintEditorCompileResults:Warning: Warning [0926.21] Compile of MainController successful, but with 1 Warning(s) [in 298 ms]
+[2016.03.15-22.52.31:081][672]BlueprintLog: New page: Compile MainController
+[2016.03.15-22.52.31:383][672]BlueprintEditorCompileResults: Info [1019.91] Compile of MainController successful! [in 302 ms]
+[2016.03.15-22.52.34:170][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SingleNotification" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/SingleNotification.uasset" SILENT=true
+[2016.03.15-22.52.34:188][739]LogSavePackage: Save=15.577316ms
+[2016.03.15-22.52.34:188][739]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/SingleNotificationE7558A09429ADE8FC62F1798342256AB.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/SingleNotification.uasset'
+[2016.03.15-22.52.34:190][739]LogSavePackage: Total save time: 18.361773ms
+[2016.03.15-22.52.34:190][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/SingleNotification.uasset
+[2016.03.15-22.52.34:201][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/MainController" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset" SILENT=true
+[2016.03.15-22.52.34:345][739]LogSavePackage: Save=56.460236ms
+[2016.03.15-22.52.34:345][739]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/MainController4FCD598B48F5CB6AFF54CD8534C44F6C.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset'
+[2016.03.15-22.52.34:348][739]LogSavePackage: Total save time: 145.605251ms
+[2016.03.15-22.52.34:348][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset
+[2016.03.15-22.52.34:356][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/NotificationUI" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/NotificationUI.uasset" SILENT=true
+[2016.03.15-22.52.34:457][739]LogSavePackage: Save=14.858429ms
+[2016.03.15-22.52.34:457][739]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/NotificationUI611D4C7E499994A4190FAF913F314C1C.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/NotificationUI.uasset'
+[2016.03.15-22.52.34:459][739]LogSavePackage: Total save time: 102.622978ms
+[2016.03.15-22.52.34:459][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/NotificationUI.uasset
+[2016.03.15-22.52.36:657][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.52.36:657][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-22.52.36:657][800]PIE: New page: PIE session: David-Test (15 Mar 2016 22:52:36)
+[2016.03.15-22.52.36:658][800]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.03.15-22.52.36:663][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005196s)
+[2016.03.15-22.52.36:663][800]LogAIModule: Creating AISystem for world David-Test
+[2016.03.15-22.52.36:664][800]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2016.03.15-22.52.36:664][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.006147s)
+[2016.03.15-22.52.36:713][800]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-22.52.36:724][800]LogInit: FAudioDevice initialized.
+[2016.03.15-22.52.36:772][800]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.03.15-22.52.36:774][800]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 60) at 2016.03.15-22.52.36
+[2016.03.15-22.52.36:774][800]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.52.36:775][800]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.52.36:775][800]LogWorld: Bringing up level for play took: 0.002113
+[2016.03.15-22.52.36:779][800]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.03.15-22.52.36:780][800]LogBlueprintUserMessages: [CityCentre_C_0] Building data doesn't exist
+[2016.03.15-22.52.36:781][800]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.52.36:781][800]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.52.36:781][800]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.52.36:792][800]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-22.52.36:793][800]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.52.36:793][800]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.52.36:793][800]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.52.36:796][800]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-22.52.36:802][800]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-22.52.36:816][800]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.407
+[2016.03.15-22.52.36:816][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.52.42:152][104]LogBlueprintUserMessages: [SingleNotification_C_11] 
+[2016.03.15-22.52.42:658][133]LogBlueprintUserMessages: [SingleNotification_C_13] 
+[2016.03.15-22.52.43:217][165]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.52.43:262][165]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.52.43:313][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007082E662A0
+[2016.03.15-22.53.27:548][219]BlueprintLog: New page: Compile SingleNotification
+[2016.03.15-22.53.27:731][219]BlueprintEditorCompileResults: Info [1076.26] Compile of SingleNotification successful! [in 183 ms]
+[2016.03.15-22.53.29:725][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.53.29:725][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-22.53.29:725][272]PIE: New page: PIE session: David-Test (15 Mar 2016 22:53:29)
+[2016.03.15-22.53.29:725][272]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.03.15-22.53.29:736][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010971s)
+[2016.03.15-22.53.29:737][272]LogAIModule: Creating AISystem for world David-Test
+[2016.03.15-22.53.29:737][272]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2016.03.15-22.53.29:738][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.012742s)
+[2016.03.15-22.53.29:794][272]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-22.53.29:803][272]LogInit: FAudioDevice initialized.
+[2016.03.15-22.53.29:840][272]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.03.15-22.53.29:843][272]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 60) at 2016.03.15-22.53.29
+[2016.03.15-22.53.29:843][272]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.53.29:843][272]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.53.29:843][272]LogWorld: Bringing up level for play took: 0.002486
+[2016.03.15-22.53.29:847][272]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.03.15-22.53.29:848][272]LogBlueprintUserMessages: [CityCentre_C_1] Building data doesn't exist
+[2016.03.15-22.53.29:848][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:848][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:848][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:854][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:855][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:855][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:855][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:855][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:856][272]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-22.53.29:866][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:866][272]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.53.29:867][272]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-22.53.29:873][272]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-22.53.29:889][272]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.665
+[2016.03.15-22.53.29:889][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.53.32:731][430]LogBlueprintUserMessages: [SingleNotification_C_12] 
+[2016.03.15-22.53.33:265][460]LogBlueprintUserMessages: [SingleNotification_C_13] 
+[2016.03.15-22.53.34:007][500]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.53.34:049][500]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.53.34:100][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007083858360
+[2016.03.15-22.55.52:430][792]BlueprintLog: New page: Compile MainController
+[2016.03.15-22.55.52:761][792]BlueprintEditorCompileResults: Info [1221.29] Compile of MainController successful! [in 331 ms]
+[2016.03.15-22.55.55:166][857]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.55.55:166][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-22.55.55:166][857]PIE: New page: PIE session: David-Test (15 Mar 2016 22:55:55)
+[2016.03.15-22.55.55:166][857]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.03.15-22.55.55:175][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007960s)
+[2016.03.15-22.55.55:175][857]LogAIModule: Creating AISystem for world David-Test
+[2016.03.15-22.55.55:176][857]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2016.03.15-22.55.55:176][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.009310s)
+[2016.03.15-22.55.55:233][857]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-22.55.55:244][857]LogInit: FAudioDevice initialized.
+[2016.03.15-22.55.55:276][857]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.03.15-22.55.55:279][857]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 60) at 2016.03.15-22.55.55
+[2016.03.15-22.55.55:279][857]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.55.55:279][857]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.55.55:279][857]LogWorld: Bringing up level for play took: 0.002796
+[2016.03.15-22.55.55:285][857]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.03.15-22.55.55:285][857]LogBlueprintUserMessages: [CityCentre_C_2] Building data doesn't exist
+[2016.03.15-22.55.55:298][857]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-22.55.55:309][857]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.55.55:312][857]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.55.55:314][857]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-22.55.55:316][857]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.55.55:318][857]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.55.55:318][857]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.55.55:318][857]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.55.55:318][857]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-22.55.55:319][857]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-22.55.55:335][857]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.112
+[2016.03.15-22.55.55:336][857]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.56.31:945][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.56.31:987][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-22.56.32:036][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007086ED8D60
+[2016.03.15-22.56.51:379][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SingleNotification" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/SingleNotification.uasset" SILENT=true
+[2016.03.15-22.56.51:475][564]LogSavePackage: Save=11.098491ms
+[2016.03.15-22.56.51:475][564]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/SingleNotification3CBBFE06435137964B1FC0BDA37D19C6.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/SingleNotification.uasset'
+[2016.03.15-22.56.51:478][564]LogSavePackage: Total save time: 97.938448ms
+[2016.03.15-22.56.51:478][564]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/SingleNotification.uasset
+[2016.03.15-22.56.51:485][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/MainController" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset" SILENT=true
+[2016.03.15-22.56.51:628][564]LogSavePackage: Save=58.391949ms
+[2016.03.15-22.56.51:628][564]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/MainControllerBD2413CF4DBD6A6399DC59B27711B9DD.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset'
+[2016.03.15-22.56.51:631][564]LogSavePackage: Total save time: 145.394418ms
+[2016.03.15-22.56.51:631][564]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset
+[2016.03.15-22.59.46:442][730]BlueprintLog: New page: Compile MainController
+[2016.03.15-22.59.46:767][730]BlueprintEditorCompileResults: Info [1455.29] Compile of MainController successful! [in 324 ms]
+[2016.03.15-22.59.47:701][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/MainController" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset" SILENT=true
+[2016.03.15-22.59.47:834][752]LogSavePackage: Save=46.583981ms
+[2016.03.15-22.59.47:834][752]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/MainController23E6E9564189DBE933031AA19A583A3D.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset'
+[2016.03.15-22.59.47:837][752]LogSavePackage: Total save time: 135.491222ms
+[2016.03.15-22.59.47:837][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset
+[2016.03.15-23.00.59:775][436]BlueprintLog: New page: Compile SingleNotification
+[2016.03.15-23.00.59:956][436]BlueprintEditorCompileResults: Info [1528.48] Compile of SingleNotification successful! [in 180 ms]
+[2016.03.15-23.01.44:372][473]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/David-Test' took 0.056
+[2016.03.15-23.01.44:378][473]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/SingleNotification] ([1] browsable assets)...
+[2016.03.15-23.01.44:378][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SingleNotification]
+[2016.03.15-23.01.44:478][473]LogSavePackage: Save=13.549807ms
+[2016.03.15-23.01.44:478][473]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/SingleNotification_Auto284873ED545D0BEF823CA3084AE0B3499.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/UI/SingleNotification_Auto2.uasset'
+[2016.03.15-23.01.44:480][473]LogSavePackage: Total save time: 100.449637ms
+[2016.03.15-23.01.44:480][473]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/Autosaves/Game/Blueprints/UI/SingleNotification_Auto2.uasset
+[2016.03.15-23.01.44:480][473]LogFileHelpers: Auto-saving content packages took 0.107
+[2016.03.15-23.02.17:148][240]LogEditorTransaction: Undo Create Pin Link
+[2016.03.15-23.02.17:713][252]LogEditorTransaction: Undo Delete current selection
+[2016.03.15-23.02.48:182][955]LogEditorTransaction: Undo Wrap Widgets
+[2016.03.15-23.09.11:438][821]BlueprintLog: New page: Compile SingleNotification
+[2016.03.15-23.09.11:929][821]BlueprintEditorCompileResults: Info [2020.46] Compile of SingleNotification successful! [in 491 ms]
+[2016.03.15-23.09.42:492][537]BlueprintLog: New page: Compile MainController
+[2016.03.15-23.09.42:813][537]BlueprintEditorCompileResults: Info [2051.34] Compile of MainController successful! [in 320 ms]
+[2016.03.15-23.09.44:343][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SingleNotification" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/SingleNotification.uasset" SILENT=true
+[2016.03.15-23.09.44:444][572]LogSavePackage: Save=11.591577ms
+[2016.03.15-23.09.44:444][572]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/SingleNotification318DD1A34640BB56DEEE05B296E938F9.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/SingleNotification.uasset'
+[2016.03.15-23.09.44:447][572]LogSavePackage: Total save time: 103.150275ms
+[2016.03.15-23.09.44:447][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/SingleNotification.uasset
+[2016.03.15-23.09.44:454][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/MainController" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset" SILENT=true
+[2016.03.15-23.09.44:588][572]LogSavePackage: Save=47.042000ms
+[2016.03.15-23.09.44:588][572]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/MainControllerEAD8696F423FBB897FCADEB36FFA2C8C.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset'
+[2016.03.15-23.09.44:591][572]LogSavePackage: Total save time: 136.003125ms
+[2016.03.15-23.09.44:591][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset
+[2016.03.15-23.10.31:019][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/MainController" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset" SILENT=true
+[2016.03.15-23.10.31:173][699]LogSavePackage: Save=60.806061ms
+[2016.03.15-23.10.31:173][699]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/MainControllerBAD41AFF45E3FB2ABC8558A2BB9EF3CB.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset'
+[2016.03.15-23.10.31:176][699]LogSavePackage: Total save time: 156.720847ms
+[2016.03.15-23.10.31:176][699]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset
+[2016.03.15-23.10.31:184][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD_Main" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset" SILENT=true
+[2016.03.15-23.10.31:386][699]LogSavePackage: Save=109.704506ms
+[2016.03.15-23.10.31:386][699]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/HUD_Main927EE7AD48469A1EE8AF0D89827AFA00.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset'
+[2016.03.15-23.10.31:390][699]LogSavePackage: Total save time: 204.587791ms
+[2016.03.15-23.10.31:390][699]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset
+[2016.03.15-23.11.08:301][566]BlueprintLog: New page: Compile HUD_Main
+[2016.03.15-23.11.08:377][566]LogBlueprint:Error: [compiler HUD_Main] Error This blueprint (self) is not a MainController_C, therefore ' Target ' must have a connection.
+[2016.03.15-23.11.08:377][566]LogBlueprint:Error: [compiler HUD_Main] Error The type of  Object  is undetermined.  Connect something to  Cast To MainController  to imply a specific type.
+[2016.03.15-23.11.08:378][566]LogBlueprint:Error: [compiler HUD_Main] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.03.15-23.11.08:558][566]LogBlueprint:Warning: [compiler HUD_Main] Warning [2137.08] Compile of HUD_Main failed. 3 Fatal Issue(s) 0 Warning(s) [in 257 ms]
+[2016.03.15-23.11.08:558][566]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MainController_C, therefore ' Target ' must have a connection.
+[2016.03.15-23.11.08:558][566]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To MainController  to imply a specific type.
+[2016.03.15-23.11.08:558][566]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2016.03.15-23.11.08:558][566]BlueprintEditorCompileResults:Warning: Warning [2137.08] Compile of HUD_Main failed. 3 Fatal Issue(s) 0 Warning(s) [in 257 ms]
+[2016.03.15-23.11.19:039][811]BlueprintLog: New page: Compile HUD_Main
+[2016.03.15-23.11.19:116][811]LogBlueprint:Error: [compiler HUD_Main] Error This blueprint (self) is not a MainController_C, therefore ' Target ' must have a connection.
+[2016.03.15-23.11.19:296][811]LogBlueprint:Warning: [compiler HUD_Main] Warning [2147.82] Compile of HUD_Main failed. 1 Fatal Issue(s) 0 Warning(s) [in 256 ms]
+[2016.03.15-23.11.19:296][811]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MainController_C, therefore ' Target ' must have a connection.
+[2016.03.15-23.11.19:296][811]BlueprintEditorCompileResults:Warning: Warning [2147.82] Compile of HUD_Main failed. 1 Fatal Issue(s) 0 Warning(s) [in 256 ms]
+[2016.03.15-23.13.13:001][501]BlueprintLog: New page: Compile MainController
+[2016.03.15-23.13.13:115][501]LogBlueprint:Error: [compiler HUD_Main] Error This blueprint (self) is not a MainController_C, therefore ' Target ' must have a connection.
+[2016.03.15-23.13.13:512][501]BlueprintEditorCompileResults: Info [2262.04] Compile of MainController successful! [in 510 ms]
+[2016.03.15-23.13.15:010][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/MainController" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset" SILENT=true
+[2016.03.15-23.13.15:141][537]LogSavePackage: Save=44.671082ms
+[2016.03.15-23.13.15:141][537]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/MainControllerAF9F87184E48EE18D3CCBEBE30562B40.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset'
+[2016.03.15-23.13.15:143][537]LogSavePackage: Total save time: 131.840762ms
+[2016.03.15-23.13.15:143][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/MainController.uasset
+[2016.03.15-23.13.15:150][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD_Main" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset" SILENT=true
+[2016.03.15-23.13.15:341][537]LogSavePackage: Save=107.310074ms
+[2016.03.15-23.13.15:341][537]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/HUD_Main311BCBD1469D79133B7D718A62F86FB3.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset'
+[2016.03.15-23.13.15:344][537]LogSavePackage: Total save time: 192.878611ms
+[2016.03.15-23.13.15:344][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset
+[2016.03.15-23.13.30:526][896]BlueprintLog: New page: Compile HUD_Main
+[2016.03.15-23.13.30:730][896]BlueprintEditorCompileResults: Info [2279.26] Compile of HUD_Main successful! [in 203 ms]
+[2016.03.15-23.13.35:697][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.13.35:697][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-23.13.35:697][ 19]PIE: New page: PIE session: David-Test (15 Mar 2016 23:13:35)
+[2016.03.15-23.13.35:697][ 19]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.03.15-23.13.35:706][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008597s)
+[2016.03.15-23.13.35:707][ 19]LogAIModule: Creating AISystem for world David-Test
+[2016.03.15-23.13.35:707][ 19]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2016.03.15-23.13.35:707][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.009911s)
+[2016.03.15-23.13.35:769][ 19]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-23.13.35:779][ 19]LogInit: FAudioDevice initialized.
+[2016.03.15-23.13.35:812][ 19]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.03.15-23.13.35:814][ 19]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 60) at 2016.03.15-23.13.35
+[2016.03.15-23.13.35:815][ 19]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-23.13.35:815][ 19]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-23.13.35:815][ 19]LogWorld: Bringing up level for play took: 0.002643
+[2016.03.15-23.13.35:820][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.03.15-23.13.35:820][ 19]LogBlueprintUserMessages: [CityCentre_C_3] Building data doesn't exist
+[2016.03.15-23.13.35:826][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.13.35:828][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.13.35:828][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.13.35:828][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.13.35:828][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.13.35:829][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-23.13.35:829][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.13.35:831][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.13.35:835][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-23.13.35:842][ 19]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-23.13.35:858][ 19]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.635
+[2016.03.15-23.13.35:858][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.13.40:053][235]LogBlueprintUserMessages: [AnthroGameMode_C_3] 1 action left
+[2016.03.15-23.13.40:053][235]LogBlueprintUserMessages: [PlayerStatsMain_18] BuildingTracked
+[2016.03.15-23.13.54:485][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.13.54:522][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.13.54:573][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070A0DCAF20
+[2016.03.15-23.14.12:360][434]BlueprintLog: New page: Compile HUD_Main
+[2016.03.15-23.14.12:544][434]BlueprintEditorCompileResults: Info [2321.07] Compile of HUD_Main successful! [in 183 ms]
+[2016.03.15-23.14.15:163][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.14.15:163][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-23.14.15:163][500]PIE: New page: PIE session: David-Test (15 Mar 2016 23:14:15)
+[2016.03.15-23.14.15:163][500]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.03.15-23.14.15:171][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007664s)
+[2016.03.15-23.14.15:172][500]LogAIModule: Creating AISystem for world David-Test
+[2016.03.15-23.14.15:172][500]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2016.03.15-23.14.15:172][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.008859s)
+[2016.03.15-23.14.15:231][500]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-23.14.15:240][500]LogInit: FAudioDevice initialized.
+[2016.03.15-23.14.15:271][500]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.03.15-23.14.15:274][500]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 60) at 2016.03.15-23.14.15
+[2016.03.15-23.14.15:274][500]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-23.14.15:274][500]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-23.14.15:274][500]LogWorld: Bringing up level for play took: 0.002432
+[2016.03.15-23.14.15:278][500]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.03.15-23.14.15:279][500]LogBlueprintUserMessages: [CityCentre_C_4] Building data doesn't exist
+[2016.03.15-23.14.15:290][500]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-23.14.15:293][500]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.14.15:294][500]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.14.15:295][500]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.14.15:295][500]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.14.15:295][500]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.14.15:296][500]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-23.14.15:297][500]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.14.15:297][500]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.14.15:297][500]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.14.15:297][500]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-23.14.15:315][500]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test 0.092
+[2016.03.15-23.14.15:315][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.14.20:574][788]LogBlueprintUserMessages: [AnthroGameMode_C_4] 1 action left
+[2016.03.15-23.14.20:574][788]LogBlueprintUserMessages: [PlayerStatsMain_18] BuildingTracked
+[2016.03.15-23.17.23:672][781]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.17.23:718][781]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.17.23:770][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000070A1557C40
+[2016.03.15-23.19.47:581][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD_Main" FILE="../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset" SILENT=true
+[2016.03.15-23.19.47:789][742]LogSavePackage: Save=112.630951ms
+[2016.03.15-23.19.47:789][742]LogSavePackage: Moving '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Saved/HUD_MainA4742D7B4B080847450A61A51ED3279D.tmp' to '../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset'
+[2016.03.15-23.19.47:793][742]LogSavePackage: Total save time: 209.858637ms
+[2016.03.15-23.19.47:793][742]LogSavePackage:Display: Finished SavePackage ../../../../../../Anthracratos/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset
+[2016.03.15-23.21.53:929][738]BlueprintLog: New page: Compile NotificationUI
+[2016.03.15-23.21.54:115][738]BlueprintEditorCompileResults: Info [2782.64] Compile of NotificationUI successful! [in 186 ms]
+[2016.03.15-23.21.56:367][799]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.21.56:367][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-23.21.56:367][799]PIE: New page: PIE session: David-Test (15 Mar 2016 23:21:56)
+[2016.03.15-23.21.56:367][799]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_David-Test
+[2016.03.15-23.21.56:372][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004311s)
+[2016.03.15-23.21.56:372][799]LogAIModule: Creating AISystem for world David-Test
+[2016.03.15-23.21.56:372][799]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2016.03.15-23.21.56:372][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/David-Test.David-Test to /Game/Levels/UEDPIE_0_David-Test.David-Test (0.005302s)
+[2016.03.15-23.21.56:424][799]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-23.21.56:435][799]LogInit: FAudioDevice initialized.
+[2016.03.15-23.21.56:472][799]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.03.15-23.21.56:475][799]LogWorld: Bringing World /Game/Levels/UEDPIE_0_David-Test.David-Test up for play (max tick rate 60) at 2016.03.15-23.21.56
+[2016.03.15-23.21.56:475][799]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-23.21.56:475][799]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_David-Test.David-Test:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-23.21.56:475][799]LogWorld: Bringing up level for play took: 0.002381
+[2016.03.15-23.21.56:479][799]LogBlueprintUserMessages: [GameTileSpawner_58] TilesGenerated
+[2016.03.15-23.21.56:480][799]LogBlueprintUserMessages: [CityCentre_C_5] Building data doesn't exist
+[2016.03.15-23.21.56:488][799]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-23.21.56:496][799]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.21.56:497][799]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.21.56:498][799]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-23.21.56:498][799]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.21.56:499][799]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.21.56:500][799]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.21.56:500][799]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.21.56:501][799]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.21.56:501][799]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.21.56:501][799]LogBlueprintUserMessages: [GameTileSpawner_58] Out Of Bounds Tile position
+[2016.03.15-23.21.56:503][799]LogBlueprintUserMessages: [GameTileSpawner_58] spawned biome
+[2016.03.15-23.21.56:516][799]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_David-Test -0.708
+[2016.03.15-23.21.56:516][799]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/David-Test.David-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test' with GeneratedClass '/Game/Levels/David-Test.David-Test_C' with ClassGeneratedBy '/Game/Levels/David-Test.David-Test:PersistentLevel.David-Test'
+[2016.03.15-23.21.57:334][841]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:334][841]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:334][841]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:334][841]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:334][841]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:334][841]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:334][841]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:334][841]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:334][841]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:334][841]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:334][841]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:335][841]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:354][842]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:354][842]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:354][842]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:354][842]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:354][842]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:354][842]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:354][842]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:354][842]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:354][842]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:354][842]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:354][842]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:355][842]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:372][843]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:372][843]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:372][843]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:372][843]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:372][843]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:372][843]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:372][843]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:372][843]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:372][843]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:372][843]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:372][843]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:372][843]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:394][844]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:394][844]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:394][844]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:394][844]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:394][844]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:394][844]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:394][844]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:394][844]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:394][844]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:394][844]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:394][844]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:394][844]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:413][845]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:413][845]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:413][845]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.UpgradeBuildingUI_C_2
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:SetUpgradeText:015F
+[2016.03.15-23.21.57:413][845]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:413][845]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:413][845]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:413][845]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:413][845]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:413][845]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:434][846]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:434][846]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:434][846]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:434][846]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:434][846]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:434][846]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:434][846]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:434][846]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:455][847]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:455][847]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:455][847]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:455][847]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:456][847]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:456][847]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:456][847]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:456][847]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:476][848]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:476][848]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:476][848]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:476][848]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:476][848]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:476][848]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:476][848]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:476][848]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:496][849]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:496][849]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:496][849]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:496][849]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:496][849]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:496][849]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:496][849]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:496][849]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:516][850]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:516][850]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:516][850]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:516][850]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:516][850]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:516][850]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:516][850]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:516][850]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:536][851]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:536][851]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:536][851]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:536][851]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:536][851]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:536][851]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:536][851]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:536][851]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:557][852]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:557][852]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:557][852]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:557][852]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:557][852]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:557][852]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:557][852]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:557][852]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:575][853]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:576][853]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:576][853]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:576][853]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:576][853]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:576][853]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:576][853]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:576][853]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:599][854]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:599][854]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:599][854]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:599][854]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:599][854]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:599][854]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:599][854]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:599][854]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:618][855]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:618][855]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:618][855]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:618][855]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:618][855]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:618][855]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:618][855]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:618][855]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:640][856]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:640][856]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:641][856]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:641][856]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:641][856]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:641][856]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:641][856]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:641][856]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:660][857]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:660][857]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:660][857]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:660][857]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:660][857]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:660][857]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:660][857]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:661][857]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:680][858]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:681][858]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:681][858]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:681][858]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:681][858]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:681][858]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:681][858]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:681][858]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:699][859]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:699][859]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:699][859]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:699][859]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:699][859]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:699][859]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:699][859]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:699][859]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:720][860]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:720][860]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:720][860]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:720][860]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:720][860]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:720][860]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:720][860]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:720][860]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:742][861]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:743][861]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:743][861]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:743][861]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:743][861]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:743][861]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:743][861]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:743][861]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:759][862]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:759][862]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:760][862]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:760][862]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:760][862]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:760][862]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:760][862]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:760][862]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:778][863]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:778][863]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:778][863]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:778][863]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:778][863]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:778][863]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:778][863]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:779][863]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:796][864]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:796][864]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:796][864]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:796][864]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:796][864]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:796][864]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:797][864]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:797][864]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:817][865]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:817][865]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:817][865]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:817][865]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:817][865]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:817][865]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:817][865]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:817][865]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:835][866]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:835][866]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:835][866]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:835][866]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:836][866]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:836][866]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:836][866]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:836][866]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:853][867]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:853][867]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:854][867]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:854][867]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:854][867]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:854][867]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:854][867]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:854][867]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:874][868]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:874][868]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:874][868]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:874][868]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:874][868]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:874][868]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:874][868]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:874][868]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:896][869]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:896][869]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:897][869]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:897][869]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:897][869]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:897][869]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:897][869]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:897][869]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:918][870]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:918][870]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:918][870]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:918][870]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:918][870]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:918][870]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:918][870]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:918][870]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:934][871]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:935][871]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:935][871]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:935][871]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:935][871]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:935][871]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:935][871]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:935][871]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:953][872]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:953][872]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:953][872]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:953][872]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:953][872]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:953][872]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:953][872]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:953][872]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:975][873]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:975][873]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:975][873]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:975][873]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:975][873]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:975][873]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:975][873]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:975][873]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:994][874]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.57:994][874]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:994][874]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.57:994][874]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:994][874]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.57:994][874]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.57:994][874]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.57:994][874]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:015][875]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:015][875]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:015][875]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:015][875]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:015][875]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:015][875]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:015][875]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:015][875]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:036][876]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:036][876]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:036][876]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:036][876]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:036][876]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:036][876]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:036][876]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:036][876]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:057][877]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:057][877]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:057][877]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:057][877]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:057][877]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:057][877]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:057][877]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:057][877]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:076][878]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:076][878]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:076][878]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:076][878]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:076][878]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:076][878]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:076][878]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:076][878]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:095][879]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:095][879]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:095][879]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:095][879]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:096][879]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:096][879]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:096][879]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:096][879]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:116][880]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:116][880]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:116][880]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:116][880]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:116][880]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:116][880]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:116][880]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:116][880]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:137][881]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:137][881]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:137][881]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:137][881]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:137][881]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:137][881]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:137][881]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:137][881]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:157][882]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:157][882]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:157][882]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:157][882]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:157][882]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:157][882]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:157][882]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:157][882]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:177][883]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:177][883]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:177][883]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:177][883]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:177][883]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:177][883]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:177][883]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:177][883]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:196][884]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:196][884]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:196][884]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:196][884]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:196][884]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:196][884]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:196][884]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:196][884]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:216][885]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:216][885]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:216][885]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:216][885]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:216][885]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:216][885]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:216][885]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:216][885]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:236][886]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:236][886]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:236][886]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:236][886]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:236][886]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:236][886]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:236][886]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:236][886]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:255][887]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:255][887]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:255][887]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:255][887]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:255][887]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:255][887]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:255][887]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:255][887]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:278][888]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:278][888]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:278][888]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:278][888]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:278][888]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:278][888]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:278][888]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:278][888]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:298][889]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:298][889]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:298][889]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:298][889]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:298][889]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:298][889]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:298][889]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:298][889]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:318][890]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:318][890]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:318][890]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:318][890]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:318][890]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:318][890]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:318][890]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:318][890]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:338][891]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:338][891]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:338][891]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:338][891]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:338][891]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:338][891]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:338][891]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:338][891]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:357][892]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:357][892]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:358][892]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:358][892]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:358][892]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:358][892]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:358][892]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:358][892]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:377][893]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:377][893]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:377][893]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:377][893]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:377][893]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:377][893]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:377][893]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:377][893]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:396][894]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:396][894]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:396][894]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:396][894]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:396][894]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:396][894]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:396][894]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:396][894]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:416][895]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:416][895]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:416][895]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:416][895]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:416][895]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:416][895]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:416][895]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:416][895]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:437][896]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:437][896]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:437][896]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:437][896]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:437][896]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:437][896]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:437][896]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:437][896]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:455][897]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:455][897]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:456][897]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:456][897]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:456][897]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:456][897]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:456][897]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:456][897]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:478][898]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:478][898]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:478][898]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:478][898]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:478][898]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:478][898]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:478][898]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:478][898]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:499][899]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:499][899]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:499][899]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:499][899]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:499][899]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:499][899]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:499][899]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:499][899]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:523][900]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:523][900]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:523][900]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:523][900]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:523][900]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:523][900]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:523][900]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:523][900]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:545][901]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:546][901]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:546][901]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:546][901]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:546][901]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:546][901]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:546][901]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:546][901]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:566][902]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:566][902]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:566][902]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:566][902]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:566][902]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:566][902]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:566][902]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:566][902]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:585][903]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:586][903]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:586][903]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:586][903]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:586][903]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:586][903]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:586][903]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:586][903]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:610][904]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:610][904]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:610][904]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:610][904]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:610][904]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:610][904]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:610][904]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:610][904]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:631][905]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:631][905]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:631][905]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:631][905]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:631][905]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:631][905]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:631][905]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:631][905]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:652][906]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:652][906]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:652][906]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:652][906]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:652][906]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:652][906]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:652][906]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:652][906]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:672][907]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:672][907]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:672][907]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:672][907]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:673][907]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:673][907]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:673][907]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:673][907]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:694][908]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:694][908]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:694][908]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:694][908]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:694][908]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:694][908]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:694][908]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:694][908]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:713][909]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:713][909]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:713][909]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:713][909]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:713][909]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:713][909]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:713][909]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:713][909]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:733][910]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:733][910]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:733][910]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:733][910]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:733][910]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:733][910]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:733][910]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:733][910]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:753][911]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:753][911]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:753][911]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:753][911]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:753][911]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:753][911]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:753][911]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:753][911]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:775][912]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:775][912]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:775][912]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:775][912]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:775][912]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:775][912]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:775][912]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:775][912]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:799][913]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:799][913]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:799][913]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:799][913]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:799][913]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:799][913]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:799][913]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:799][913]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:816][914]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:816][914]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:816][914]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:816][914]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:817][914]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:817][914]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:817][914]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:817][914]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:836][915]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:836][915]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:836][915]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:836][915]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:836][915]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:836][915]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:837][915]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:837][915]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:854][916]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:855][916]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:855][916]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:855][916]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:855][916]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:855][916]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:855][916]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:855][916]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:873][917]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:873][917]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:874][917]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:874][917]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:874][917]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:874][917]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:874][917]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:874][917]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:893][918]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:893][918]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:893][918]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:893][918]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:893][918]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:893][918]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:894][918]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:894][918]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:916][919]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:916][919]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:916][919]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:916][919]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:916][919]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:916][919]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:916][919]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:916][919]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:934][920]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:934][920]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:934][920]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:934][920]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:934][920]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:934][920]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:934][920]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:934][920]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:952][921]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:952][921]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:952][921]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:952][921]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:952][921]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:952][921]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:952][921]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:952][921]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:974][922]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:974][922]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:974][922]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:974][922]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:974][922]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:974][922]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:974][922]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:974][922]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:993][923]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.58:993][923]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:993][923]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.58:993][923]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:993][923]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.15-23.21.58:993][923]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.58:993][923]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [3/0]!
+[2016.03.15-23.21.58:993][923]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.59:015][924]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [0/0]!
+[2016.03.15-23.21.59:015][924]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.59:015][924]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [1/0]!
+[2016.03.15-23.21.59:015][924]LogBlueprintUserMessages: [CityCentre_C_5] This upgrade not available
+[2016.03.15-23.21.59:015][924]LogScript:Warning: Attempted to get an item from array UpgradeBuildings out of bounds [2/0]!
+[2016.03.1
