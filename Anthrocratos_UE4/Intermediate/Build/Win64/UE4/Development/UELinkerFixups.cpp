@@ -69,7 +69,7 @@
 	#define UE_BUILD_DEVELOPMENT 1
 #endif
 #ifndef UE_ENGINE_DIRECTORY
-	#define UE_ENGINE_DIRECTORY C:/Program Files (x86)/Epic Games/4.10/Engine/
+	#define UE_ENGINE_DIRECTORY ../../../../../Program Files (x86)/Epic Games/4.10/Engine/
 #endif
 #ifndef UE_PROJECT_NAME
 	#define UE_PROJECT_NAME Anthrocratos_UE4
