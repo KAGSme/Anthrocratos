@@ -467,8 +467,8 @@ C:\Program Files (x86)\Epic Games\4.10\Engine\Plugins\ScriptGeneratorPlugin\Sour
 C:\Program Files (x86)\Epic Games\4.10\Engine\Plugins\ScriptPlugin\Source\ScriptEditorPlugin\ScriptEditorPlugin.Build.cs
 C:\Program Files (x86)\Epic Games\4.10\Engine\Plugins\ScriptPlugin\Source\ScriptPlugin\ScriptPlugin.Build.cs
 C:\Program Files (x86)\Epic Games\4.10\Engine\Plugins\Slate\SlateRemote\Source\SlateRemote\SlateRemote.Build.cs
-D:\GamesDevelopment\IP3 project\Anthrocratos\Anthrocratos_UE4\Source\Anthrocratos_UE4\Anthrocratos_UE4.Build.cs
+C:\Anthracratos\Anthrocratos\Anthrocratos_UE4\Source\Anthrocratos_UE4\Anthrocratos_UE4.Build.cs
 C:\Program Files (x86)\Epic Games\4.10\Engine\Source\UE4Editor.Target.cs
 C:\Program Files (x86)\Epic Games\4.10\Engine\Source\UE4Game.Target.cs
-D:\GamesDevelopment\IP3 project\Anthrocratos\Anthrocratos_UE4\Source\Anthrocratos_UE4.Target.cs
-D:\GamesDevelopment\IP3 project\Anthrocratos\Anthrocratos_UE4\Source\Anthrocratos_UE4Editor.Target.cs
+C:\Anthracratos\Anthrocratos\Anthrocratos_UE4\Source\Anthrocratos_UE4.Target.cs
+C:\Anthracratos\Anthrocratos\Anthrocratos_UE4\Source\Anthrocratos_UE4Editor.Target.cs
