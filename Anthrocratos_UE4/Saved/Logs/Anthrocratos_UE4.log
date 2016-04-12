@@ -1,380 +1,1082 @@
-﻿[2016.04.12-00.58.57:897][  0]Log file open, 04/12/16 01:58:57
-[2016.04.12-00.58.57:897][  0]LogInit:Display: Running engine for game: Anthrocratos_UE4
-[2016.04.12-00.58.57:897][  0]LogPlatformFile: Not using cached read wrapper
-[2016.04.12-00.58.57:897][  0]LogInit:Display: RandInit(-970690612) SRandInit(-970690610).
-[2016.04.12-00.58.57:897][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.04.12-00.58.57:897][  0]LogStats: Stats thread started at 0.066974
-[2016.04.12-00.58.57:897][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.04.12-00.58.57:897][  0]LogInit: API Version: 2758231
-[2016.04.12-00.58.57:897][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.04.12-00.58.57:897][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.04.12-00.58.57:897][  0]LogInit: Build Configuration: Development
-[2016.04.12-00.58.57:897][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.04.12-00.58.57:897][  0]LogInit: Command line:  
-[2016.04.12-00.58.57:897][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.04.12-00.58.57:897][  0]LogInit: Rocket: 1
-[2016.04.12-00.58.57:900][  0]LogInit: Using libcurl 7.41.0
-[2016.04.12-00.58.57:900][  0]LogInit:  - built for x86_64-pc-win32
-[2016.04.12-00.58.57:900][  0]LogInit:  - supports SSL with WinSSL
-[2016.04.12-00.58.57:900][  0]LogInit:  - other features:
-[2016.04.12-00.58.57:900][  0]LogInit:      CURL_VERSION_SSL
-[2016.04.12-00.58.57:900][  0]LogInit:      CURL_VERSION_IPV6
-[2016.04.12-00.58.57:900][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.04.12-00.58.57:900][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.04.12-00.58.57:900][  0]LogInit:      CURL_VERSION_IDN
-[2016.04.12-00.58.57:900][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.04.12-00.58.57:900][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.04.12-00.58.57:900][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.04.12-00.58.57:900][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.04.12-00.58.57:900][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.04.12-00.58.57:906][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.04.12-00.58.57:910][  0]LogInit: Object subsystem initialized
-[2016.04.12-00.58.57:912][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.12-00.58.57:912][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.04.12-00.58.57:920][  0]LogInit: Computer: DESKTOP-V9NOFHJ
-[2016.04.12-00.58.57:920][  0]LogInit: User: kags1
-[2016.04.12-00.58.57:920][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.04.12-00.58.57:920][  0]LogInit: High frequency timer resolution =3.421871 MHz
-[2016.04.12-00.58.57:920][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.04.12-00.58.57:920][  0]LogMemory: Platform Memory Stats for Windows
-[2016.04.12-00.58.57:920][  0]LogMemory: Process Physical Memory: 56.41 MB used, 56.41 MB peak
-[2016.04.12-00.58.57:920][  0]LogMemory: Process Virtual Memory: 56.87 MB used, 56.87 MB peak
-[2016.04.12-00.58.57:920][  0]LogMemory: Physical Memory: 4137.02 MB used, 16311.53 MB total
-[2016.04.12-00.58.57:920][  0]LogMemory: Virtual Memory: 382.48 MB used, 134217728.00 MB total
-[2016.04.12-00.58.57:950][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2016.04.12-00.58.58:319][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2016.04.12-00.58.58:319][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 1 output[s]
-[2016.04.12-00.58.58:320][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.04.12-00.58.58:320][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 0 output[s]
-[2016.04.12-00.58.58:320][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.04.12-00.58.58:325][  0]LogD3D11RHI: !Direct3DDevice
-[2016.04.12-00.58.58:325][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.04.12-00.58.58:336][  0]LogD3D11RHI: Async texture creation enabled
-[2016.04.12-00.58.58:345][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Intermediate/Shaders/WorkingDirectory/5048/).
-[2016.04.12-00.58.58:345][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kags1/AppData/Local/Temp/UnrealShaderWorkingDir/E0099A814A6F3C83C3F650AE4608FE2E/'.
-[2016.04.12-00.58.58:345][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.04.12-00.58.58:979][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.04.12-00.58.58:983][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.04.12-00.58.58:986][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.04.12-00.58.58:989][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.04.12-00.58.58:992][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.04.12-00.58.58:994][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.04.12-00.58.58:996][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.04.12-00.58.58:999][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.04.12-00.58.59:001][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.04.12-00.58.59:003][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.04.12-00.58.59:006][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.04.12-00.58.59:010][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.04.12-00.58.59:010][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.04.12-00.58.59:011][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.04.12-00.58.59:026][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.04.12-00.58.59:029][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.04.12-00.58.59:032][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.04.12-00.58.59:034][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.04.12-00.58.59:034][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.04.12-00.58.59:083][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.04.12-00.58.59:123][  0]LogDerivedDataCache: Loaded boot cache 0.04s 45MB C:/Users/kags1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.04.12-00.58.59:123][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kags1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.04.12-00.58.59:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.04.12-00.58.59:123][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.04.12-00.58.59:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.04.12-00.58.59:124][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.04.12-00.58.59:172][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.04.12-00.58.59:183][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kags1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.04.12-00.58.59:327][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.12-00.58.59:330][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.04.12-00.58.59:415][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.04.12-00.58.59:415][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.04.12-00.58.59:588][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.04.12-00.59.00:154][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.04.12-00.59.00:247][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
-[2016.04.12-00.59.00:365][  0]SourceControl: Info Source control is disabled
-[2016.04.12-00.59.00:366][  0]SourceControl: Info Source control is disabled
-[2016.04.12-00.59.00:372][  0]SourceControl: Info Source control is disabled
-[2016.04.12-00.59.00:378][  0]SourceControl: Info Source control is disabled
-[2016.04.12-00.59.00:529][  0]LogObj: 28645 objects as part of root set at end of initial load.
-[2016.04.12-00.59.00:529][  0]LogUObjectAllocator: 6105096 out of 0 bytes used by permanent object pool.
-[2016.04.12-00.59.00:574][  0]LogEngine: Initializing Engine...
-[2016.04.12-00.59.00:576][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.04.12-00.59.00:576][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.04.12-00.59.00:673][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.04.12-00.59.00:681][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.04.12-00.59.00:693][  0]LogInit: FAudioDevice initialized.
-[2016.04.12-00.59.00:712][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/kags1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.04.12-00.59.00:716][  0]LogInit: Texture streaming: Enabled
-[2016.04.12-00.59.00:719][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.04.12-00.59.00:720][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.04.12-00.59.00:720][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 53a42f9a47758014628f45b58968528c|ab08d7ce0f414bdba0971ea2fb4514a5|aa93573c-bf9c-4133-82d2-67a621a96ae2
-[2016.04.12-00.59.00:720][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.04.12-00.59.00:727][  0]LogInit: Transaction tracking system initialized
-[2016.04.12-00.59.00:744][  0]BlueprintLog: New page: Editor Load
-[2016.04.12-00.59.00:795][  0]LocalizationService: Info Localization service is disabled
-[2016.04.12-00.59.00:848][  0]LogConsoleResponse:Display: 
-[2016.04.12-00.59.00:931][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.04.12-00.59.00:964][  0]LogFileCache: Scanning file cache for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/' took 0.01s
-[2016.04.12-00.59.00:964][  0]SourceControl: Info Source control is disabled
-[2016.04.12-00.59.00:965][  0]Cmd: MAP LOAD FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.04.12-00.59.00:965][  0]LightingResults: New page: Lighting Build
-[2016.04.12-00.59.00:967][  0]MapCheck: New page: Map Check
-[2016.04.12-00.59.00:967][  0]LightingResults: New page: Lighting Build
-[2016.04.12-00.59.00:976][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020D16DA1DA0
-[2016.04.12-00.59.01:005][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Other/Whale.Whale_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.01:544][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'TileMesh' for 'BuildingMesh' in BlueprintGeneratedClass 'REINST_Building_C_47' (it may have been removed)
-[2016.04.12-00.59.01:544][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'TileMesh' for 'Sphere' in BlueprintGeneratedClass 'REINST_Building_C_47' (it may have been removed)
-[2016.04.12-00.59.01:544][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'TileMesh' for 'PlayerToken' in BlueprintGeneratedClass 'REINST_Building_C_47' (it may have been removed)
-[2016.04.12-00.59.02:049][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/BatteryCagedLivestock.BatteryCagedLivestock_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:060][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/FossilBasedEnergy.FossilBasedEnergy_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:075][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/IntensiveFarming.IntensiveFarming_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:085][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Incinerator.Incinerator_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:096][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/RecyclingCentre.RecyclingCentre_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:107][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Landfill.Landfill_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:116][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/SolarPanels.SolarPanels_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:127][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Windmills.Windmills_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:141][  0]LogClass:Warning: UUserDefinedStructEditorData::RecreateDefaultInstance Cannot parse value. Property: BuildingsAffected String: "(BlueprintGeneratedClass'/Game/Blueprints/Tiles/Buildings/Landfill.Landfill_C')"  Struct: /Game/Blueprints/Gameplay/Situations/Situation.Situation 
-[2016.04.12-00.59.02:279][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/NuclearPower.NuclearPower_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:287][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Biomass.Biomass_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:302][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Free-RangeLivestock.Free-RangeLivestock_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:315][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/OrganicFarm.OrganicFarm_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:333][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Farm.Farm_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.02:356][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/CityCentre.CityCentre_C:UserConstructionScript; removing parent information, but keeping function
-[2016.04.12-00.59.03:112][  0]LogAIModule: Creating AISystem for world Kieran-Test
-[2016.04.12-00.59.03:126][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.04.12-00.59.03:126][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.04.12-00.59.03:186][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.306ms to complete.
-[2016.04.12-00.59.03:186][  0]LogFileHelpers: Loading map 'Kieran-Test' took 2.222
-[2016.04.12-00.59.03:279][  0]LogCollectionManager: Loaded 0 collections in 0.000990 seconds
-[2016.04.12-00.59.03:318][  0]LogFileCache: Scanning file cache for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Collections/' took 0.01s
-[2016.04.12-00.59.03:318][  0]LogFileCache: Scanning file cache for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Developers/kags1/Collections/' took 0.01s
-[2016.04.12-00.59.03:318][  0]LogFileCache: Scanning file cache for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Collections/' took 0.01s
-[2016.04.12-00.59.03:318][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2016.04.12-00.59.03:325][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1896 classes and 340 folders.
-[2016.04.12-00.59.03:330][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2016.04.12-00.59.03:359][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2016.04.12-00.59.03:366][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.04.12-00.59.03:421][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.04.12-00.59.03:425][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.04.12-00.59.03:447][  0]LogLoad: Full Startup: 6.06 seconds (BP compile: 0.59 seconds)
-[2016.04.12-00.59.03:458][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.04.12-00.59.03:505][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.04.12-00.59.03:603][  0]LogRenderer: Reallocating scene render targets to support 1188x540 (Frame:2).
-[2016.04.12-00.59.03:644][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/' took 0.17s
-[2016.04.12-00.59.04:054][  9]LogAssetRegistry: Asset discovery search completed in 3.8172 seconds
-[2016.04.12-00.59.04:054][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.04.12-00.59.04:054][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
-[2016.04.12-02.12.08:190][793]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.04.12-02.12.08:536][793]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
-[2016.04.12-02.37.27:946][720]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.04.12-02.37.28:140][721]Cmd: QUIT_EDITOR
-[2016.04.12-02.37.28:250][721]LogExit: Preparing to exit.
-[2016.04.12-02.37.29:018][721]LogExit: Editor shut down
-[2016.04.12-02.37.29:018][721]LogExit: Transaction tracking system shut down
-[2016.04.12-02.37.29:027][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020D227BEAC0
-[2016.04.12-02.37.29:028][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020D2B2B7880
-[2016.04.12-02.37.29:028][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020D0919A480
-[2016.04.12-02.37.29:028][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020D22C6B060
-[2016.04.12-02.37.29:028][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020D2B3071A0
-[2016.04.12-02.37.29:210][721]LogExit: Object subsystem successfully closed.
-[2016.04.12-02.37.29:220][721]LogD3D11RHI: Shutdown
-[2016.04.12-02.37.29:220][721]LogD3D11RHI: CleanupD3DDevice
-[2016.04.12-02.37.29:299][721]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.04.12-02.37.29:310][721]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
-[2016.04.12-02.37.29:310][721]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
-[2016.04.12-02.37.29:310][721]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
-[2016.04.12-02.37.29:310][721]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
-[2016.04.12-02.37.29:310][721]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
-[2016.04.12-02.37.29:310][721]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
-[2016.04.12-02.37.29:312][721]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
-[2016.04.12-02.37.29:312][721]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module BspMode (186)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
-[2016.04.12-02.37.29:313][721]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module MergeActors (170)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module SizeMap (169)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module TreeMap (168)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module XmlParser (159)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module Blutility (158)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module AutomationController (147)
-[2016.04.12-02.37.29:517][721]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module Layers (145)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module Persona (141)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module Kismet (140)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module Toolbox (137)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module OutputLog (134)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module GammaUI (133)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module Documentation (132)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module Analytics (128)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module AIModule (125)
-[2016.04.12-02.37.29:518][721]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
-[2016.04.12-02.37.29:643][721]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
-[2016.04.12-02.37.29:643][721]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
-[2016.04.12-02.37.29:644][721]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
-[2016.04.12-02.37.29:644][721]LogModuleManager: Shutting down and abandoning module SteamVR (120)
-[2016.04.12-02.37.29:644][721]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
-[2016.04.12-02.37.29:644][721]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
-[2016.04.12-02.37.29:644][721]LogModuleManager: Shutting down and abandoning module OculusInput (117)
-[2016.04.12-02.37.29:644][721]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
-[2016.04.12-02.37.29:661][721]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
-[2016.04.12-02.37.29:661][721]LogModuleManager: Shutting down and abandoning module CableComponent (114)
-[2016.04.12-02.37.29:661][721]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
-[2016.04.12-02.37.29:661][721]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module SourceControl (101)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module HotReload (94)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module MainFrame (93)
-[2016.04.12-02.37.29:662][721]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
-[2016.04.12-02.37.29:663][721]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
-[2016.04.12-02.37.29:665][721]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
-[2016.04.12-02.37.29:740][721]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
-[2016.04.12-02.37.29:740][721]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
-[2016.04.12-02.37.29:740][721]LogModuleManager: Shutting down and abandoning module Anthrocratos_UE4 (87)
-[2016.04.12-02.37.29:740][721]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
-[2016.04.12-02.37.29:841][721]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
-[2016.04.12-02.37.29:841][721]LogModuleManager: Shutting down and abandoning module Paper2D (84)
-[2016.04.12-02.37.29:841][721]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module Media (82)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module MessageLog (73)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module Sequencer (72)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module AssetTools (71)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module UMG (69)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module Slate (68)
-[2016.04.12-02.37.29:845][721]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module SessionServices (66)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module Networking (61)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module Core (60)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
-[2016.04.12-02.37.29:847][721]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
-[2016.04.12-02.37.29:863][721]LogDerivedDataCache: Shutdown
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.04.12-02.37.29:863][721]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.04.12-02.37.31:865][721]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.04.12-02.37.31:865][721]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.04.12-02.37.31:865][721]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.04.12-02.37.31:865][721]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.04.12-02.37.31:865][721]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.04.12-02.37.31:865][721]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.04.12-02.37.31:865][721]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.04.12-02.37.31:868][721]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.04.12-02.37.31:868][721]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.04.12-02.37.31:868][721]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.04.12-02.37.31:868][721]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.04.12-02.37.31:868][721]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.04.12-02.37.31:868][721]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.04.12-02.37.31:868][721]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.04.12-02.37.31:868][721]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.04.12-02.37.31:868][721]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.04.12-02.37.31:869][721]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.04.12-02.37.31:871][721]LogExit: Exiting.
-[2016.04.12-02.37.31:873][721]Log file closed, 04/12/16 03:37:31
+﻿[2016.04.12-23.16.08:335][  0]Log file open, 04/13/16 00:16:08
+[2016.04.12-23.16.08:335][  0]LogInit:Display: Running engine for game: Anthrocratos_UE4
+[2016.04.12-23.16.08:335][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.12-23.16.08:335][  0]LogInit:Display: RandInit(-1279623847) SRandInit(-1279623846).
+[2016.04.12-23.16.08:335][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.12-23.16.08:335][  0]LogStats: Stats thread started at 0.066083
+[2016.04.12-23.16.08:335][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.12-23.16.08:335][  0]LogInit: API Version: 2758231
+[2016.04.12-23.16.08:335][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.12-23.16.08:335][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.12-23.16.08:335][  0]LogInit: Build Configuration: Development
+[2016.04.12-23.16.08:335][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.12-23.16.08:335][  0]LogInit: Command line:  
+[2016.04.12-23.16.08:335][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.12-23.16.08:335][  0]LogInit: Rocket: 1
+[2016.04.12-23.16.08:341][  0]LogInit: Using libcurl 7.41.0
+[2016.04.12-23.16.08:341][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.12-23.16.08:341][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.12-23.16.08:341][  0]LogInit:  - other features:
+[2016.04.12-23.16.08:341][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.12-23.16.08:341][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.12-23.16.08:341][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.12-23.16.08:341][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.12-23.16.08:341][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.12-23.16.08:341][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.12-23.16.08:341][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.12-23.16.08:341][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.12-23.16.08:341][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.12-23.16.08:341][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.12-23.16.08:348][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.12-23.16.08:354][  0]LogInit: Object subsystem initialized
+[2016.04.12-23.16.08:355][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.12-23.16.08:355][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.12-23.16.08:364][  0]LogInit: Computer: DESKTOP-V9NOFHJ
+[2016.04.12-23.16.08:364][  0]LogInit: User: kags1
+[2016.04.12-23.16.08:364][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.12-23.16.08:364][  0]LogInit: High frequency timer resolution =3.421871 MHz
+[2016.04.12-23.16.08:364][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.12-23.16.08:364][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.12-23.16.08:364][  0]LogMemory: Process Physical Memory: 56.48 MB used, 56.48 MB peak
+[2016.04.12-23.16.08:364][  0]LogMemory: Process Virtual Memory: 56.82 MB used, 56.82 MB peak
+[2016.04.12-23.16.08:364][  0]LogMemory: Physical Memory: 6266.25 MB used, 16311.53 MB total
+[2016.04.12-23.16.08:364][  0]LogMemory: Virtual Memory: 382.48 MB used, 134217728.00 MB total
+[2016.04.12-23.16.08:398][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.04.12-23.16.08:852][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.04.12-23.16.08:852][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 1 output[s]
+[2016.04.12-23.16.08:853][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.12-23.16.08:853][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 0 output[s]
+[2016.04.12-23.16.08:854][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.12-23.16.08:858][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.12-23.16.08:858][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.12-23.16.08:868][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.12-23.16.08:877][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Intermediate/Shaders/WorkingDirectory/6168/).
+[2016.04.12-23.16.08:877][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kags1/AppData/Local/Temp/UnrealShaderWorkingDir/48CC728B4638135DE49F469A0515E466/'.
+[2016.04.12-23.16.08:877][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.12-23.16.09:487][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.12-23.16.09:490][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.12-23.16.09:493][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.12-23.16.09:497][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.12-23.16.09:500][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.12-23.16.09:502][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.12-23.16.09:504][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.12-23.16.09:506][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.12-23.16.09:508][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.12-23.16.09:511][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.12-23.16.09:514][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.12-23.16.09:518][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.12-23.16.09:518][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.12-23.16.09:519][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.12-23.16.09:533][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.12-23.16.09:536][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.12-23.16.09:538][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.12-23.16.09:541][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.12-23.16.09:541][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.12-23.16.09:591][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.12-23.16.09:633][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/kags1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.12-23.16.09:633][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kags1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.12-23.16.09:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.12-23.16.09:633][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.12-23.16.09:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.12-23.16.09:633][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.12-23.16.09:682][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.12-23.16.09:693][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kags1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.12-23.16.09:843][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.12-23.16.09:846][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.12-23.16.09:936][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.12-23.16.09:936][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.12-23.16.10:118][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.12-23.16.10:707][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.12-23.16.10:799][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.04.12-23.16.10:913][  0]SourceControl: Info Source control is disabled
+[2016.04.12-23.16.10:913][  0]SourceControl: Info Source control is disabled
+[2016.04.12-23.16.10:920][  0]SourceControl: Info Source control is disabled
+[2016.04.12-23.16.10:927][  0]SourceControl: Info Source control is disabled
+[2016.04.12-23.16.11:089][  0]LogObj: 28645 objects as part of root set at end of initial load.
+[2016.04.12-23.16.11:089][  0]LogUObjectAllocator: 6105088 out of 0 bytes used by permanent object pool.
+[2016.04.12-23.16.11:136][  0]LogEngine: Initializing Engine...
+[2016.04.12-23.16.11:139][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.12-23.16.11:139][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.12-23.16.11:250][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.12-23.16.11:261][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.12-23.16.11:274][  0]LogInit: FAudioDevice initialized.
+[2016.04.12-23.16.11:294][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/kags1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.12-23.16.11:298][  0]LogInit: Texture streaming: Enabled
+[2016.04.12-23.16.11:301][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.12-23.16.11:301][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.12-23.16.11:301][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 53a42f9a47758014628f45b58968528c|ab08d7ce0f414bdba0971ea2fb4514a5|aa93573c-bf9c-4133-82d2-67a621a96ae2
+[2016.04.12-23.16.11:301][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.12-23.16.11:308][  0]LogInit: Transaction tracking system initialized
+[2016.04.12-23.16.11:326][  0]BlueprintLog: New page: Editor Load
+[2016.04.12-23.16.11:373][  0]LocalizationService: Info Localization service is disabled
+[2016.04.12-23.16.11:427][  0]LogConsoleResponse:Display: 
+[2016.04.12-23.16.11:511][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.12-23.16.11:553][  0]LogFileCache: Scanning file cache for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/' took 0.02s
+[2016.04.12-23.16.11:553][  0]SourceControl: Info Source control is disabled
+[2016.04.12-23.16.47:869][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.12-23.16.47:878][  0]Cmd: MAP LOAD FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.12-23.16.47:879][  0]LightingResults: New page: Lighting Build
+[2016.04.12-23.16.47:885][  0]MapCheck: New page: Map Check
+[2016.04.12-23.16.47:885][  0]LightingResults: New page: Lighting Build
+[2016.04.12-23.16.47:895][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A445B5DA0
+[2016.04.12-23.16.47:926][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Other/Whale.Whale_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.48:507][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'TileMesh' for 'BuildingMesh' in BlueprintGeneratedClass 'REINST_Building_C_47' (it may have been removed)
+[2016.04.12-23.16.48:507][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'TileMesh' for 'Sphere' in BlueprintGeneratedClass 'REINST_Building_C_47' (it may have been removed)
+[2016.04.12-23.16.48:507][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'TileMesh' for 'PlayerToken' in BlueprintGeneratedClass 'REINST_Building_C_47' (it may have been removed)
+[2016.04.12-23.16.49:007][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/BatteryCagedLivestock.BatteryCagedLivestock_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:019][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/FossilBasedEnergy.FossilBasedEnergy_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:033][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/IntensiveFarming.IntensiveFarming_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:044][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Incinerator.Incinerator_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:063][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/RecyclingCentre.RecyclingCentre_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:076][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Landfill.Landfill_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:085][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/SolarPanels.SolarPanels_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:097][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Windmills.Windmills_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:112][  0]LogClass:Warning: UUserDefinedStructEditorData::RecreateDefaultInstance Cannot parse value. Property: BuildingsAffected String: "(BlueprintGeneratedClass'/Game/Blueprints/Tiles/Buildings/Landfill.Landfill_C')"  Struct: /Game/Blueprints/Gameplay/Situations/Situation.Situation 
+[2016.04.12-23.16.49:257][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/NuclearPower.NuclearPower_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:267][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Biomass.Biomass_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:283][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Free-RangeLivestock.Free-RangeLivestock_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:298][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/OrganicFarm.OrganicFarm_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:319][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/Farm.Farm_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.49:347][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Tiles/Buildings/CityCentre.CityCentre_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.12-23.16.50:151][  0]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.04.12-23.16.50:164][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.12-23.16.50:170][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.12-23.16.50:232][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.454ms to complete.
+[2016.04.12-23.16.50:232][  0]LogFileHelpers: Loading map 'Kieran-Test' took 2.353
+[2016.04.12-23.16.50:278][  0]LogCollectionManager: Loaded 0 collections in 0.001612 seconds
+[2016.04.12-23.16.50:316][  0]LogFileCache: Scanning file cache for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Collections/' took 0.01s
+[2016.04.12-23.16.50:316][  0]LogFileCache: Scanning file cache for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Developers/kags1/Collections/' took 0.01s
+[2016.04.12-23.16.50:316][  0]LogFileCache: Scanning file cache for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Collections/' took 0.01s
+[2016.04.12-23.16.50:316][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.04.12-23.16.50:323][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 1896 classes and 340 folders.
+[2016.04.12-23.16.50:327][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.04.12-23.16.50:357][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.04.12-23.16.50:365][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.04.12-23.16.50:424][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.12-23.16.50:427][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.12-23.16.50:448][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_241c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2454_0///####STATCAT_Advanced####
+[2016.04.12-23.16.50:448][  0]LogLoad: Full Startup: 42.68 seconds (BP compile: 0.62 seconds)
+[2016.04.12-23.16.50:457][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.12-23.16.50:459][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.12-23.16.50:533][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.12-23.16.50:637][  0]LogRenderer: Reallocating scene render targets to support 1200x540 (Frame:2).
+[2016.04.12-23.16.50:796][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/' took 0.32s
+[2016.04.12-23.16.53:806][ 10]LogAssetRegistry: Asset discovery search completed in 43.0173 seconds
+[2016.04.12-23.16.53:806][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.12-23.16.53:806][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2016.04.12-23.17.12:091][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.17.12:091][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.12-23.17.12:091][365]PIE: New page: PIE session: Kieran-Test (13 Apr 2016 01:17:12)
+[2016.04.12-23.17.12:091][365]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.04.12-23.17.12:096][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004467s)
+[2016.04.12-23.17.12:096][365]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.04.12-23.17.12:097][365]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2016.04.12-23.17.12:097][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.005647s)
+[2016.04.12-23.17.12:194][365]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.12-23.17.12:203][365]LogInit: FAudioDevice initialized.
+[2016.04.12-23.17.12:249][365]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:251][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:252][365]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.12:253][365]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.04.13-00.17.12
+[2016.04.12-23.17.12:253][365]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.17.12:253][365]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.17.12:254][365]LogWorld: Bringing up level for play took: 0.004430
+[2016.04.12-23.17.12:264][365]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 1
+[2016.04.12-23.17.12:264][365]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 2
+[2016.04.12-23.17.12:264][365]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 3
+[2016.04.12-23.17.12:264][365]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 4
+[2016.04.12-23.17.12:264][365]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 5
+[2016.04.12-23.17.12:265][365]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 6
+[2016.04.12-23.17.12:266][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] TilesGenerated
+[2016.04.12-23.17.12:266][365]LogBlueprintUserMessages: [CityCentre_C_0] Building data doesn't exist
+[2016.04.12-23.17.12:276][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.17.12:281][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.17.12:288][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.17.12:288][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.17.12:290][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.17.12:290][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.17.12:291][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.17.12:292][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.17.12:295][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.17.12:295][365]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.17.12:309][365]LogBlueprintUserMessages: [CityCentre_C_0] CityCentre
+[2016.04.12-23.17.12:309][365]LogBlueprintUserMessages: [CityCentre_C_0] SetSelected
+[2016.04.12-23.17.12:309][365]LogBlueprintUserMessages: [CityCentre_C_0] SetSelected
+[2016.04.12-23.17.12:309][365]LogBlueprintUserMessages: [CityCentre_C_0] SetSelected
+[2016.04.12-23.17.12:309][365]LogBlueprintUserMessages: [CityCentre_C_0] SetSelected
+[2016.04.12-23.17.12:309][365]LogBlueprintUserMessages: [CityCentre_C_0] SetSelected
+[2016.04.12-23.17.12:309][365]LogBlueprintUserMessages: [CityCentre_C_0] SetSelected
+[2016.04.12-23.17.12:309][365]LogBlueprintUserMessages: [CityCentre_C_0] SetSelected
+[2016.04.12-23.17.12:310][365]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test -0.56
+[2016.04.12-23.17.12:310][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.17.18:214][978]LogBlueprintUserMessages: [AnthroGameMode_C_0] 4 action left
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [PlayerStatsMain_C_3] BuildingTracked
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] Landfill
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] CityCentre
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] SetSelected
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] SetSelected
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] SetSelected
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] SetSelected
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] SetSelected
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] SetSelected
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] SetSelected
+[2016.04.12-23.17.18:215][978]LogBlueprintUserMessages: [Landfill_C_0] SetSelected
+[2016.04.12-23.17.20:115][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.17.20:120][171]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.20:120][171]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.20:120][171]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.20:120][171]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.20:120][171]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.20:120][171]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.20:120][171]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.20:120][171]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.17.20:149][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.17.20:166][171]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A75E35EE0
+[2016.04.12-23.17.23:192][524]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.12-23.17.23:507][524]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.04.12-23.17.37:798][311]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/Kieran/Downloads/233062__lukeupf__ring.wav)
+[2016.04.12-23.17.37:799][311]Error: Currently, only 16 bit WAV files are supported (233062__lukeupf__ring).
+[2016.04.12-23.17.39:848][311]LogAssetTools:Warning: Failed to import 'D:/Kieran/Downloads/233062__lukeupf__ring.wav'. Failed to create asset '/Game/Sounds/233062__lukeupf__ring'
+[2016.04.12-23.17.39:850][311]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 D:/Kieran/Downloads/Floating Cities.mp3)
+[2016.04.12-23.17.45:500][620]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/Kieran/Downloads/233062__lukeupf__ring.wav)
+[2016.04.12-23.17.45:501][620]Error: Currently, only 16 bit WAV files are supported (233062__lukeupf__ring).
+[2016.04.12-23.17.47:256][620]LogAssetTools:Warning: Failed to import 'D:/Kieran/Downloads/233062__lukeupf__ring.wav'. Failed to create asset '/Game/Sounds/233062__lukeupf__ring'
+[2016.04.12-23.17.59:503][774]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/Kieran/Downloads/Ring.wav)
+[2016.04.12-23.17.59:503][774]Error: Currently, only 16 bit WAV files are supported (Ring).
+[2016.04.12-23.18.02:864][774]LogAssetTools:Warning: Failed to import 'D:/Kieran/Downloads/Ring.wav'. Failed to create asset '/Game/Sounds/Ring'
+[2016.04.12-23.18.20:706][703]LogMetaData: Removing '/Game/Sounds/BGmusic.BGmusic:SoundCueGraph_1.SoundCueGraphNode_Root_1' ref from Metadata '/Game/Sounds/NewSoundCue.PackageMetaData'
+[2016.04.12-23.18.20:734][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/BGmusic" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/BGmusic.uasset" SILENT=true
+[2016.04.12-23.18.20:739][703]LogSavePackage: Save=3.179547ms
+[2016.04.12-23.18.20:740][703]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/BGmusicA9F110454BF7213785F760909EF01BA7.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/BGmusic.uasset'
+[2016.04.12-23.18.20:741][703]LogSavePackage: Total save time: 5.942069ms
+[2016.04.12-23.18.20:741][703]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/BGmusic.uasset
+[2016.04.12-23.18.38:398][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/BGmusic" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/BGmusic.uasset" SILENT=true
+[2016.04.12-23.18.38:427][775]LogSavePackage: Save=3.876242ms
+[2016.04.12-23.18.38:427][775]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/BGmusic26A361E64DC3AF8C720FC691A97BE900.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/BGmusic.uasset'
+[2016.04.12-23.18.38:428][775]LogSavePackage: Total save time: 29.780783ms
+[2016.04.12-23.18.38:428][775]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/BGmusic.uasset
+[2016.04.12-23.19.00:242][314]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.19.00:242][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.12-23.19.00:242][314]PIE: New page: PIE session: Kieran-Test (13 Apr 2016 01:19:00)
+[2016.04.12-23.19.00:242][314]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.04.12-23.19.00:246][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004405s)
+[2016.04.12-23.19.00:247][314]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.04.12-23.19.00:248][314]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2016.04.12-23.19.00:248][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.005348s)
+[2016.04.12-23.19.00:279][314]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.12-23.19.00:288][314]LogInit: FAudioDevice initialized.
+[2016.04.12-23.19.00:322][314]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.04.12-23.19.00:325][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:325][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:326][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:327][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:327][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:327][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:327][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:327][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:327][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:327][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:327][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:327][314]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.00:328][314]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.04.13-00.19.00
+[2016.04.12-23.19.00:328][314]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.19.00:328][314]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.19.00:329][314]LogWorld: Bringing up level for play took: 0.005297
+[2016.04.12-23.19.00:337][314]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 1
+[2016.04.12-23.19.00:338][314]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 2
+[2016.04.12-23.19.00:338][314]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 3
+[2016.04.12-23.19.00:338][314]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 4
+[2016.04.12-23.19.00:338][314]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 5
+[2016.04.12-23.19.00:338][314]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 6
+[2016.04.12-23.19.00:338][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] TilesGenerated
+[2016.04.12-23.19.00:339][314]LogBlueprintUserMessages: [CityCentre_C_1] Building data doesn't exist
+[2016.04.12-23.19.00:342][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.19.00:342][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.19.00:342][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.19.00:352][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.19.00:352][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.19.00:352][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.19.00:352][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.19.00:357][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.19.00:362][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.19.00:366][314]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.19.00:384][314]LogBlueprintUserMessages: [CityCentre_C_1] CityCentre1
+[2016.04.12-23.19.00:384][314]LogBlueprintUserMessages: [CityCentre_C_1] SetSelected
+[2016.04.12-23.19.00:384][314]LogBlueprintUserMessages: [CityCentre_C_1] SetSelected
+[2016.04.12-23.19.00:384][314]LogBlueprintUserMessages: [CityCentre_C_1] SetSelected
+[2016.04.12-23.19.00:384][314]LogBlueprintUserMessages: [CityCentre_C_1] SetSelected
+[2016.04.12-23.19.00:384][314]LogBlueprintUserMessages: [CityCentre_C_1] SetSelected
+[2016.04.12-23.19.00:384][314]LogBlueprintUserMessages: [CityCentre_C_1] SetSelected
+[2016.04.12-23.19.00:384][314]LogBlueprintUserMessages: [CityCentre_C_1] SetSelected
+[2016.04.12-23.19.00:384][314]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test -0.485
+[2016.04.12-23.19.00:384][314]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.19.02:788][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.19.02:795][569]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.02:795][569]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.02:795][569]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.02:795][569]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.02:795][569]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.02:795][569]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.02:796][569]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.02:796][569]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.19.02:833][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.19.02:863][569]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A1ADAA480
+[2016.04.12-23.19.04:176][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Kieran-Test" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.12-23.19.04:301][711]LogSavePackage: Save=72.068176ms
+[2016.04.12-23.19.04:301][711]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Kieran-Test2F64DBF9412FFFB1FDEB9BB8189D67AB.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap'
+[2016.04.12-23.19.04:302][711]LogSavePackage: Total save time: 101.209544ms
+[2016.04.12-23.19.04:302][711]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap
+[2016.04.12-23.19.04:333][711]LogFileHelpers: Saving map 'Kieran-Test' took 0.222
+[2016.04.12-23.19.04:338][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Floating_Cities" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Floating_Cities.uasset" SILENT=true
+[2016.04.12-23.19.04:342][711]LogSavePackage: Save=3.614105ms
+[2016.04.12-23.19.04:342][711]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Floating_Cities15BB69C74A19DECFCC975E89162A3305.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Floating_Cities.uasset'
+[2016.04.12-23.19.04:344][711]LogSavePackage: Total save time: 5.198617ms
+[2016.04.12-23.19.04:344][711]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Floating_Cities.uasset
+[2016.04.12-23.19.04:356][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Floating_Cities_Wav" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Floating_Cities_Wav.uasset" SILENT=true
+[2016.04.12-23.19.04:363][711]LogSavePackage: Save=5.700098ms
+[2016.04.12-23.19.04:363][711]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Floating_Cities_WavEA86936B4102A6615E63EC8325913CDF.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Floating_Cities_Wav.uasset'
+[2016.04.12-23.19.04:364][711]LogSavePackage: Total save time: 6.947663ms
+[2016.04.12-23.19.04:364][711]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Floating_Cities_Wav.uasset
+[2016.04.12-23.19.04:370][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/NewSoundCue" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/NewSoundCue.uasset" SILENT=true
+[2016.04.12-23.19.04:373][711]LogSavePackage: Save=2.245555ms
+[2016.04.12-23.19.04:373][711]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/NewSoundCueF77C4B1540D684054BDCC18E4423790A.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/NewSoundCue.uasset'
+[2016.04.12-23.19.04:375][711]LogSavePackage: Total save time: 4.493158ms
+[2016.04.12-23.19.04:375][711]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/NewSoundCue.uasset
+[2016.04.12-23.21.13:643][611]LogEditorActor: Deleted Actor: AmbientSound
+[2016.04.12-23.21.13:670][611]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2016.04.12-23.21.30:076][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Kieran-Test" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.12-23.21.30:823][ 69]LogSavePackage: Save=697.851563ms
+[2016.04.12-23.21.30:823][ 69]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Kieran-TestEBDF09194D65C96FB57469938AC95E40.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap'
+[2016.04.12-23.21.30:826][ 69]LogSavePackage: Total save time: 726.048116ms
+[2016.04.12-23.21.30:826][ 69]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap
+[2016.04.12-23.21.30:875][ 69]LogFileHelpers: Saving map 'Kieran-Test' took 0.865
+[2016.04.12-23.21.38:295][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A5058B060
+[2016.04.12-23.23.34:175][629]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/GamesDevelopment/DARE2016/Videos and pics/Floating Cities.wav)
+[2016.04.12-23.23.34:312][629]LogAudioDerivedData:Display: Building compressed audio format OGG wave Floating_Cities...
+[2016.04.12-23.23.37:548][629]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/Floating_Cities.Floating_Cities.
+[2016.04.12-23.23.37:560][629]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/GamesDevelopment/DARE2016/Videos and pics/Rings.wav)
+[2016.04.12-23.23.37:562][629]LogAudioDerivedData:Display: Building compressed audio format OGG wave Rings...
+[2016.04.12-23.23.37:596][629]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/Rings.Rings.
+[2016.04.12-23.23.40:656][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Kieran-Test" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.12-23.23.40:776][898]LogSavePackage: Save=71.963264ms
+[2016.04.12-23.23.40:776][898]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Kieran-Test26F3FD43448959D8A6669EA17B386982.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap'
+[2016.04.12-23.23.40:777][898]LogSavePackage: Total save time: 98.083183ms
+[2016.04.12-23.23.40:777][898]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap
+[2016.04.12-23.23.40:810][898]LogFileHelpers: Saving map 'Kieran-Test' took 0.223
+[2016.04.12-23.23.40:842][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Floating_Cities" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Floating_Cities.uasset" SILENT=true
+[2016.04.12-23.23.40:882][898]LogSavePackage: Save=39.362968ms
+[2016.04.12-23.23.40:882][898]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Floating_Cities393A34B94655452E69C601AECFF6C74A.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Floating_Cities.uasset'
+[2016.04.12-23.23.40:883][898]LogSavePackage: Total save time: 40.630985ms
+[2016.04.12-23.23.40:883][898]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Floating_Cities.uasset
+[2016.04.12-23.23.40:895][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Rings" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Rings.uasset" SILENT=true
+[2016.04.12-23.23.40:902][898]LogSavePackage: Save=6.250966ms
+[2016.04.12-23.23.40:902][898]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/RingsA42716B948F8BB495D5B51B9ED6C400D.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Rings.uasset'
+[2016.04.12-23.23.40:903][898]LogSavePackage: Total save time: 7.716246ms
+[2016.04.12-23.23.40:903][898]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Rings.uasset
+[2016.04.12-23.24.09:545][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/BGmusic" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/BGmusic.uasset" SILENT=true
+[2016.04.12-23.24.09:549][790]LogSavePackage: Save=3.169027ms
+[2016.04.12-23.24.09:549][790]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/BGmusicB30310EC4F7E2335AD455CA35167B07D.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/BGmusic.uasset'
+[2016.04.12-23.24.09:550][790]LogSavePackage: Total save time: 4.647166ms
+[2016.04.12-23.24.09:551][790]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/BGmusic.uasset
+[2016.04.12-23.24.30:777][973]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.24.30:777][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.12-23.24.30:778][973]PIE: New page: PIE session: Kieran-Test (13 Apr 2016 01:24:30)
+[2016.04.12-23.24.30:778][973]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.04.12-23.24.30:781][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003660s)
+[2016.04.12-23.24.30:782][973]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.04.12-23.24.30:782][973]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2016.04.12-23.24.30:783][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.005062s)
+[2016.04.12-23.24.30:813][973]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.12-23.24.30:822][973]LogInit: FAudioDevice initialized.
+[2016.04.12-23.24.30:853][973]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.04.12-23.24.30:855][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:855][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:855][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:855][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:855][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:855][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:855][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:855][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:855][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:856][973]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.30:857][973]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.04.13-00.24.30
+[2016.04.12-23.24.30:857][973]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.24.30:857][973]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.24.30:858][973]LogWorld: Bringing up level for play took: 0.004263
+[2016.04.12-23.24.30:867][973]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 1
+[2016.04.12-23.24.30:867][973]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 2
+[2016.04.12-23.24.30:867][973]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 3
+[2016.04.12-23.24.30:867][973]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 4
+[2016.04.12-23.24.30:867][973]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 5
+[2016.04.12-23.24.30:867][973]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 6
+[2016.04.12-23.24.30:868][973]LogBlueprintUserMessages: [GameTileSpawner_C_1] TilesGenerated
+[2016.04.12-23.24.30:869][973]LogBlueprintUserMessages: [CityCentre_C_2] Building data doesn't exist
+[2016.04.12-23.24.30:870][973]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.24.30:870][973]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.24.30:870][973]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.24.30:871][973]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.24.30:879][973]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.24.30:882][973]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.24.30:885][973]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.24.30:895][973]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.24.30:912][973]LogBlueprintUserMessages: [CityCentre_C_2] CityCentre2
+[2016.04.12-23.24.30:912][973]LogBlueprintUserMessages: [CityCentre_C_2] SetSelected
+[2016.04.12-23.24.30:912][973]LogBlueprintUserMessages: [CityCentre_C_2] SetSelected
+[2016.04.12-23.24.30:912][973]LogBlueprintUserMessages: [CityCentre_C_2] SetSelected
+[2016.04.12-23.24.30:912][973]LogBlueprintUserMessages: [CityCentre_C_2] SetSelected
+[2016.04.12-23.24.30:912][973]LogBlueprintUserMessages: [CityCentre_C_2] SetSelected
+[2016.04.12-23.24.30:912][973]LogBlueprintUserMessages: [CityCentre_C_2] SetSelected
+[2016.04.12-23.24.30:912][973]LogBlueprintUserMessages: [CityCentre_C_2] SetSelected
+[2016.04.12-23.24.30:912][973]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.043
+[2016.04.12-23.24.30:912][973]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.24.37:763][744]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.24.37:770][744]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.37:770][744]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.37:770][744]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.37:770][744]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.37:771][744]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.37:771][744]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.37:771][744]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.37:771][744]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.24.37:803][744]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.24.37:827][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A13269B20
+[2016.04.12-23.29.20:884][ 40]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/GamesDevelopment/DARE2016/Videos and pics/Evan King - 20XX - 84 menu_confirm_2_reverb.wav)
+[2016.04.12-23.29.20:890][ 40]LogAudioDerivedData:Display: Building compressed audio format OGG wave Evan_King_-_20XX_-_84_menu_confirm_2_reverb...
+[2016.04.12-23.29.20:936][ 40]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/Evan_King_-_20XX_-_84_menu_confirm_2_reverb.Evan_King_-_20XX_-_84_menu_confirm_2_reverb.
+[2016.04.12-23.29.20:939][ 40]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/GamesDevelopment/DARE2016/Videos and pics/Evan King - 20XX - 86 menu_deny_1_reverb.wav)
+[2016.04.12-23.29.20:941][ 40]LogAudioDerivedData:Display: Building compressed audio format OGG wave Evan_King_-_20XX_-_86_menu_deny_1_reverb...
+[2016.04.12-23.29.20:973][ 40]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/Evan_King_-_20XX_-_86_menu_deny_1_reverb.Evan_King_-_20XX_-_86_menu_deny_1_reverb.
+[2016.04.12-23.29.20:975][ 40]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/GamesDevelopment/DARE2016/Videos and pics/Evan King - 20XX - 89 menu_highlight_1.wav)
+[2016.04.12-23.29.20:977][ 40]LogAudioDerivedData:Display: Building compressed audio format OGG wave Evan_King_-_20XX_-_89_menu_highlight_1...
+[2016.04.12-23.29.20:996][ 40]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/Evan_King_-_20XX_-_89_menu_highlight_1.Evan_King_-_20XX_-_89_menu_highlight_1.
+[2016.04.12-23.30.21:993][996]BlueprintLog: New page: Compile HUD_Main
+[2016.04.12-23.30.22:178][996]BlueprintEditorCompileResults: Info [0854.41] Compile of HUD_Main successful! [in 184 ms]
+[2016.04.12-23.31.07:895][489]BlueprintLog: New page: Compile PlayerStatsMain
+[2016.04.12-23.31.08:042][489]BlueprintEditorCompileResults: Info [0900.27] Compile of PlayerStatsMain successful! [in 146 ms]
+[2016.04.12-23.32.35:587][218]BlueprintLog: New page: Compile PlayerStatsMain
+[2016.04.12-23.32.35:733][218]BlueprintEditorCompileResults: Info [0987.96] Compile of PlayerStatsMain successful! [in 145 ms]
+[2016.04.12-23.32.37:626][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Kieran-Test" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.12-23.32.37:767][403]LogSavePackage: Save=74.155045ms
+[2016.04.12-23.32.37:767][403]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Kieran-Test1F8F68A948CD98C3466B85BB4CFD1A30.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap'
+[2016.04.12-23.32.37:768][403]LogSavePackage: Total save time: 116.742276ms
+[2016.04.12-23.32.37:768][403]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap
+[2016.04.12-23.32.37:798][403]LogFileHelpers: Saving map 'Kieran-Test' took 0.241
+[2016.04.12-23.32.37:804][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD_Main" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset" SILENT=true
+[2016.04.12-23.32.38:120][403]LogSavePackage: Save=275.162323ms
+[2016.04.12-23.32.38:120][403]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/HUD_MainF6E81E8E4DE3567C1FE38B8D4D028347.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset'
+[2016.04.12-23.32.38:122][403]LogSavePackage: Total save time: 316.292461ms
+[2016.04.12-23.32.38:122][403]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/UI/HUD_Main.uasset
+[2016.04.12-23.32.38:128][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/PlayerStatsMain" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/PlayerStatsMain.uasset" SILENT=true
+[2016.04.12-23.32.38:308][403]LogSavePackage: Save=149.707565ms
+[2016.04.12-23.32.38:308][403]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/PlayerStatsMainED8972CE4370F60D9775D38552CF6B11.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/PlayerStatsMain.uasset'
+[2016.04.12-23.32.38:310][403]LogSavePackage: Total save time: 180.880867ms
+[2016.04.12-23.32.38:310][403]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/PlayerStatsMain.uasset
+[2016.04.12-23.32.38:329][403]LogSavePackage: Save=5.439714ms
+[2016.04.12-23.32.38:329][403]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Evan_King_-_20XX_-_84_menu_confirm_2_reverb989BC41D4E3E7128A2855A9081556418.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Evan_King_-_20XX_-_84_menu_confirm_2_reverb.uasset'
+[2016.04.12-23.32.38:330][403]LogSavePackage: Total save time: 6.518658ms
+[2016.04.12-23.32.38:330][403]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Evan_King_-_20XX_-_84_menu_confirm_2_reverb.uasset
+[2016.04.12-23.32.38:347][403]LogSavePackage: Save=5.156828ms
+[2016.04.12-23.32.38:347][403]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Evan_King_-_20XX_-_86_menu_deny_1_reverbC24D98C141FA0DD109820FB6CC1FA009.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Evan_King_-_20XX_-_86_menu_deny_1_reverb.uasset'
+[2016.04.12-23.32.38:348][403]LogSavePackage: Total save time: 6.242782ms
+[2016.04.12-23.32.38:348][403]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Evan_King_-_20XX_-_86_menu_deny_1_reverb.uasset
+[2016.04.12-23.32.38:366][403]LogSavePackage: Save=5.086691ms
+[2016.04.12-23.32.38:366][403]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Evan_King_-_20XX_-_89_menu_highlight_13CC1C2CC4A4B56AF06725D9EDC1A17E5.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Evan_King_-_20XX_-_89_menu_highlight_1.uasset'
+[2016.04.12-23.32.38:367][403]LogSavePackage: Total save time: 6.191932ms
+[2016.04.12-23.32.38:367][403]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Sounds/Evan_King_-_20XX_-_89_menu_highlight_1.uasset
+[2016.04.12-23.32.43:667][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.32.43:667][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.12-23.32.43:667][ 20]PIE: New page: PIE session: Kieran-Test (13 Apr 2016 01:32:43)
+[2016.04.12-23.32.43:667][ 20]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.04.12-23.32.43:672][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004076s)
+[2016.04.12-23.32.43:672][ 20]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.04.12-23.32.43:673][ 20]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2016.04.12-23.32.43:673][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.005381s)
+[2016.04.12-23.32.43:707][ 20]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.12-23.32.43:717][ 20]LogInit: FAudioDevice initialized.
+[2016.04.12-23.32.43:749][ 20]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:752][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:753][ 20]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.32.43:754][ 20]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.04.13-00.32.43
+[2016.04.12-23.32.43:754][ 20]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.32.43:754][ 20]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.32.43:755][ 20]LogWorld: Bringing up level for play took: 0.004298
+[2016.04.12-23.32.43:764][ 20]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 1
+[2016.04.12-23.32.43:764][ 20]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 2
+[2016.04.12-23.32.43:764][ 20]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 3
+[2016.04.12-23.32.43:764][ 20]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 4
+[2016.04.12-23.32.43:764][ 20]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 5
+[2016.04.12-23.32.43:764][ 20]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 6
+[2016.04.12-23.32.43:765][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] TilesGenerated
+[2016.04.12-23.32.43:766][ 20]LogBlueprintUserMessages: [CityCentre_C_3] Building data doesn't exist
+[2016.04.12-23.32.43:766][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:768][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:776][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:776][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:776][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:777][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.32.43:783][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.32.43:783][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:783][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:783][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:786][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.32.43:786][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:788][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:788][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:788][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:788][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:789][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:790][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:790][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:790][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.32.43:792][ 20]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.32.43:806][ 20]LogBlueprintUserMessages: [CityCentre_C_3] CityCentre3
+[2016.04.12-23.32.43:806][ 20]LogBlueprintUserMessages: [CityCentre_C_3] SetSelected
+[2016.04.12-23.32.43:806][ 20]LogBlueprintUserMessages: [CityCentre_C_3] SetSelected
+[2016.04.12-23.32.43:806][ 20]LogBlueprintUserMessages: [CityCentre_C_3] SetSelected
+[2016.04.12-23.32.43:806][ 20]LogBlueprintUserMessages: [CityCentre_C_3] SetSelected
+[2016.04.12-23.32.43:806][ 20]LogBlueprintUserMessages: [CityCentre_C_3] SetSelected
+[2016.04.12-23.32.43:806][ 20]LogBlueprintUserMessages: [CityCentre_C_3] SetSelected
+[2016.04.12-23.32.43:806][ 20]LogBlueprintUserMessages: [CityCentre_C_3] SetSelected
+[2016.04.12-23.32.43:807][ 20]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test 0.937
+[2016.04.12-23.32.43:807][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.32.55:876][332]LogBlueprintUserMessages: [AnthroGameMode_C_3] 4 action left
+[2016.04.12-23.32.55:876][332]LogBlueprintUserMessages: [PlayerStatsMain_C_3] BuildingTracked
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] Landfill1
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] CityCentre3
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] SetSelected
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] SetSelected
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] SetSelected
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] SetSelected
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] SetSelected
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] SetSelected
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] SetSelected
+[2016.04.12-23.32.55:877][332]LogBlueprintUserMessages: [Landfill_C_1] SetSelected
+[2016.04.12-23.33.10:561][980]LogBlueprintUserMessages: [AnthroGameMode_C_3] 3 action left
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [PlayerStatsMain_C_3] BuildingTracked
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] Biomass
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] Landfill1
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] CityCentre3
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] SetSelected
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] SetSelected
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] SetSelected
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] SetSelected
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] SetSelected
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] SetSelected
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] SetSelected
+[2016.04.12-23.33.10:562][980]LogBlueprintUserMessages: [Biomass_C_0] SetSelected
+[2016.04.12-23.33.12:642][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.33.12:648][220]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.12:648][220]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.12:648][220]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.12:648][220]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.12:648][220]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.12:649][220]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.12:649][220]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.12:649][220]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.12:686][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.33.12:712][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A99784F40
+[2016.04.12-23.33.52:211][187]BlueprintLog: New page: Compile PlayerStatsMain
+[2016.04.12-23.33.52:361][187]BlueprintEditorCompileResults: Info [1064.59] Compile of PlayerStatsMain successful! [in 149 ms]
+[2016.04.12-23.33.53:907][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Kieran-Test" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.12-23.33.54:030][339]LogSavePackage: Save=71.610825ms
+[2016.04.12-23.33.54:030][339]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/Kieran-Test96C22A4242E171C177DA2D9F554D7BA9.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap'
+[2016.04.12-23.33.54:031][339]LogSavePackage: Total save time: 99.196024ms
+[2016.04.12-23.33.54:031][339]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Levels/Kieran-Test.umap
+[2016.04.12-23.33.54:062][339]LogFileHelpers: Saving map 'Kieran-Test' took 0.225
+[2016.04.12-23.33.54:070][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/PlayerStatsMain" FILE="D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/PlayerStatsMain.uasset" SILENT=true
+[2016.04.12-23.33.54:241][339]LogSavePackage: Save=146.161270ms
+[2016.04.12-23.33.54:241][339]LogSavePackage: Moving 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Saved/PlayerStatsMain88E3D6224D3E42579D7547A62127A889.tmp' to 'D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/PlayerStatsMain.uasset'
+[2016.04.12-23.33.54:243][339]LogSavePackage: Total save time: 172.420293ms
+[2016.04.12-23.33.54:243][339]LogSavePackage:Display: Finished SavePackage D:/GamesDevelopment/IP3 project/Anthrocratos/Anthrocratos_UE4/Content/Blueprints/Gameplay/PlayerStatsMain.uasset
+[2016.04.12-23.33.56:418][576]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.33.56:418][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.12-23.33.56:418][576]PIE: New page: PIE session: Kieran-Test (13 Apr 2016 01:33:56)
+[2016.04.12-23.33.56:418][576]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Kieran-Test
+[2016.04.12-23.33.56:423][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004590s)
+[2016.04.12-23.33.56:424][576]LogAIModule: Creating AISystem for world Kieran-Test
+[2016.04.12-23.33.56:424][576]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2016.04.12-23.33.56:424][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Kieran-Test.Kieran-Test to /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test (0.005649s)
+[2016.04.12-23.33.56:457][576]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.12-23.33.56:466][576]LogInit: FAudioDevice initialized.
+[2016.04.12-23.33.56:497][576]LogWorld: Game class is 'AnthroGameMode_C'
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:500][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:501][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:501][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:501][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:501][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:501][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:501][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:501][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:501][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:501][576]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.33.56:502][576]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test up for play (max tick rate 0) at 2016.04.13-00.33.56
+[2016.04.12-23.33.56:502][576]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.33.56:502][576]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Kieran-Test.Kieran-Test:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.12-23.33.56:503][576]LogWorld: Bringing up level for play took: 0.004676
+[2016.04.12-23.33.56:511][576]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 1
+[2016.04.12-23.33.56:511][576]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 2
+[2016.04.12-23.33.56:511][576]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 3
+[2016.04.12-23.33.56:511][576]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 4
+[2016.04.12-23.33.56:512][576]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 5
+[2016.04.12-23.33.56:512][576]LogBlueprintUserMessages: [SituationTracker_80] Added Situations: 6
+[2016.04.12-23.33.56:512][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] TilesGenerated
+[2016.04.12-23.33.56:513][576]LogBlueprintUserMessages: [CityCentre_C_4] Building data doesn't exist
+[2016.04.12-23.33.56:520][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.33.56:522][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.33.56:528][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.33.56:530][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.33.56:530][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.33.56:530][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.33.56:534][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.33.56:537][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.33.56:539][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] Out Of Bounds Tile position
+[2016.04.12-23.33.56:539][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.33.56:541][576]LogBlueprintUserMessages: [GameTileSpawner_C_1] spawned biome
+[2016.04.12-23.33.56:557][576]LogBlueprintUserMessages: [CityCentre_C_4] CityCentre4
+[2016.04.12-23.33.56:557][576]LogBlueprintUserMessages: [CityCentre_C_4] SetSelected
+[2016.04.12-23.33.56:557][576]LogBlueprintUserMessages: [CityCentre_C_4] SetSelected
+[2016.04.12-23.33.56:557][576]LogBlueprintUserMessages: [CityCentre_C_4] SetSelected
+[2016.04.12-23.33.56:557][576]LogBlueprintUserMessages: [CityCentre_C_4] SetSelected
+[2016.04.12-23.33.56:557][576]LogBlueprintUserMessages: [CityCentre_C_4] SetSelected
+[2016.04.12-23.33.56:557][576]LogBlueprintUserMessages: [CityCentre_C_4] SetSelected
+[2016.04.12-23.33.56:557][576]LogBlueprintUserMessages: [CityCentre_C_4] SetSelected
+[2016.04.12-23.33.56:558][576]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Kieran-Test -0.312
+[2016.04.12-23.33.56:558][576]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.34.01:226][104]LogBlueprintUserMessages: [AnthroGameMode_C_4] 4 action left
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [PlayerStatsMain_C_3] BuildingTracked
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] Landfill2
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] CityCentre4
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] SetSelected
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] SetSelected
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] SetSelected
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] SetSelected
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] SetSelected
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] SetSelected
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] SetSelected
+[2016.04.12-23.34.01:227][104]LogBlueprintUserMessages: [Landfill_C_2] SetSelected
+[2016.04.12-23.34.04:883][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:0190
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:01DF
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:022E
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:027D
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:02CC
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:031B
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:036A
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:03B9
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:0408
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:0457
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:0190
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:01DF
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:022E
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:027D
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:02CC
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:031B
+[2016.04.12-23.34.04:884][518]LogScript:Warning: Accessed null class context 'CallFunc_GetUpgradeType_UpgradeTypeClass'
+	UpgradeBuildingUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.UpgradeBuildingUI_C_4
+	Function /Game/Blueprints/UI/UpgradeBuildingUI.UpgradeBuildingUI_C:GetBrush:036A
+[2016.04.12-23.34.43:417][648]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.34.43:424][648]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.34.43:424][648]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.34.43:424][648]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.34.43:424][648]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.34.43:424][648]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.34.43:424][648]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.34.43:424][648]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.34.43:424][648]LogPhysics:Warning: FBodyInstance::ApplyMaterialToShape_AssumesLocked : PComplexMats is empty - falling back on simple physical material.
+[2016.04.12-23.34.43:466][648]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test' with GeneratedClass '/Game/Levels/Kieran-Test.Kieran-Test_C' with ClassGeneratedBy '/Game/Levels/Kieran-Test.Kieran-Test:PersistentLevel.Kieran-Test'
+[2016.04.12-23.34.43:494][648]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023AABFE3420
+[2016.04.12-23.34.47:258][ 43]Cmd: QUIT_EDITOR
+[2016.04.12-23.34.48:278][ 43]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.12-23.34.48:401][ 43]LogExit: Preparing to exit.
+[2016.04.12-23.34.49:054][ 43]LogExit: Editor shut down
+[2016.04.12-23.34.49:054][ 43]LogExit: Transaction tracking system shut down
+[2016.04.12-23.34.49:062][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A20FF3880
+[2016.04.12-23.34.49:066][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A559FC5E0
+[2016.04.12-23.34.49:066][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A608C3920
+[2016.04.12-23.34.49:067][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A5F90FA60
+[2016.04.12-23.34.49:067][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A74CFA340
+[2016.04.12-23.34.49:069][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A11C3E7A0
+[2016.04.12-23.34.49:069][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023A11C3E020
+[2016.04.12-23.34.49:265][ 43]LogExit: Object subsystem successfully closed.
+[2016.04.12-23.34.49:282][ 43]LogD3D11RHI: Shutdown
+[2016.04.12-23.34.49:282][ 43]LogD3D11RHI: CleanupD3DDevice
+[2016.04.12-23.34.49:353][ 43]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.12-23.34.49:364][ 43]LogModuleManager: Shutting down and abandoning module SequencerWidgets (203)
+[2016.04.12-23.34.49:364][ 43]LogModuleManager: Shutting down and abandoning module SoundCueEditor (202)
+[2016.04.12-23.34.49:364][ 43]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.04.12-23.34.49:364][ 43]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.04.12-23.34.49:364][ 43]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.04.12-23.34.49:364][ 43]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.04.12-23.34.49:364][ 43]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.04.12-23.34.49:364][ 43]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.04.12-23.34.49:364][ 43]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.04.12-23.34.49:366][ 43]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.04.12-23.34.50:103][ 43]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.04.12-23.34.50:104][ 43]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.04.12-23.34.50:105][ 43]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.04.12-23.34.50:217][ 43]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.04.12-23.34.50:217][ 43]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.04.12-23.34.50:217][ 43]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.04.12-23.34.50:217][ 43]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.04.12-23.34.50:217][ 43]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.04.12-23.34.50:217][ 43]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.04.12-23.34.50:218][ 43]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.04.12-23.34.50:218][ 43]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.04.12-23.34.50:262][ 43]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.04.12-23.34.50:263][ 43]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.04.12-23.34.50:264][ 43]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.04.12-23.34.50:266][ 43]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.04.12-23.34.50:477][ 43]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.04.12-23.34.50:478][ 43]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.04.12-23.34.50:478][ 43]LogModuleManager: Shutting down and abandoning module Anthrocratos_UE4 (87)
+[2016.04.12-23.34.50:478][ 43]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.12-23.34.50:578][ 43]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.12-23.34.50:578][ 43]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.12-23.34.50:578][ 43]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.12-23.34.50:580][ 43]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.12-23.34.50:580][ 43]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.12-23.34.50:582][ 43]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.12-23.34.50:582][ 43]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.12-23.34.50:582][ 43]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.12-23.34.50:584][ 43]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.12-23.34.50:585][ 43]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.12-23.34.50:675][ 43]LogDerivedDataCache: Shutdown
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.12-23.34.50:676][ 43]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.12-23.34.52:678][ 43]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.12-23.34.52:678][ 43]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.12-23.34.52:678][ 43]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.12-23.34.52:678][ 43]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.12-23.34.52:678][ 43]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.12-23.34.52:678][ 43]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.12-23.34.52:678][ 43]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.12-23.34.52:692][ 43]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.12-23.34.52:694][ 43]LogExit: Exiting.
+[2016.04.12-23.34.52:720][ 43]Log file closed, 04/13/16 00:34:52
